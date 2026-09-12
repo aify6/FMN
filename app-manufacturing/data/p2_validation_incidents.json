@@ -1,0 +1,750 @@
+[
+  {
+    "machine_id": "MCH-200",
+    "failure_time": "2026-03-19 05:00",
+    "risk_score_48h_before": 0.988,
+    "risk_score_at_failure": 1.0,
+    "hourly_trend": [
+      {
+        "hours_before_failure": 48,
+        "risk_score": 0.988
+      },
+      {
+        "hours_before_failure": 42,
+        "risk_score": 0.997
+      },
+      {
+        "hours_before_failure": 36,
+        "risk_score": 0.989
+      },
+      {
+        "hours_before_failure": 30,
+        "risk_score": 0.997
+      },
+      {
+        "hours_before_failure": 24,
+        "risk_score": 1.0
+      },
+      {
+        "hours_before_failure": 18,
+        "risk_score": 0.998
+      },
+      {
+        "hours_before_failure": 12,
+        "risk_score": 1.0
+      },
+      {
+        "hours_before_failure": 6,
+        "risk_score": 1.0
+      },
+      {
+        "hours_before_failure": 0,
+        "risk_score": 1.0
+      }
+    ]
+  },
+  {
+    "machine_id": "MCH-201",
+    "failure_time": "2026-04-20 00:00",
+    "risk_score_48h_before": 0.688,
+    "risk_score_at_failure": 0.998,
+    "hourly_trend": [
+      {
+        "hours_before_failure": 48,
+        "risk_score": 0.688
+      },
+      {
+        "hours_before_failure": 42,
+        "risk_score": 0.581
+      },
+      {
+        "hours_before_failure": 36,
+        "risk_score": 0.495
+      },
+      {
+        "hours_before_failure": 30,
+        "risk_score": 0.407
+      },
+      {
+        "hours_before_failure": 24,
+        "risk_score": 0.916
+      },
+      {
+        "hours_before_failure": 18,
+        "risk_score": 0.889
+      },
+      {
+        "hours_before_failure": 12,
+        "risk_score": 0.974
+      },
+      {
+        "hours_before_failure": 6,
+        "risk_score": 0.985
+      },
+      {
+        "hours_before_failure": 0,
+        "risk_score": 0.998
+      }
+    ]
+  },
+  {
+    "machine_id": "MCH-202",
+    "failure_time": "2026-02-04 22:00",
+    "risk_score_48h_before": 0.137,
+    "risk_score_at_failure": 1.0,
+    "hourly_trend": [
+      {
+        "hours_before_failure": 48,
+        "risk_score": 0.137
+      },
+      {
+        "hours_before_failure": 42,
+        "risk_score": 0.351
+      },
+      {
+        "hours_before_failure": 36,
+        "risk_score": 0.18
+      },
+      {
+        "hours_before_failure": 30,
+        "risk_score": 0.583
+      },
+      {
+        "hours_before_failure": 24,
+        "risk_score": 0.888
+      },
+      {
+        "hours_before_failure": 18,
+        "risk_score": 0.954
+      },
+      {
+        "hours_before_failure": 12,
+        "risk_score": 0.998
+      },
+      {
+        "hours_before_failure": 6,
+        "risk_score": 0.993
+      },
+      {
+        "hours_before_failure": 0,
+        "risk_score": 1.0
+      }
+    ]
+  },
+  {
+    "machine_id": "MCH-202",
+    "failure_time": "2026-03-12 21:00",
+    "risk_score_48h_before": 0.454,
+    "risk_score_at_failure": 0.982,
+    "hourly_trend": [
+      {
+        "hours_before_failure": 48,
+        "risk_score": 0.454
+      },
+      {
+        "hours_before_failure": 42,
+        "risk_score": 0.767
+      },
+      {
+        "hours_before_failure": 36,
+        "risk_score": 0.933
+      },
+      {
+        "hours_before_failure": 30,
+        "risk_score": 0.975
+      },
+      {
+        "hours_before_failure": 24,
+        "risk_score": 0.988
+      },
+      {
+        "hours_before_failure": 18,
+        "risk_score": 0.991
+      },
+      {
+        "hours_before_failure": 12,
+        "risk_score": 0.989
+      },
+      {
+        "hours_before_failure": 6,
+        "risk_score": 0.979
+      },
+      {
+        "hours_before_failure": 0,
+        "risk_score": 0.982
+      }
+    ]
+  },
+  {
+    "machine_id": "MCH-203",
+    "failure_time": "2026-04-30 04:00",
+    "risk_score_48h_before": 0.895,
+    "risk_score_at_failure": 1.0,
+    "hourly_trend": [
+      {
+        "hours_before_failure": 48,
+        "risk_score": 0.895
+      },
+      {
+        "hours_before_failure": 42,
+        "risk_score": 0.948
+      },
+      {
+        "hours_before_failure": 36,
+        "risk_score": 0.932
+      },
+      {
+        "hours_before_failure": 30,
+        "risk_score": 0.982
+      },
+      {
+        "hours_before_failure": 24,
+        "risk_score": 0.973
+      },
+      {
+        "hours_before_failure": 18,
+        "risk_score": 0.917
+      },
+      {
+        "hours_before_failure": 12,
+        "risk_score": 0.997
+      },
+      {
+        "hours_before_failure": 6,
+        "risk_score": 0.999
+      },
+      {
+        "hours_before_failure": 0,
+        "risk_score": 1.0
+      }
+    ]
+  },
+  {
+    "machine_id": "MCH-204",
+    "failure_time": "2026-02-27 07:00",
+    "risk_score_48h_before": 0.862,
+    "risk_score_at_failure": 1.0,
+    "hourly_trend": [
+      {
+        "hours_before_failure": 48,
+        "risk_score": 0.862
+      },
+      {
+        "hours_before_failure": 42,
+        "risk_score": 0.989
+      },
+      {
+        "hours_before_failure": 36,
+        "risk_score": 0.983
+      },
+      {
+        "hours_before_failure": 30,
+        "risk_score": 0.999
+      },
+      {
+        "hours_before_failure": 24,
+        "risk_score": 0.999
+      },
+      {
+        "hours_before_failure": 18,
+        "risk_score": 1.0
+      },
+      {
+        "hours_before_failure": 12,
+        "risk_score": 1.0
+      },
+      {
+        "hours_before_failure": 6,
+        "risk_score": 1.0
+      },
+      {
+        "hours_before_failure": 0,
+        "risk_score": 1.0
+      }
+    ]
+  },
+  {
+    "machine_id": "MCH-205",
+    "failure_time": "2026-02-27 10:00",
+    "risk_score_48h_before": 0.994,
+    "risk_score_at_failure": 1.0,
+    "hourly_trend": [
+      {
+        "hours_before_failure": 48,
+        "risk_score": 0.994
+      },
+      {
+        "hours_before_failure": 42,
+        "risk_score": 0.998
+      },
+      {
+        "hours_before_failure": 36,
+        "risk_score": 0.997
+      },
+      {
+        "hours_before_failure": 30,
+        "risk_score": 0.999
+      },
+      {
+        "hours_before_failure": 24,
+        "risk_score": 0.998
+      },
+      {
+        "hours_before_failure": 18,
+        "risk_score": 0.997
+      },
+      {
+        "hours_before_failure": 12,
+        "risk_score": 0.999
+      },
+      {
+        "hours_before_failure": 6,
+        "risk_score": 0.999
+      },
+      {
+        "hours_before_failure": 0,
+        "risk_score": 1.0
+      }
+    ]
+  },
+  {
+    "machine_id": "MCH-206",
+    "failure_time": "2026-02-23 22:00",
+    "risk_score_48h_before": 0.194,
+    "risk_score_at_failure": 0.998,
+    "hourly_trend": [
+      {
+        "hours_before_failure": 48,
+        "risk_score": 0.194
+      },
+      {
+        "hours_before_failure": 42,
+        "risk_score": 0.777
+      },
+      {
+        "hours_before_failure": 36,
+        "risk_score": 0.79
+      },
+      {
+        "hours_before_failure": 30,
+        "risk_score": 0.791
+      },
+      {
+        "hours_before_failure": 24,
+        "risk_score": 0.904
+      },
+      {
+        "hours_before_failure": 18,
+        "risk_score": 0.964
+      },
+      {
+        "hours_before_failure": 12,
+        "risk_score": 0.944
+      },
+      {
+        "hours_before_failure": 6,
+        "risk_score": 0.989
+      },
+      {
+        "hours_before_failure": 0,
+        "risk_score": 0.998
+      }
+    ]
+  },
+  {
+    "machine_id": "MCH-206",
+    "failure_time": "2026-04-21 04:00",
+    "risk_score_48h_before": 0.517,
+    "risk_score_at_failure": 0.996,
+    "hourly_trend": [
+      {
+        "hours_before_failure": 48,
+        "risk_score": 0.517
+      },
+      {
+        "hours_before_failure": 42,
+        "risk_score": 0.709
+      },
+      {
+        "hours_before_failure": 36,
+        "risk_score": 0.937
+      },
+      {
+        "hours_before_failure": 30,
+        "risk_score": 0.932
+      },
+      {
+        "hours_before_failure": 24,
+        "risk_score": 0.95
+      },
+      {
+        "hours_before_failure": 18,
+        "risk_score": 0.972
+      },
+      {
+        "hours_before_failure": 12,
+        "risk_score": 0.991
+      },
+      {
+        "hours_before_failure": 6,
+        "risk_score": 0.995
+      },
+      {
+        "hours_before_failure": 0,
+        "risk_score": 0.996
+      }
+    ]
+  },
+  {
+    "machine_id": "MCH-207",
+    "failure_time": "2026-04-14 00:00",
+    "risk_score_48h_before": 0.9,
+    "risk_score_at_failure": 1.0,
+    "hourly_trend": [
+      {
+        "hours_before_failure": 48,
+        "risk_score": 0.9
+      },
+      {
+        "hours_before_failure": 42,
+        "risk_score": 0.714
+      },
+      {
+        "hours_before_failure": 36,
+        "risk_score": 0.914
+      },
+      {
+        "hours_before_failure": 30,
+        "risk_score": 0.836
+      },
+      {
+        "hours_before_failure": 24,
+        "risk_score": 0.983
+      },
+      {
+        "hours_before_failure": 18,
+        "risk_score": 0.945
+      },
+      {
+        "hours_before_failure": 12,
+        "risk_score": 0.98
+      },
+      {
+        "hours_before_failure": 6,
+        "risk_score": 0.995
+      },
+      {
+        "hours_before_failure": 0,
+        "risk_score": 1.0
+      }
+    ]
+  },
+  {
+    "machine_id": "MCH-208",
+    "failure_time": "2026-02-19 02:00",
+    "risk_score_48h_before": 0.729,
+    "risk_score_at_failure": 0.999,
+    "hourly_trend": [
+      {
+        "hours_before_failure": 48,
+        "risk_score": 0.729
+      },
+      {
+        "hours_before_failure": 42,
+        "risk_score": 0.879
+      },
+      {
+        "hours_before_failure": 36,
+        "risk_score": 0.99
+      },
+      {
+        "hours_before_failure": 30,
+        "risk_score": 0.982
+      },
+      {
+        "hours_before_failure": 24,
+        "risk_score": 0.997
+      },
+      {
+        "hours_before_failure": 18,
+        "risk_score": 0.996
+      },
+      {
+        "hours_before_failure": 12,
+        "risk_score": 0.99
+      },
+      {
+        "hours_before_failure": 6,
+        "risk_score": 0.998
+      },
+      {
+        "hours_before_failure": 0,
+        "risk_score": 0.999
+      }
+    ]
+  },
+  {
+    "machine_id": "MCH-209",
+    "failure_time": "2026-03-21 07:00",
+    "risk_score_48h_before": 0.288,
+    "risk_score_at_failure": 0.999,
+    "hourly_trend": [
+      {
+        "hours_before_failure": 48,
+        "risk_score": 0.288
+      },
+      {
+        "hours_before_failure": 42,
+        "risk_score": 0.791
+      },
+      {
+        "hours_before_failure": 36,
+        "risk_score": 0.914
+      },
+      {
+        "hours_before_failure": 30,
+        "risk_score": 0.994
+      },
+      {
+        "hours_before_failure": 24,
+        "risk_score": 0.999
+      },
+      {
+        "hours_before_failure": 18,
+        "risk_score": 0.968
+      },
+      {
+        "hours_before_failure": 12,
+        "risk_score": 0.999
+      },
+      {
+        "hours_before_failure": 6,
+        "risk_score": 0.995
+      },
+      {
+        "hours_before_failure": 0,
+        "risk_score": 0.999
+      }
+    ]
+  },
+  {
+    "machine_id": "MCH-210",
+    "failure_time": "2026-04-12 22:00",
+    "risk_score_48h_before": 0.423,
+    "risk_score_at_failure": 0.993,
+    "hourly_trend": [
+      {
+        "hours_before_failure": 48,
+        "risk_score": 0.423
+      },
+      {
+        "hours_before_failure": 42,
+        "risk_score": 0.251
+      },
+      {
+        "hours_before_failure": 36,
+        "risk_score": 0.819
+      },
+      {
+        "hours_before_failure": 30,
+        "risk_score": 0.823
+      },
+      {
+        "hours_before_failure": 24,
+        "risk_score": 0.976
+      },
+      {
+        "hours_before_failure": 18,
+        "risk_score": 0.936
+      },
+      {
+        "hours_before_failure": 12,
+        "risk_score": 0.979
+      },
+      {
+        "hours_before_failure": 6,
+        "risk_score": 0.995
+      },
+      {
+        "hours_before_failure": 0,
+        "risk_score": 0.993
+      }
+    ]
+  },
+  {
+    "machine_id": "MCH-211",
+    "failure_time": "2026-04-25 03:00",
+    "risk_score_48h_before": 0.474,
+    "risk_score_at_failure": 0.998,
+    "hourly_trend": [
+      {
+        "hours_before_failure": 48,
+        "risk_score": 0.474
+      },
+      {
+        "hours_before_failure": 42,
+        "risk_score": 0.766
+      },
+      {
+        "hours_before_failure": 36,
+        "risk_score": 0.69
+      },
+      {
+        "hours_before_failure": 30,
+        "risk_score": 0.863
+      },
+      {
+        "hours_before_failure": 24,
+        "risk_score": 0.852
+      },
+      {
+        "hours_before_failure": 18,
+        "risk_score": 0.829
+      },
+      {
+        "hours_before_failure": 12,
+        "risk_score": 0.933
+      },
+      {
+        "hours_before_failure": 6,
+        "risk_score": 0.942
+      },
+      {
+        "hours_before_failure": 0,
+        "risk_score": 0.998
+      }
+    ]
+  },
+  {
+    "machine_id": "MCH-212",
+    "failure_time": "2026-04-02 17:00",
+    "risk_score_48h_before": 0.633,
+    "risk_score_at_failure": 0.997,
+    "hourly_trend": [
+      {
+        "hours_before_failure": 48,
+        "risk_score": 0.633
+      },
+      {
+        "hours_before_failure": 42,
+        "risk_score": 0.898
+      },
+      {
+        "hours_before_failure": 36,
+        "risk_score": 0.985
+      },
+      {
+        "hours_before_failure": 30,
+        "risk_score": 0.985
+      },
+      {
+        "hours_before_failure": 24,
+        "risk_score": 0.988
+      },
+      {
+        "hours_before_failure": 18,
+        "risk_score": 0.937
+      },
+      {
+        "hours_before_failure": 12,
+        "risk_score": 0.99
+      },
+      {
+        "hours_before_failure": 6,
+        "risk_score": 0.972
+      },
+      {
+        "hours_before_failure": 0,
+        "risk_score": 0.997
+      }
+    ]
+  },
+  {
+    "machine_id": "MCH-213",
+    "failure_time": "2026-04-08 18:00",
+    "risk_score_48h_before": 0.399,
+    "risk_score_at_failure": 0.998,
+    "hourly_trend": [
+      {
+        "hours_before_failure": 48,
+        "risk_score": 0.399
+      },
+      {
+        "hours_before_failure": 42,
+        "risk_score": 0.517
+      },
+      {
+        "hours_before_failure": 36,
+        "risk_score": 0.919
+      },
+      {
+        "hours_before_failure": 30,
+        "risk_score": 0.892
+      },
+      {
+        "hours_before_failure": 24,
+        "risk_score": 0.925
+      },
+      {
+        "hours_before_failure": 18,
+        "risk_score": 0.999
+      },
+      {
+        "hours_before_failure": 12,
+        "risk_score": 0.995
+      },
+      {
+        "hours_before_failure": 6,
+        "risk_score": 0.997
+      },
+      {
+        "hours_before_failure": 0,
+        "risk_score": 0.998
+      }
+    ]
+  },
+  {
+    "machine_id": "MCH-214",
+    "failure_time": "2026-03-11 18:00",
+    "risk_score_48h_before": 0.984,
+    "risk_score_at_failure": 1.0,
+    "hourly_trend": [
+      {
+        "hours_before_failure": 48,
+        "risk_score": 0.984
+      },
+      {
+        "hours_before_failure": 42,
+        "risk_score": 0.998
+      },
+      {
+        "hours_before_failure": 36,
+        "risk_score": 1.0
+      },
+      {
+        "hours_before_failure": 30,
+        "risk_score": 1.0
+      },
+      {
+        "hours_before_failure": 24,
+        "risk_score": 1.0
+      },
+      {
+        "hours_before_failure": 18,
+        "risk_score": 0.999
+      },
+      {
+        "hours_before_failure": 12,
+        "risk_score": 1.0
+      },
+      {
+        "hours_before_failure": 6,
+        "risk_score": 1.0
+      },
+      {
+        "hours_before_failure": 0,
+        "risk_score": 1.0
+      }
+    ]
+  }
+]

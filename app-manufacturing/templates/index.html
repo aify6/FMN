@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Machine Watch</title>
+  <link rel="stylesheet" href="/static/css/style.css" />
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.9/dist/chart.umd.min.js"></script>
+</head>
+<body>
+  <div class="page">
+    <header class="topbar">
+      <div class="brand-wrap">
+        <div class="brand-mark"></div>
+        <div>
+          <div class="eyebrow">Maintenance intelligence</div>
+          <div class="name">Machine Watch</div>
+        </div>
+      </div>
+      <div class="as-of mono">as of {{ as_of }}</div>
+    </header>
+
+    <main class="workspace-shell">
+      <section class="hero-panel">
+        <div class="hero-copy">
+          <p class="eyebrow accent">Asset risk</p>
+          <h1>Prioritise the machines showing a real risk of failure before they break down.</h1>
+          <p class="hero-text">
+            This view combines each machine’s current temperature, vibration, maintenance history,
+            and risk-trend signal into a single decision aid. Click a row to inspect the drivers behind
+            the alert instead of reading raw sensor telemetry alone.
+          </p>
+        </div>
+        <div class="hero-metrics">
+          <div class="mini-metric light">
+            <span class="mini-label">High risk</span>
+            <strong>{{ counts.high_risk }}</strong>
+          </div>
+          <div class="mini-metric amber">
+            <span class="mini-label">Watchlist</span>
+            <strong>{{ counts.watch }}</strong>
+          </div>
+          <div class="mini-metric green">
+            <span class="mini-label">Steady</span>
+            <strong>{{ counts.ok }}</strong>
+          </div>
+        </div>
+      </section>
+
+      <section class="stat-strip">
+        <button class="stat-tile" data-filter="high_risk" style="--tile-color: var(--danger)">
+          <div class="value">{{ counts.high_risk }}</div>
+          <div class="label"><span class="dot"></span>High risk</div>
+        </button>
+        <button class="stat-tile" data-filter="watch" style="--tile-color: var(--watch)">
+          <div class="value">{{ counts.watch }}</div>
+          <div class="label"><span class="dot"></span>Watch</div>
+        </button>
+        <button class="stat-tile" data-filter="monitor_new_asset" style="--tile-color: var(--cold)">
+          <div class="value">{{ counts.monitor_new_asset }}</div>
+          <div class="label"><span class="dot"></span>New / limited data</div>
+        </button>
+        <button class="stat-tile" data-filter="ok" style="--tile-color: var(--ok)">
+          <div class="value">{{ counts.ok }}</div>
+          <div class="label"><span class="dot"></span>Steady</div>
+        </button>
+      </section>
+
+      <section class="body-row">
+        <div class="main-col">
+          <div class="table-wrap">
+            <div class="table-header-row">
+              <div>
+                <h2>Machine watchlist</h2>
+              </div>
+              <span class="table-note">Open a row to inspect the sensor and risk trend</span>
+            </div>
+            <table class="ledger" id="machine-table">
+              <thead>
+                <tr>
+                  <th>Machine</th>
+                  <th>Line</th>
+                  <th class="num">Temp</th>
+                  <th class="num">Vibration</th>
+                  <th>14-day risk trend</th>
+                  <th>Status</th>
+                </tr>
+              </thead>
+              <tbody>
+                {% for m in machines %}
+                <tr class="row" data-machine-id="{{ m.machine_id }}" data-flag="{{ m.flag }}">
+                  <td>
+                    <span class="id-cell">{{ m.machine_id }}</span>
+                    {% if m.is_new_machine %}<span class="new-tag">new asset</span>{% endif %}
+                  </td>
+                  <td>{{ m.line }}</td>
+                  <td class="num mono">{{ m.current_temperature_c }}&deg;C</td>
+                  <td class="num mono">{{ m.current_vibration_mm_s }}mm/s</td>
+                  <td class="trend-cell">
+                    {% if m.risk_trend_14d and m.risk_trend_14d|length > 0 %}
+                      <span class="trend-tag">{{ ((m.risk_trend_14d[-1].risk_score) * 100) | round | int }}%</span>
+                    {% else %}
+                      <span class="trend-tag muted">—</span>
+                    {% endif %}
+                  </td>
+                  <td>
+                    <span class="flag-cell">
+                      {% if m.flag == "high_risk" %}
+                        <span class="dot dot-danger"></span>High risk
+                      {% elif m.flag == "watch" %}
+                        <span class="dot dot-watch"></span>Watch
+                      {% elif m.flag == "monitor_new_asset" %}
+                        <span class="dot cold"></span>New / limited data
+                      {% else %}
+                        <span class="dot dot-ok"></span>Steady
+                      {% endif %}
+                      {% if m.risk_score is not none %}<span class="risk-pct mono">{{ (m.risk_score * 100) | round | int }}%</span>{% endif %}
+                    </span>
+                  </td>
+                </tr>
+                {% endfor %}
+              </tbody>
+            </table>
+            <div class="empty-state" id="empty-state" style="display:none">No machines match this filter.</div>
+          </div>
+
+          <div class="qa-box">
+            <div class="qa-title">Ask about the data</div>
+            <form class="qa-form" id="qa-form">
+              <input class="qa-input" id="qa-input" placeholder='Try: &quot;which machines need attention this week?&quot;' />
+              <button class="qa-ask-btn" type="submit" id="qa-submit">Ask</button>
+            </form>
+            <div id="qa-error" class="error-text" style="display:none"></div>
+            <div id="qa-answer" class="qa-answer" style="display:none"></div>
+          </div>
+        </div>
+      </section>
+    </main>
+  </div>
+
+  <div class="detail-backdrop" id="detail-backdrop"></div>
+  <div class="detail-panel" id="detail-panel"></div>
+
+  <script id="machine-data" type="application/json">{{ machines | tojson }}</script>
+  <script src="/static/js/app.js"></script>
+</body>
+</html>

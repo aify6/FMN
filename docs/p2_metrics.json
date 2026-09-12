@@ -1,0 +1,23 @@
+{
+  "n_rows_raw": 43354,
+  "n_duplicate_rows_dropped": 10,
+  "n_temp_imputed": 648,
+  "n_vib_imputed": 432,
+  "total_failure_events": 17,
+  "lookahead_hours": 24,
+  "train_positive_rate": 0.00735,
+  "holdout_days": 20,
+  "pr_auc": 0.7687,
+  "random_baseline_pr_auc": 0.02,
+  "feature_importance_permutation": {
+    "temp_zscore": 0.7004625980324258,
+    "vib_roll_mean_24": 0.6721875354740187,
+    "temp_roll_mean_24": 0.5799649924218803,
+    "vib_zscore": 0.4359404882789966,
+    "vib_roll_mean_6": 0.3324250641732423,
+    "temp_roll_mean_6": 0.23477885130957343,
+    "vib_trend_6h": 0.17149765651607615,
+    "run_hours_since_maintenance": 0.001474450133219274,
+    "temp_trend_6h": -0.0052840192291642605
+  }
+}

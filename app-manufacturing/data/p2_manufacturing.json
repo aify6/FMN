@@ -1,0 +1,7431 @@
+{
+  "as_of": "2026-04-30 23:00",
+  "machines": [
+    {
+      "machine_id": "MCH-300",
+      "line": "Line C",
+      "is_new_machine": true,
+      "confidence": "low",
+      "method": "insufficient history for model (using raw thresholds)",
+      "flag": "monitor_new_asset",
+      "risk_score": null,
+      "as_of": "2026-04-30 23:00",
+      "current_temperature_c": 68.8,
+      "current_vibration_mm_s": 0.319,
+      "run_hours_since_maintenance": 72,
+      "temp_baseline_mean_c": null,
+      "vib_baseline_mean": null,
+      "temp_zscore": 0.58,
+      "vib_zscore": -0.35,
+      "temp_change_6h_c": 0.26,
+      "vib_change_6h": -0.013,
+      "total_historical_failures": 0,
+      "risk_trend_14d": [],
+      "sensor_history_72h": [
+        {
+          "timestamp": "2026-04-28 00:00",
+          "temperature_c": 70.8,
+          "vibration_mm_s": 0.333
+        },
+        {
+          "timestamp": "2026-04-28 01:00",
+          "temperature_c": 66.2,
+          "vibration_mm_s": 0.295
+        },
+        {
+          "timestamp": "2026-04-28 02:00",
+          "temperature_c": 69.1,
+          "vibration_mm_s": 0.241
+        },
+        {
+          "timestamp": "2026-04-28 03:00",
+          "temperature_c": 70.2,
+          "vibration_mm_s": 0.285
+        },
+        {
+          "timestamp": "2026-04-28 04:00",
+          "temperature_c": 68.1,
+          "vibration_mm_s": 0.301
+        },
+        {
+          "timestamp": "2026-04-28 05:00",
+          "temperature_c": 68.5,
+          "vibration_mm_s": 0.177
+        },
+        {
+          "timestamp": "2026-04-28 06:00",
+          "temperature_c": 67.0,
+          "vibration_mm_s": 0.338
+        },
+        {
+          "timestamp": "2026-04-28 07:00",
+          "temperature_c": 68.4,
+          "vibration_mm_s": 0.283
+        },
+        {
+          "timestamp": "2026-04-28 08:00",
+          "temperature_c": 71.2,
+          "vibration_mm_s": 0.368
+        },
+        {
+          "timestamp": "2026-04-28 09:00",
+          "temperature_c": 69.1,
+          "vibration_mm_s": 0.319
+        },
+        {
+          "timestamp": "2026-04-28 10:00",
+          "temperature_c": 67.3,
+          "vibration_mm_s": 0.244
+        },
+        {
+          "timestamp": "2026-04-28 11:00",
+          "temperature_c": 69.7,
+          "vibration_mm_s": 0.285
+        },
+        {
+          "timestamp": "2026-04-28 12:00",
+          "temperature_c": 68.1,
+          "vibration_mm_s": 0.311
+        },
+        {
+          "timestamp": "2026-04-28 13:00",
+          "temperature_c": 71.3,
+          "vibration_mm_s": 0.277
+        },
+        {
+          "timestamp": "2026-04-28 14:00",
+          "temperature_c": 69.6,
+          "vibration_mm_s": 0.321
+        },
+        {
+          "timestamp": "2026-04-28 15:00",
+          "temperature_c": 72.9,
+          "vibration_mm_s": 0.372
+        },
+        {
+          "timestamp": "2026-04-28 16:00",
+          "temperature_c": 68.2,
+          "vibration_mm_s": 0.3
+        },
+        {
+          "timestamp": "2026-04-28 17:00",
+          "temperature_c": 67.9,
+          "vibration_mm_s": 0.336
+        },
+        {
+          "timestamp": "2026-04-28 18:00",
+          "temperature_c": 72.2,
+          "vibration_mm_s": 0.273
+        },
+        {
+          "timestamp": "2026-04-28 19:00",
+          "temperature_c": 66.4,
+          "vibration_mm_s": 0.328
+        },
+        {
+          "timestamp": "2026-04-28 20:00",
+          "temperature_c": 68.0,
+          "vibration_mm_s": 0.29
+        },
+        {
+          "timestamp": "2026-04-28 21:00",
+          "temperature_c": 70.0,
+          "vibration_mm_s": 0.32
+        },
+        {
+          "timestamp": "2026-04-28 22:00",
+          "temperature_c": 69.4,
+          "vibration_mm_s": 0.302
+        },
+        {
+          "timestamp": "2026-04-28 23:00",
+          "temperature_c": 69.8,
+          "vibration_mm_s": 0.312
+        },
+        {
+          "timestamp": "2026-04-29 00:00",
+          "temperature_c": 69.1,
+          "vibration_mm_s": 0.356
+        },
+        {
+          "timestamp": "2026-04-29 01:00",
+          "temperature_c": 67.4,
+          "vibration_mm_s": 0.306
+        },
+        {
+          "timestamp": "2026-04-29 02:00",
+          "temperature_c": 66.7,
+          "vibration_mm_s": 0.282
+        },
+        {
+          "timestamp": "2026-04-29 03:00",
+          "temperature_c": 68.0,
+          "vibration_mm_s": 0.306
+        },
+        {
+          "timestamp": "2026-04-29 04:00",
+          "temperature_c": 68.8,
+          "vibration_mm_s": 0.468
+        },
+        {
+          "timestamp": "2026-04-29 05:00",
+          "temperature_c": 70.1,
+          "vibration_mm_s": 0.294
+        },
+        {
+          "timestamp": "2026-04-29 06:00",
+          "temperature_c": 70.4,
+          "vibration_mm_s": 0.351
+        },
+        {
+          "timestamp": "2026-04-29 07:00",
+          "temperature_c": 69.9,
+          "vibration_mm_s": 0.327
+        },
+        {
+          "timestamp": "2026-04-29 08:00",
+          "temperature_c": 73.0,
+          "vibration_mm_s": 0.275
+        },
+        {
+          "timestamp": "2026-04-29 09:00",
+          "temperature_c": 66.2,
+          "vibration_mm_s": 0.213
+        },
+        {
+          "timestamp": "2026-04-29 10:00",
+          "temperature_c": 71.9,
+          "vibration_mm_s": 0.358
+        },
+        {
+          "timestamp": "2026-04-29 11:00",
+          "temperature_c": 68.0,
+          "vibration_mm_s": 0.379
+        },
+        {
+          "timestamp": "2026-04-29 12:00",
+          "temperature_c": 67.2,
+          "vibration_mm_s": 0.214
+        },
+        {
+          "timestamp": "2026-04-29 13:00",
+          "temperature_c": 68.5,
+          "vibration_mm_s": 0.317
+        },
+        {
+          "timestamp": "2026-04-29 14:00",
+          "temperature_c": 71.7,
+          "vibration_mm_s": 0.302
+        },
+        {
+          "timestamp": "2026-04-29 15:00",
+          "temperature_c": 68.5,
+          "vibration_mm_s": 0.219
+        },
+        {
+          "timestamp": "2026-04-29 16:00",
+          "temperature_c": 71.1,
+          "vibration_mm_s": 0.364
+        },
+        {
+          "timestamp": "2026-04-29 17:00",
+          "temperature_c": 69.8,
+          "vibration_mm_s": 0.317
+        },
+        {
+          "timestamp": "2026-04-29 18:00",
+          "temperature_c": 69.1,
+          "vibration_mm_s": 0.352
+        },
+        {
+          "timestamp": "2026-04-29 19:00",
+          "temperature_c": 68.1,
+          "vibration_mm_s": 0.334
+        },
+        {
+          "timestamp": "2026-04-29 20:00",
+          "temperature_c": 67.4,
+          "vibration_mm_s": 0.23
+        },
+        {
+          "timestamp": "2026-04-29 21:00",
+          "temperature_c": 70.2,
+          "vibration_mm_s": 0.335
+        },
+        {
+          "timestamp": "2026-04-29 22:00",
+          "temperature_c": 69.1,
+          "vibration_mm_s": 0.372
+        },
+        {
+          "timestamp": "2026-04-29 23:00",
+          "temperature_c": 67.1,
+          "vibration_mm_s": 0.241
+        },
+        {
+          "timestamp": "2026-04-30 00:00",
+          "temperature_c": 70.0,
+          "vibration_mm_s": 0.299
+        },
+        {
+          "timestamp": "2026-04-30 01:00",
+          "temperature_c": 69.1,
+          "vibration_mm_s": 0.258
+        },
+        {
+          "timestamp": "2026-04-30 02:00",
+          "temperature_c": 69.9,
+          "vibration_mm_s": 0.337
+        },
+        {
+          "timestamp": "2026-04-30 03:00",
+          "temperature_c": 69.0,
+          "vibration_mm_s": 0.322
+        },
+        {
+          "timestamp": "2026-04-30 04:00",
+          "temperature_c": 70.3,
+          "vibration_mm_s": 0.33
+        },
+        {
+          "timestamp": "2026-04-30 05:00",
+          "temperature_c": 72.2,
+          "vibration_mm_s": 0.38
+        },
+        {
+          "timestamp": "2026-04-30 06:00",
+          "temperature_c": 68.9,
+          "vibration_mm_s": 0.325
+        },
+        {
+          "timestamp": "2026-04-30 07:00",
+          "temperature_c": 67.7,
+          "vibration_mm_s": 0.343
+        },
+        {
+          "timestamp": "2026-04-30 08:00",
+          "temperature_c": 67.8,
+          "vibration_mm_s": 0.275
+        },
+        {
+          "timestamp": "2026-04-30 09:00",
+          "temperature_c": 68.1,
+          "vibration_mm_s": 0.198
+        },
+        {
+          "timestamp": "2026-04-30 10:00",
+          "temperature_c": 67.2,
+          "vibration_mm_s": 0.327
+        },
+        {
+          "timestamp": "2026-04-30 11:00",
+          "temperature_c": 70.5,
+          "vibration_mm_s": 0.396
+        },
+        {
+          "timestamp": "2026-04-30 12:00",
+          "temperature_c": 68.9,
+          "vibration_mm_s": 0.213
+        },
+        {
+          "timestamp": "2026-04-30 13:00",
+          "temperature_c": 68.4,
+          "vibration_mm_s": 0.332
+        },
+        {
+          "timestamp": "2026-04-30 14:00",
+          "temperature_c": 71.3,
+          "vibration_mm_s": 0.2
+        },
+        {
+          "timestamp": "2026-04-30 15:00",
+          "temperature_c": 65.5,
+          "vibration_mm_s": 0.314
+        },
+        {
+          "timestamp": "2026-04-30 16:00",
+          "temperature_c": 73.0,
+          "vibration_mm_s": 0.277
+        },
+        {
+          "timestamp": "2026-04-30 17:00",
+          "temperature_c": 68.5,
+          "vibration_mm_s": 0.332
+        },
+        {
+          "timestamp": "2026-04-30 18:00",
+          "temperature_c": 69.7,
+          "vibration_mm_s": 0.24
+        },
+        {
+          "timestamp": "2026-04-30 19:00",
+          "temperature_c": 70.2,
+          "vibration_mm_s": 0.258
+        },
+        {
+          "timestamp": "2026-04-30 20:00",
+          "temperature_c": 71.3,
+          "vibration_mm_s": 0.263
+        },
+        {
+          "timestamp": "2026-04-30 21:00",
+          "temperature_c": 69.6,
+          "vibration_mm_s": 0.298
+        },
+        {
+          "timestamp": "2026-04-30 22:00",
+          "temperature_c": 71.7,
+          "vibration_mm_s": 0.336
+        },
+        {
+          "timestamp": "2026-04-30 23:00",
+          "temperature_c": 68.8,
+          "vibration_mm_s": 0.319
+        }
+      ]
+    },
+    {
+      "machine_id": "MCH-301",
+      "line": "Line B",
+      "is_new_machine": true,
+      "confidence": "low",
+      "method": "insufficient history for model (using raw thresholds)",
+      "flag": "monitor_new_asset",
+      "risk_score": null,
+      "as_of": "2026-04-30 23:00",
+      "current_temperature_c": 64.0,
+      "current_vibration_mm_s": 0.506,
+      "run_hours_since_maintenance": 72,
+      "temp_baseline_mean_c": null,
+      "vib_baseline_mean": null,
+      "temp_zscore": 0.08,
+      "vib_zscore": 0.38,
+      "temp_change_6h_c": 0.49,
+      "vib_change_6h": 0.149,
+      "total_historical_failures": 0,
+      "risk_trend_14d": [],
+      "sensor_history_72h": [
+        {
+          "timestamp": "2026-04-28 00:00",
+          "temperature_c": 64.0,
+          "vibration_mm_s": 0.473
+        },
+        {
+          "timestamp": "2026-04-28 01:00",
+          "temperature_c": 66.3,
+          "vibration_mm_s": 0.391
+        },
+        {
+          "timestamp": "2026-04-28 02:00",
+          "temperature_c": 68.0,
+          "vibration_mm_s": 0.502
+        },
+        {
+          "timestamp": "2026-04-28 03:00",
+          "temperature_c": 64.6,
+          "vibration_mm_s": 0.379
+        },
+        {
+          "timestamp": "2026-04-28 04:00",
+          "temperature_c": 66.6,
+          "vibration_mm_s": 0.486
+        },
+        {
+          "timestamp": "2026-04-28 05:00",
+          "temperature_c": 64.3,
+          "vibration_mm_s": 0.476
+        },
+        {
+          "timestamp": "2026-04-28 06:00",
+          "temperature_c": 64.9,
+          "vibration_mm_s": 0.427
+        },
+        {
+          "timestamp": "2026-04-28 07:00",
+          "temperature_c": 65.2,
+          "vibration_mm_s": 0.499
+        },
+        {
+          "timestamp": "2026-04-28 08:00",
+          "temperature_c": 67.4,
+          "vibration_mm_s": 0.408
+        },
+        {
+          "timestamp": "2026-04-28 09:00",
+          "temperature_c": 64.7,
+          "vibration_mm_s": 0.437
+        },
+        {
+          "timestamp": "2026-04-28 10:00",
+          "temperature_c": 63.2,
+          "vibration_mm_s": 0.491
+        },
+        {
+          "timestamp": "2026-04-28 11:00",
+          "temperature_c": 65.1,
+          "vibration_mm_s": 0.435
+        },
+        {
+          "timestamp": "2026-04-28 12:00",
+          "temperature_c": 65.5,
+          "vibration_mm_s": 0.451
+        },
+        {
+          "timestamp": "2026-04-28 13:00",
+          "temperature_c": 69.0,
+          "vibration_mm_s": 0.412
+        },
+        {
+          "timestamp": "2026-04-28 14:00",
+          "temperature_c": 60.3,
+          "vibration_mm_s": 0.328
+        },
+        {
+          "timestamp": "2026-04-28 15:00",
+          "temperature_c": 64.1,
+          "vibration_mm_s": 0.45
+        },
+        {
+          "timestamp": "2026-04-28 16:00",
+          "temperature_c": 64.9,
+          "vibration_mm_s": 0.493
+        },
+        {
+          "timestamp": "2026-04-28 17:00",
+          "temperature_c": 63.7,
+          "vibration_mm_s": 0.542
+        },
+        {
+          "timestamp": "2026-04-28 18:00",
+          "temperature_c": 62.9,
+          "vibration_mm_s": 0.375
+        },
+        {
+          "timestamp": "2026-04-28 19:00",
+          "temperature_c": 60.7,
+          "vibration_mm_s": 0.475
+        },
+        {
+          "timestamp": "2026-04-28 20:00",
+          "temperature_c": 64.0,
+          "vibration_mm_s": 0.426
+        },
+        {
+          "timestamp": "2026-04-28 21:00",
+          "temperature_c": 65.6,
+          "vibration_mm_s": 0.469
+        },
+        {
+          "timestamp": "2026-04-28 22:00",
+          "temperature_c": 65.0,
+          "vibration_mm_s": 0.379
+        },
+        {
+          "timestamp": "2026-04-28 23:00",
+          "temperature_c": 65.7,
+          "vibration_mm_s": 0.413
+        },
+        {
+          "timestamp": "2026-04-29 00:00",
+          "temperature_c": 65.8,
+          "vibration_mm_s": 0.424
+        },
+        {
+          "timestamp": "2026-04-29 01:00",
+          "temperature_c": 66.3,
+          "vibration_mm_s": 0.45
+        },
+        {
+          "timestamp": "2026-04-29 02:00",
+          "temperature_c": 64.2,
+          "vibration_mm_s": 0.556
+        },
+        {
+          "timestamp": "2026-04-29 03:00",
+          "temperature_c": 66.2,
+          "vibration_mm_s": 0.388
+        },
+        {
+          "timestamp": "2026-04-29 04:00",
+          "temperature_c": 67.4,
+          "vibration_mm_s": 0.453
+        },
+        {
+          "timestamp": "2026-04-29 05:00",
+          "temperature_c": 63.1,
+          "vibration_mm_s": 0.417
+        },
+        {
+          "timestamp": "2026-04-29 06:00",
+          "temperature_c": 64.1,
+          "vibration_mm_s": 0.462
+        },
+        {
+          "timestamp": "2026-04-29 07:00",
+          "temperature_c": 65.2,
+          "vibration_mm_s": 0.45
+        },
+        {
+          "timestamp": "2026-04-29 08:00",
+          "temperature_c": 63.8,
+          "vibration_mm_s": 0.479
+        },
+        {
+          "timestamp": "2026-04-29 09:00",
+          "temperature_c": 66.0,
+          "vibration_mm_s": 0.509
+        },
+        {
+          "timestamp": "2026-04-29 10:00",
+          "temperature_c": 65.1,
+          "vibration_mm_s": 0.419
+        },
+        {
+          "timestamp": "2026-04-29 11:00",
+          "temperature_c": 67.2,
+          "vibration_mm_s": 0.473
+        },
+        {
+          "timestamp": "2026-04-29 12:00",
+          "temperature_c": 65.4,
+          "vibration_mm_s": 0.447
+        },
+        {
+          "timestamp": "2026-04-29 13:00",
+          "temperature_c": 65.5,
+          "vibration_mm_s": 0.443
+        },
+        {
+          "timestamp": "2026-04-29 14:00",
+          "temperature_c": 64.4,
+          "vibration_mm_s": 0.353
+        },
+        {
+          "timestamp": "2026-04-29 15:00",
+          "temperature_c": 64.8,
+          "vibration_mm_s": 0.457
+        },
+        {
+          "timestamp": "2026-04-29 16:00",
+          "temperature_c": 65.4,
+          "vibration_mm_s": 0.405
+        },
+        {
+          "timestamp": "2026-04-29 17:00",
+          "temperature_c": 66.2,
+          "vibration_mm_s": 0.429
+        },
+        {
+          "timestamp": "2026-04-29 18:00",
+          "temperature_c": 67.5,
+          "vibration_mm_s": 0.389
+        },
+        {
+          "timestamp": "2026-04-29 19:00",
+          "temperature_c": 63.1,
+          "vibration_mm_s": 0.515
+        },
+        {
+          "timestamp": "2026-04-29 20:00",
+          "temperature_c": 67.2,
+          "vibration_mm_s": 0.499
+        },
+        {
+          "timestamp": "2026-04-29 21:00",
+          "temperature_c": 69.5,
+          "vibration_mm_s": 0.481
+        },
+        {
+          "timestamp": "2026-04-29 22:00",
+          "temperature_c": 63.9,
+          "vibration_mm_s": 0.516
+        },
+        {
+          "timestamp": "2026-04-29 23:00",
+          "temperature_c": 65.6,
+          "vibration_mm_s": 0.416
+        },
+        {
+          "timestamp": "2026-04-30 00:00",
+          "temperature_c": 64.1,
+          "vibration_mm_s": 0.479
+        },
+        {
+          "timestamp": "2026-04-30 01:00",
+          "temperature_c": 66.6,
+          "vibration_mm_s": 0.395
+        },
+        {
+          "timestamp": "2026-04-30 02:00",
+          "temperature_c": 65.2,
+          "vibration_mm_s": 0.484
+        },
+        {
+          "timestamp": "2026-04-30 03:00",
+          "temperature_c": 65.9,
+          "vibration_mm_s": 0.436
+        },
+        {
+          "timestamp": "2026-04-30 04:00",
+          "temperature_c": 66.5,
+          "vibration_mm_s": 0.346
+        },
+        {
+          "timestamp": "2026-04-30 05:00",
+          "temperature_c": 62.3,
+          "vibration_mm_s": 0.498
+        },
+        {
+          "timestamp": "2026-04-30 06:00",
+          "temperature_c": 67.7,
+          "vibration_mm_s": 0.491
+        },
+        {
+          "timestamp": "2026-04-30 07:00",
+          "temperature_c": 67.9,
+          "vibration_mm_s": 0.333
+        },
+        {
+          "timestamp": "2026-04-30 08:00",
+          "temperature_c": 67.8,
+          "vibration_mm_s": 0.442
+        },
+        {
+          "timestamp": "2026-04-30 09:00",
+          "temperature_c": 67.1,
+          "vibration_mm_s": 0.363
+        },
+        {
+          "timestamp": "2026-04-30 10:00",
+          "temperature_c": 66.0,
+          "vibration_mm_s": 0.423
+        },
+        {
+          "timestamp": "2026-04-30 11:00",
+          "temperature_c": 64.0,
+          "vibration_mm_s": 0.39
+        },
+        {
+          "timestamp": "2026-04-30 12:00",
+          "temperature_c": 64.2,
+          "vibration_mm_s": 0.424
+        },
+        {
+          "timestamp": "2026-04-30 13:00",
+          "temperature_c": 64.0,
+          "vibration_mm_s": 0.415
+        },
+        {
+          "timestamp": "2026-04-30 14:00",
+          "temperature_c": 65.4,
+          "vibration_mm_s": 0.468
+        },
+        {
+          "timestamp": "2026-04-30 15:00",
+          "temperature_c": 62.8,
+          "vibration_mm_s": 0.396
+        },
+        {
+          "timestamp": "2026-04-30 16:00",
+          "temperature_c": 68.5,
+          "vibration_mm_s": 0.469
+        },
+        {
+          "timestamp": "2026-04-30 17:00",
+          "temperature_c": 63.5,
+          "vibration_mm_s": 0.357
+        },
+        {
+          "timestamp": "2026-04-30 18:00",
+          "temperature_c": 66.5,
+          "vibration_mm_s": 0.573
+        },
+        {
+          "timestamp": "2026-04-30 19:00",
+          "temperature_c": 63.1,
+          "vibration_mm_s": 0.521
+        },
+        {
+          "timestamp": "2026-04-30 20:00",
+          "temperature_c": 65.0,
+          "vibration_mm_s": 0.422
+        },
+        {
+          "timestamp": "2026-04-30 21:00",
+          "temperature_c": 66.3,
+          "vibration_mm_s": 0.309
+        },
+        {
+          "timestamp": "2026-04-30 22:00",
+          "temperature_c": 67.7,
+          "vibration_mm_s": 0.447
+        },
+        {
+          "timestamp": "2026-04-30 23:00",
+          "temperature_c": 64.0,
+          "vibration_mm_s": 0.506
+        }
+      ]
+    },
+    {
+      "machine_id": "MCH-200",
+      "line": "Line A",
+      "is_new_machine": false,
+      "confidence": "high",
+      "method": "24h-lookahead LogisticRegression classifier",
+      "flag": "ok",
+      "risk_score": 0.0,
+      "as_of": "2026-04-30 23:00",
+      "current_temperature_c": 68.4,
+      "current_vibration_mm_s": 0.79,
+      "run_hours_since_maintenance": 1026,
+      "temp_baseline_mean_c": 70.1,
+      "vib_baseline_mean": 0.775,
+      "temp_zscore": -0.64,
+      "vib_zscore": 0.0,
+      "temp_change_6h_c": -1.77,
+      "vib_change_6h": 0.026,
+      "total_historical_failures": 1,
+      "risk_trend_14d": [
+        {
+          "date": "2026-04-16",
+          "risk_score": 0.0
+        },
+        {
+          "date": "2026-04-17",
+          "risk_score": 0.0
+        },
+        {
+          "date": "2026-04-18",
+          "risk_score": 0.0
+        },
+        {
+          "date": "2026-04-19",
+          "risk_score": 0.0
+        },
+        {
+          "date": "2026-04-20",
+          "risk_score": 0.0
+        },
+        {
+          "date": "2026-04-21",
+          "risk_score": 0.0
+        },
+        {
+          "date": "2026-04-22",
+          "risk_score": 0.0
+        },
+        {
+          "date": "2026-04-23",
+          "risk_score": 0.0
+        },
+        {
+          "date": "2026-04-24",
+          "risk_score": 0.0
+        },
+        {
+          "date": "2026-04-25",
+          "risk_score": 0.0
+        },
+        {
+          "date": "2026-04-26",
+          "risk_score": 0.0
+        },
+        {
+          "date": "2026-04-27",
+          "risk_score": 0.0
+        },
+        {
+          "date": "2026-04-28",
+          "risk_score": 0.0
+        },
+        {
+          "date": "2026-04-29",
+          "risk_score": 0.0
+        },
+        {
+          "date": "2026-04-30",
+          "risk_score": 0.0
+        }
+      ],
+      "sensor_history_72h": [
+        {
+          "timestamp": "2026-04-28 00:00",
+          "temperature_c": 70.8,
+          "vibration_mm_s": 0.831
+        },
+        {
+          "timestamp": "2026-04-28 01:00",
+          "temperature_c": 69.4,
+          "vibration_mm_s": 0.743
+        },
+        {
+          "timestamp": "2026-04-28 02:00",
+          "temperature_c": 72.0,
+          "vibration_mm_s": 0.721
+        },
+        {
+          "timestamp": "2026-04-28 03:00",
+          "temperature_c": 70.6,
+          "vibration_mm_s": 0.766
+        },
+        {
+          "timestamp": "2026-04-28 04:00",
+          "temperature_c": 70.2,
+          "vibration_mm_s": 0.785
+        },
+        {
+          "timestamp": "2026-04-28 05:00",
+          "temperature_c": 69.1,
+          "vibration_mm_s": 0.77
+        },
+        {
+          "timestamp": "2026-04-28 06:00",
+          "temperature_c": 72.2,
+          "vibration_mm_s": 0.823
+        },
+        {
+          "timestamp": "2026-04-28 07:00",
+          "temperature_c": 69.8,
+          "vibration_mm_s": 0.815
+        },
+        {
+          "timestamp": "2026-04-28 08:00",
+          "temperature_c": 71.3,
+          "vibration_mm_s": 0.826
+        },
+        {
+          "timestamp": "2026-04-28 09:00",
+          "temperature_c": 70.4,
+          "vibration_mm_s": 0.816
+        },
+        {
+          "timestamp": "2026-04-28 10:00",
+          "temperature_c": 66.5,
+          "vibration_mm_s": 0.776
+        },
+        {
+          "timestamp": "2026-04-28 11:00",
+          "temperature_c": 69.1,
+          "vibration_mm_s": 0.828
+        },
+        {
+          "timestamp": "2026-04-28 12:00",
+          "temperature_c": 69.0,
+          "vibration_mm_s": 0.782
+        },
+        {
+          "timestamp": "2026-04-28 13:00",
+          "temperature_c": 72.1,
+          "vibration_mm_s": 0.797
+        },
+        {
+          "timestamp": "2026-04-28 14:00",
+          "temperature_c": 67.6,
+          "vibration_mm_s": 0.806
+        },
+        {
+          "timestamp": "2026-04-28 15:00",
+          "temperature_c": 67.2,
+          "vibration_mm_s": 0.815
+        },
+        {
+          "timestamp": "2026-04-28 16:00",
+          "temperature_c": 69.3,
+          "vibration_mm_s": 0.765
+        },
+        {
+          "timestamp": "2026-04-28 17:00",
+          "temperature_c": 69.8,
+          "vibration_mm_s": 0.79
+        },
+        {
+          "timestamp": "2026-04-28 18:00",
+          "temperature_c": 69.8,
+          "vibration_mm_s": 0.794
+        },
+        {
+          "timestamp": "2026-04-28 19:00",
+          "temperature_c": 72.2,
+          "vibration_mm_s": 0.763
+        },
+        {
+          "timestamp": "2026-04-28 20:00",
+          "temperature_c": 70.9,
+          "vibration_mm_s": 0.797
+        },
+        {
+          "timestamp": "2026-04-28 21:00",
+          "temperature_c": 69.3,
+          "vibration_mm_s": 0.696
+        },
+        {
+          "timestamp": "2026-04-28 22:00",
+          "temperature_c": 71.1,
+          "vibration_mm_s": 0.752
+        },
+        {
+          "timestamp": "2026-04-28 23:00",
+          "temperature_c": 69.8,
+          "vibration_mm_s": 0.826
+        },
+        {
+          "timestamp": "2026-04-29 00:00",
+          "temperature_c": 68.2,
+          "vibration_mm_s": 0.856
+        },
+        {
+          "timestamp": "2026-04-29 01:00",
+          "temperature_c": 69.6,
+          "vibration_mm_s": 0.79
+        },
+        {
+          "timestamp": "2026-04-29 02:00",
+          "temperature_c": 71.0,
+          "vibration_mm_s": 0.861
+        },
+        {
+          "timestamp": "2026-04-29 03:00",
+          "temperature_c": 69.0,
+          "vibration_mm_s": 0.809
+        },
+        {
+          "timestamp": "2026-04-29 04:00",
+          "temperature_c": 70.8,
+          "vibration_mm_s": 0.736
+        },
+        {
+          "timestamp": "2026-04-29 05:00",
+          "temperature_c": 71.5,
+          "vibration_mm_s": 0.766
+        },
+        {
+          "timestamp": "2026-04-29 06:00",
+          "temperature_c": 70.4,
+          "vibration_mm_s": 0.843
+        },
+        {
+          "timestamp": "2026-04-29 07:00",
+          "temperature_c": 70.8,
+          "vibration_mm_s": 0.741
+        },
+        {
+          "timestamp": "2026-04-29 08:00",
+          "temperature_c": 69.5,
+          "vibration_mm_s": 0.79
+        },
+        {
+          "timestamp": "2026-04-29 09:00",
+          "temperature_c": 70.6,
+          "vibration_mm_s": 0.874
+        },
+        {
+          "timestamp": "2026-04-29 10:00",
+          "temperature_c": 70.1,
+          "vibration_mm_s": 0.82
+        },
+        {
+          "timestamp": "2026-04-29 11:00",
+          "temperature_c": 68.8,
+          "vibration_mm_s": 0.792
+        },
+        {
+          "timestamp": "2026-04-29 12:00",
+          "temperature_c": 73.5,
+          "vibration_mm_s": 0.827
+        },
+        {
+          "timestamp": "2026-04-29 13:00",
+          "temperature_c": 70.0,
+          "vibration_mm_s": 0.795
+        },
+        {
+          "timestamp": "2026-04-29 14:00",
+          "temperature_c": 67.1,
+          "vibration_mm_s": 0.81
+        },
+        {
+          "timestamp": "2026-04-29 15:00",
+          "temperature_c": 70.9,
+          "vibration_mm_s": 0.691
+        },
+        {
+          "timestamp": "2026-04-29 16:00",
+          "temperature_c": 69.0,
+          "vibration_mm_s": 0.81
+        },
+        {
+          "timestamp": "2026-04-29 17:00",
+          "temperature_c": 70.1,
+          "vibration_mm_s": 0.785
+        },
+        {
+          "timestamp": "2026-04-29 18:00",
+          "temperature_c": 72.2,
+          "vibration_mm_s": 0.897
+        },
+        {
+          "timestamp": "2026-04-29 19:00",
+          "temperature_c": 69.1,
+          "vibration_mm_s": 0.786
+        },
+        {
+          "timestamp": "2026-04-29 20:00",
+          "temperature_c": 72.5,
+          "vibration_mm_s": 0.833
+        },
+        {
+          "timestamp": "2026-04-29 21:00",
+          "temperature_c": 71.7,
+          "vibration_mm_s": 0.783
+        },
+        {
+          "timestamp": "2026-04-29 22:00",
+          "temperature_c": 69.2,
+          "vibration_mm_s": 0.827
+        },
+        {
+          "timestamp": "2026-04-29 23:00",
+          "temperature_c": 69.1,
+          "vibration_mm_s": 0.846
+        },
+        {
+          "timestamp": "2026-04-30 00:00",
+          "temperature_c": 65.7,
+          "vibration_mm_s": 0.809
+        },
+        {
+          "timestamp": "2026-04-30 01:00",
+          "temperature_c": 71.7,
+          "vibration_mm_s": 0.794
+        },
+        {
+          "timestamp": "2026-04-30 02:00",
+          "temperature_c": 69.1,
+          "vibration_mm_s": 0.837
+        },
+        {
+          "timestamp": "2026-04-30 03:00",
+          "temperature_c": 70.6,
+          "vibration_mm_s": 0.818
+        },
+        {
+          "timestamp": "2026-04-30 04:00",
+          "temperature_c": 68.4,
+          "vibration_mm_s": 0.823
+        },
+        {
+          "timestamp": "2026-04-30 05:00",
+          "temperature_c": 67.2,
+          "vibration_mm_s": 0.684
+        },
+        {
+          "timestamp": "2026-04-30 06:00",
+          "temperature_c": 71.3,
+          "vibration_mm_s": 0.699
+        },
+        {
+          "timestamp": "2026-04-30 07:00",
+          "temperature_c": 70.6,
+          "vibration_mm_s": 0.651
+        },
+        {
+          "timestamp": "2026-04-30 08:00",
+          "temperature_c": 70.1,
+          "vibration_mm_s": 0.752
+        },
+        {
+          "timestamp": "2026-04-30 09:00",
+          "temperature_c": 70.8,
+          "vibration_mm_s": 0.875
+        },
+        {
+          "timestamp": "2026-04-30 10:00",
+          "temperature_c": 68.4,
+          "vibration_mm_s": 0.798
+        },
+        {
+          "timestamp": "2026-04-30 11:00",
+          "temperature_c": 70.5,
+          "vibration_mm_s": 0.881
+        },
+        {
+          "timestamp": "2026-04-30 12:00",
+          "temperature_c": 71.3,
+          "vibration_mm_s": 0.885
+        },
+        {
+          "timestamp": "2026-04-30 13:00",
+          "temperature_c": 68.6,
+          "vibration_mm_s": 0.833
+        },
+        {
+          "timestamp": "2026-04-30 14:00",
+          "temperature_c": 71.7,
+          "vibration_mm_s": 0.785
+        },
+        {
+          "timestamp": "2026-04-30 15:00",
+          "temperature_c": 72.3,
+          "vibration_mm_s": 0.864
+        },
+        {
+          "timestamp": "2026-04-30 16:00",
+          "temperature_c": 72.2,
+          "vibration_mm_s": 0.851
+        },
+        {
+          "timestamp": "2026-04-30 17:00",
+          "temperature_c": 70.2,
+          "vibration_mm_s": 0.764
+        },
+        {
+          "timestamp": "2026-04-30 18:00",
+          "temperature_c": 68.7,
+          "vibration_mm_s": 0.761
+        },
+        {
+          "timestamp": "2026-04-30 19:00",
+          "temperature_c": 69.0,
+          "vibration_mm_s": 0.813
+        },
+        {
+          "timestamp": "2026-04-30 20:00",
+          "temperature_c": 68.0,
+          "vibration_mm_s": 0.75
+        },
+        {
+          "timestamp": "2026-04-30 21:00",
+          "temperature_c": 68.2,
+          "vibration_mm_s": 0.786
+        },
+        {
+          "timestamp": "2026-04-30 22:00",
+          "temperature_c": 69.8,
+          "vibration_mm_s": 0.75
+        },
+        {
+          "timestamp": "2026-04-30 23:00",
+          "temperature_c": 68.4,
+          "vibration_mm_s": 0.79
+        }
+      ]
+    },
+    {
+      "machine_id": "MCH-201",
+      "line": "Line A",
+      "is_new_machine": false,
+      "confidence": "high",
+      "method": "24h-lookahead LogisticRegression classifier",
+      "flag": "ok",
+      "risk_score": 0.0,
+      "as_of": "2026-04-30 23:00",
+      "current_temperature_c": 64.1,
+      "current_vibration_mm_s": 0.532,
+      "run_hours_since_maintenance": 263,
+      "temp_baseline_mean_c": 64.4,
+      "vib_baseline_mean": 0.732,
+      "temp_zscore": 0.04,
+      "vib_zscore": -0.85,
+      "temp_change_6h_c": 1.46,
+      "vib_change_6h": -0.041,
+      "total_historical_failures": 1,
+      "risk_trend_14d": [
+        {
+          "date": "2026-04-16",
+          "risk_score": 0.093
+        },
+        {
+          "date": "2026-04-17",
+          "risk_score": 0.541
+        },
+        {
+          "date": "2026-04-18",
+          "risk_score": 0.748
+        },
+        {
+          "date": "2026-04-19",
+          "risk_score": 0.998
+        },
+        {
+          "date": "2026-04-20",
+          "risk_score": 0.998
+        },
+        {
+          "date": "2026-04-21",
+          "risk_score": 0.0
+        },
+        {
+          "date": "2026-04-22",
+          "risk_score": 0.0
+        },
+        {
+          "date": "2026-04-23",
+          "risk_score": 0.0
+        },
+        {
+          "date": "2026-04-24",
+          "risk_score": 0.0
+        },
+        {
+          "date": "2026-04-25",
+          "risk_score": 0.0
+        },
+        {
+          "date": "2026-04-26",
+          "risk_score": 0.0
+        },
+        {
+          "date": "2026-04-27",
+          "risk_score": 0.0
+        },
+        {
+          "date": "2026-04-28",
+          "risk_score": 0.0
+        },
+        {
+          "date": "2026-04-29",
+          "risk_score": 0.0
+        },
+        {
+          "date": "2026-04-30",
+          "risk_score": 0.0
+        }
+      ],
+      "sensor_history_72h": [
+        {
+          "timestamp": "2026-04-28 00:00",
+          "temperature_c": 63.1,
+          "vibration_mm_s": 0.437
+        },
+        {
+          "timestamp": "2026-04-28 01:00",
+          "temperature_c": 63.3,
+          "vibration_mm_s": 0.436
+        },
+        {
+          "timestamp": "2026-04-28 02:00",
+          "temperature_c": 65.1,
+          "vibration_mm_s": 0.54
+        },
+        {
+          "timestamp": "2026-04-28 03:00",
+          "temperature_c": 64.3,
+          "vibration_mm_s": 0.473
+        },
+        {
+          "timestamp": "2026-04-28 04:00",
+          "temperature_c": 63.3,
+          "vibration_mm_s": 0.422
+        },
+        {
+          "timestamp": "2026-04-28 05:00",
+          "temperature_c": 64.0,
+          "vibration_mm_s": 0.496
+        },
+        {
+          "timestamp": "2026-04-28 06:00",
+          "temperature_c": 65.5,
+          "vibration_mm_s": 0.503
+        },
+        {
+          "timestamp": "2026-04-28 07:00",
+          "temperature_c": 65.4,
+          "vibration_mm_s": 0.524
+        },
+        {
+          "timestamp": "2026-04-28 08:00",
+          "temperature_c": 67.0,
+          "vibration_mm_s": 0.475
+        },
+        {
+          "timestamp": "2026-04-28 09:00",
+          "temperature_c": 65.3,
+          "vibration_mm_s": 0.508
+        },
+        {
+          "timestamp": "2026-04-28 10:00",
+          "temperature_c": 65.1,
+          "vibration_mm_s": 0.47
+        },
+        {
+          "timestamp": "2026-04-28 11:00",
+          "temperature_c": 62.5,
+          "vibration_mm_s": 0.603
+        },
+        {
+          "timestamp": "2026-04-28 12:00",
+          "temperature_c": 62.1,
+          "vibration_mm_s": 0.473
+        },
+        {
+          "timestamp": "2026-04-28 13:00",
+          "temperature_c": 61.9,
+          "vibration_mm_s": 0.427
+        },
+        {
+          "timestamp": "2026-04-28 14:00",
+          "temperature_c": 63.0,
+          "vibration_mm_s": 0.55
+        },
+        {
+          "timestamp": "2026-04-28 15:00",
+          "temperature_c": 65.5,
+          "vibration_mm_s": 0.53
+        },
+        {
+          "timestamp": "2026-04-28 16:00",
+          "temperature_c": 62.4,
+          "vibration_mm_s": 0.482
+        },
+        {
+          "timestamp": "2026-04-28 17:00",
+          "temperature_c": 64.7,
+          "vibration_mm_s": 0.602
+        },
+        {
+          "timestamp": "2026-04-28 18:00",
+          "temperature_c": 62.9,
+          "vibration_mm_s": 0.562
+        },
+        {
+          "timestamp": "2026-04-28 19:00",
+          "temperature_c": 65.0,
+          "vibration_mm_s": 0.593
+        },
+        {
+          "timestamp": "2026-04-28 20:00",
+          "temperature_c": 63.2,
+          "vibration_mm_s": 0.472
+        },
+        {
+          "timestamp": "2026-04-28 21:00",
+          "temperature_c": 63.1,
+          "vibration_mm_s": 0.406
+        },
+        {
+          "timestamp": "2026-04-28 22:00",
+          "temperature_c": 62.3,
+          "vibration_mm_s": 0.55
+        },
+        {
+          "timestamp": "2026-04-28 23:00",
+          "temperature_c": 62.3,
+          "vibration_mm_s": 0.539
+        },
+        {
+          "timestamp": "2026-04-29 00:00",
+          "temperature_c": 63.8,
+          "vibration_mm_s": 0.51
+        },
+        {
+          "timestamp": "2026-04-29 01:00",
+          "temperature_c": 63.6,
+          "vibration_mm_s": 0.527
+        },
+        {
+          "timestamp": "2026-04-29 02:00",
+          "temperature_c": 63.0,
+          "vibration_mm_s": 0.594
+        },
+        {
+          "timestamp": "2026-04-29 03:00",
+          "temperature_c": 61.3,
+          "vibration_mm_s": 0.499
+        },
+        {
+          "timestamp": "2026-04-29 04:00",
+          "temperature_c": 63.8,
+          "vibration_mm_s": 0.525
+        },
+        {
+          "timestamp": "2026-04-29 05:00",
+          "temperature_c": 64.3,
+          "vibration_mm_s": 0.549
+        },
+        {
+          "timestamp": "2026-04-29 06:00",
+          "temperature_c": 64.7,
+          "vibration_mm_s": 0.503
+        },
+        {
+          "timestamp": "2026-04-29 07:00",
+          "temperature_c": 64.9,
+          "vibration_mm_s": 0.534
+        },
+        {
+          "timestamp": "2026-04-29 08:00",
+          "temperature_c": 61.7,
+          "vibration_mm_s": 0.421
+        },
+        {
+          "timestamp": "2026-04-29 09:00",
+          "temperature_c": 62.6,
+          "vibration_mm_s": 0.464
+        },
+        {
+          "timestamp": "2026-04-29 10:00",
+          "temperature_c": 64.6,
+          "vibration_mm_s": 0.518
+        },
+        {
+          "timestamp": "2026-04-29 11:00",
+          "temperature_c": 63.4,
+          "vibration_mm_s": 0.524
+        },
+        {
+          "timestamp": "2026-04-29 12:00",
+          "temperature_c": 63.1,
+          "vibration_mm_s": 0.531
+        },
+        {
+          "timestamp": "2026-04-29 13:00",
+          "temperature_c": 62.5,
+          "vibration_mm_s": 0.559
+        },
+        {
+          "timestamp": "2026-04-29 14:00",
+          "temperature_c": 65.1,
+          "vibration_mm_s": 0.496
+        },
+        {
+          "timestamp": "2026-04-29 15:00",
+          "temperature_c": 64.7,
+          "vibration_mm_s": 0.532
+        },
+        {
+          "timestamp": "2026-04-29 16:00",
+          "temperature_c": 63.4,
+          "vibration_mm_s": 0.478
+        },
+        {
+          "timestamp": "2026-04-29 17:00",
+          "temperature_c": 65.1,
+          "vibration_mm_s": 0.55
+        },
+        {
+          "timestamp": "2026-04-29 18:00",
+          "temperature_c": 62.4,
+          "vibration_mm_s": 0.495
+        },
+        {
+          "timestamp": "2026-04-29 19:00",
+          "temperature_c": 65.0,
+          "vibration_mm_s": 0.587
+        },
+        {
+          "timestamp": "2026-04-29 20:00",
+          "temperature_c": 65.7,
+          "vibration_mm_s": 0.519
+        },
+        {
+          "timestamp": "2026-04-29 21:00",
+          "temperature_c": 65.2,
+          "vibration_mm_s": 0.544
+        },
+        {
+          "timestamp": "2026-04-29 22:00",
+          "temperature_c": 63.2,
+          "vibration_mm_s": 0.457
+        },
+        {
+          "timestamp": "2026-04-29 23:00",
+          "temperature_c": 61.5,
+          "vibration_mm_s": 0.511
+        },
+        {
+          "timestamp": "2026-04-30 00:00",
+          "temperature_c": 63.8,
+          "vibration_mm_s": 0.505
+        },
+        {
+          "timestamp": "2026-04-30 01:00",
+          "temperature_c": 63.7,
+          "vibration_mm_s": 0.508
+        },
+        {
+          "timestamp": "2026-04-30 02:00",
+          "temperature_c": 62.2,
+          "vibration_mm_s": 0.562
+        },
+        {
+          "timestamp": "2026-04-30 03:00",
+          "temperature_c": 60.8,
+          "vibration_mm_s": 0.512
+        },
+        {
+          "timestamp": "2026-04-30 04:00",
+          "temperature_c": 65.6,
+          "vibration_mm_s": 0.587
+        },
+        {
+          "timestamp": "2026-04-30 05:00",
+          "temperature_c": 63.8,
+          "vibration_mm_s": 0.56
+        },
+        {
+          "timestamp": "2026-04-30 06:00",
+          "temperature_c": 62.7,
+          "vibration_mm_s": 0.534
+        },
+        {
+          "timestamp": "2026-04-30 07:00",
+          "temperature_c": 63.0,
+          "vibration_mm_s": 0.508
+        },
+        {
+          "timestamp": "2026-04-30 08:00",
+          "temperature_c": 66.4,
+          "vibration_mm_s": 0.559
+        },
+        {
+          "timestamp": "2026-04-30 09:00",
+          "temperature_c": 65.5,
+          "vibration_mm_s": 0.487
+        },
+        {
+          "timestamp": "2026-04-30 10:00",
+          "temperature_c": 63.9,
+          "vibration_mm_s": 0.414
+        },
+        {
+          "timestamp": "2026-04-30 11:00",
+          "temperature_c": 62.7,
+          "vibration_mm_s": 0.546
+        },
+        {
+          "timestamp": "2026-04-30 12:00",
+          "temperature_c": 62.7,
+          "vibration_mm_s": 0.465
+        },
+        {
+          "timestamp": "2026-04-30 13:00",
+          "temperature_c": 62.6,
+          "vibration_mm_s": 0.524
+        },
+        {
+          "timestamp": "2026-04-30 14:00",
+          "temperature_c": 64.6,
+          "vibration_mm_s": 0.472
+        },
+        {
+          "timestamp": "2026-04-30 15:00",
+          "temperature_c": 62.8,
+          "vibration_mm_s": 0.509
+        },
+        {
+          "timestamp": "2026-04-30 16:00",
+          "temperature_c": 64.3,
+          "vibration_mm_s": 0.594
+        },
+        {
+          "timestamp": "2026-04-30 17:00",
+          "temperature_c": 62.7,
+          "vibration_mm_s": 0.573
+        },
+        {
+          "timestamp": "2026-04-30 18:00",
+          "temperature_c": 64.4,
+          "vibration_mm_s": 0.609
+        },
+        {
+          "timestamp": "2026-04-30 19:00",
+          "temperature_c": 65.2,
+          "vibration_mm_s": 0.502
+        },
+        {
+          "timestamp": "2026-04-30 20:00",
+          "temperature_c": 65.6,
+          "vibration_mm_s": 0.514
+        },
+        {
+          "timestamp": "2026-04-30 21:00",
+          "temperature_c": 62.4,
+          "vibration_mm_s": 0.466
+        },
+        {
+          "timestamp": "2026-04-30 22:00",
+          "temperature_c": 65.1,
+          "vibration_mm_s": 0.535
+        },
+        {
+          "timestamp": "2026-04-30 23:00",
+          "temperature_c": 64.1,
+          "vibration_mm_s": 0.532
+        }
+      ]
+    },
+    {
+      "machine_id": "MCH-202",
+      "line": "Line B",
+      "is_new_machine": false,
+      "confidence": "high",
+      "method": "24h-lookahead LogisticRegression classifier",
+      "flag": "ok",
+      "risk_score": 0.0,
+      "as_of": "2026-04-30 23:00",
+      "current_temperature_c": 66.8,
+      "current_vibration_mm_s": 0.758,
+      "run_hours_since_maintenance": 1178,
+      "temp_baseline_mean_c": 69.0,
+      "vib_baseline_mean": 0.549,
+      "temp_zscore": 0.08,
+      "vib_zscore": 0.98,
+      "temp_change_6h_c": 2.13,
+      "vib_change_6h": 0.067,
+      "total_historical_failures": 2,
+      "risk_trend_14d": [
+        {
+          "date": "2026-04-16",
+          "risk_score": 0.0
+        },
+        {
+          "date": "2026-04-17",
+          "risk_score": 0.0
+        },
+        {
+          "date": "2026-04-18",
+          "risk_score": 0.0
+        },
+        {
+          "date": "2026-04-19",
+          "risk_score": 0.0
+        },
+        {
+          "date": "2026-04-20",
+          "risk_score": 0.0
+        },
+        {
+          "date": "2026-04-21",
+          "risk_score": 0.0
+        },
+        {
+          "date": "2026-04-22",
+          "risk_score": 0.0
+        },
+        {
+          "date": "2026-04-23",
+          "risk_score": 0.0
+        },
+        {
+          "date": "2026-04-24",
+          "risk_score": 0.0
+        },
+        {
+          "date": "2026-04-25",
+          "risk_score": 0.0
+        },
+        {
+          "date": "2026-04-26",
+          "risk_score": 0.0
+        },
+        {
+          "date": "2026-04-27",
+          "risk_score": 0.0
+        },
+        {
+          "date": "2026-04-28",
+          "risk_score": 0.0
+        },
+        {
+          "date": "2026-04-29",
+          "risk_score": 0.0
+        },
+        {
+          "date": "2026-04-30",
+          "risk_score": 0.0
+        }
+      ],
+      "sensor_history_72h": [
+        {
+          "timestamp": "2026-04-28 00:00",
+          "temperature_c": 69.0,
+          "vibration_mm_s": 0.695
+        },
+        {
+          "timestamp": "2026-04-28 01:00",
+          "temperature_c": 67.4,
+          "vibration_mm_s": 0.709
+        },
+        {
+          "timestamp": "2026-04-28 02:00",
+          "temperature_c": 67.2,
+          "vibration_mm_s": 0.658
+        },
+        {
+          "timestamp": "2026-04-28 03:00",
+          "temperature_c": 68.0,
+          "vibration_mm_s": 0.685
+        },
+        {
+          "timestamp": "2026-04-28 04:00",
+          "temperature_c": 70.2,
+          "vibration_mm_s": 0.624
+        },
+        {
+          "timestamp": "2026-04-28 05:00",
+          "temperature_c": 67.3,
+          "vibration_mm_s": 0.644
+        },
+        {
+          "timestamp": "2026-04-28 06:00",
+          "temperature_c": 66.7,
+          "vibration_mm_s": 0.717
+        },
+        {
+          "timestamp": "2026-04-28 07:00",
+          "temperature_c": 67.8,
+          "vibration_mm_s": 0.787
+        },
+        {
+          "timestamp": "2026-04-28 08:00",
+          "temperature_c": 69.8,
+          "vibration_mm_s": 0.628
+        },
+        {
+          "timestamp": "2026-04-28 09:00",
+          "temperature_c": 67.5,
+          "vibration_mm_s": 0.759
+        },
+        {
+          "timestamp": "2026-04-28 10:00",
+          "temperature_c": 69.6,
+          "vibration_mm_s": 0.661
+        },
+        {
+          "timestamp": "2026-04-28 11:00",
+          "temperature_c": 68.0,
+          "vibration_mm_s": 0.661
+        },
+        {
+          "timestamp": "2026-04-28 12:00",
+          "temperature_c": 68.7,
+          "vibration_mm_s": 0.682
+        },
+        {
+          "timestamp": "2026-04-28 13:00",
+          "temperature_c": 70.0,
+          "vibration_mm_s": 0.702
+        },
+        {
+          "timestamp": "2026-04-28 14:00",
+          "temperature_c": 69.6,
+          "vibration_mm_s": 0.655
+        },
+        {
+          "timestamp": "2026-04-28 15:00",
+          "temperature_c": 69.3,
+          "vibration_mm_s": 0.715
+        },
+        {
+          "timestamp": "2026-04-28 16:00",
+          "temperature_c": 72.6,
+          "vibration_mm_s": 0.67
+        },
+        {
+          "timestamp": "2026-04-28 17:00",
+          "temperature_c": 68.1,
+          "vibration_mm_s": 0.727
+        },
+        {
+          "timestamp": "2026-04-28 18:00",
+          "temperature_c": 65.9,
+          "vibration_mm_s": 0.707
+        },
+        {
+          "timestamp": "2026-04-28 19:00",
+          "temperature_c": 68.9,
+          "vibration_mm_s": 0.736
+        },
+        {
+          "timestamp": "2026-04-28 20:00",
+          "temperature_c": 67.9,
+          "vibration_mm_s": 0.788
+        },
+        {
+          "timestamp": "2026-04-28 21:00",
+          "temperature_c": 68.2,
+          "vibration_mm_s": 0.711
+        },
+        {
+          "timestamp": "2026-04-28 22:00",
+          "temperature_c": 68.0,
+          "vibration_mm_s": 0.638
+        },
+        {
+          "timestamp": "2026-04-28 23:00",
+          "temperature_c": 69.2,
+          "vibration_mm_s": 0.695
+        },
+        {
+          "timestamp": "2026-04-29 00:00",
+          "temperature_c": 66.3,
+          "vibration_mm_s": 0.711
+        },
+        {
+          "timestamp": "2026-04-29 01:00",
+          "temperature_c": 67.8,
+          "vibration_mm_s": 0.774
+        },
+        {
+          "timestamp": "2026-04-29 02:00",
+          "temperature_c": 67.5,
+          "vibration_mm_s": 0.773
+        },
+        {
+          "timestamp": "2026-04-29 03:00",
+          "temperature_c": 67.2,
+          "vibration_mm_s": 0.654
+        },
+        {
+          "timestamp": "2026-04-29 04:00",
+          "temperature_c": 67.6,
+          "vibration_mm_s": 0.707
+        },
+        {
+          "timestamp": "2026-04-29 05:00",
+          "temperature_c": 68.7,
+          "vibration_mm_s": 0.71
+        },
+        {
+          "timestamp": "2026-04-29 06:00",
+          "temperature_c": 65.9,
+          "vibration_mm_s": 0.671
+        },
+        {
+          "timestamp": "2026-04-29 07:00",
+          "temperature_c": 68.3,
+          "vibration_mm_s": 0.74
+        },
+        {
+          "timestamp": "2026-04-29 08:00",
+          "temperature_c": 70.5,
+          "vibration_mm_s": 0.75
+        },
+        {
+          "timestamp": "2026-04-29 09:00",
+          "temperature_c": 69.9,
+          "vibration_mm_s": 0.661
+        },
+        {
+          "timestamp": "2026-04-29 10:00",
+          "temperature_c": 68.9,
+          "vibration_mm_s": 0.694
+        },
+        {
+          "timestamp": "2026-04-29 11:00",
+          "temperature_c": 69.1,
+          "vibration_mm_s": 0.726
+        },
+        {
+          "timestamp": "2026-04-29 12:00",
+          "temperature_c": 68.7,
+          "vibration_mm_s": 0.773
+        },
+        {
+          "timestamp": "2026-04-29 13:00",
+          "temperature_c": 67.4,
+          "vibration_mm_s": 0.675
+        },
+        {
+          "timestamp": "2026-04-29 14:00",
+          "temperature_c": 68.8,
+          "vibration_mm_s": 0.7
+        },
+        {
+          "timestamp": "2026-04-29 15:00",
+          "temperature_c": 72.3,
+          "vibration_mm_s": 0.708
+        },
+        {
+          "timestamp": "2026-04-29 16:00",
+          "temperature_c": 67.7,
+          "vibration_mm_s": 0.732
+        },
+        {
+          "timestamp": "2026-04-29 17:00",
+          "temperature_c": 68.5,
+          "vibration_mm_s": 0.776
+        },
+        {
+          "timestamp": "2026-04-29 18:00",
+          "temperature_c": 68.3,
+          "vibration_mm_s": 0.774
+        },
+        {
+          "timestamp": "2026-04-29 19:00",
+          "temperature_c": 68.4,
+          "vibration_mm_s": 0.63
+        },
+        {
+          "timestamp": "2026-04-29 20:00",
+          "temperature_c": 71.1,
+          "vibration_mm_s": 0.794
+        },
+        {
+          "timestamp": "2026-04-29 21:00",
+          "temperature_c": 67.8,
+          "vibration_mm_s": 0.619
+        },
+        {
+          "timestamp": "2026-04-29 22:00",
+          "temperature_c": 68.9,
+          "vibration_mm_s": 0.69
+        },
+        {
+          "timestamp": "2026-04-29 23:00",
+          "temperature_c": 68.3,
+          "vibration_mm_s": 0.778
+        },
+        {
+          "timestamp": "2026-04-30 00:00",
+          "temperature_c": 73.9,
+          "vibration_mm_s": 0.673
+        },
+        {
+          "timestamp": "2026-04-30 01:00",
+          "temperature_c": 69.0,
+          "vibration_mm_s": 0.692
+        },
+        {
+          "timestamp": "2026-04-30 02:00",
+          "temperature_c": 69.6,
+          "vibration_mm_s": 0.711
+        },
+        {
+          "timestamp": "2026-04-30 03:00",
+          "temperature_c": 68.6,
+          "vibration_mm_s": 0.653
+        },
+        {
+          "timestamp": "2026-04-30 04:00",
+          "temperature_c": 67.9,
+          "vibration_mm_s": 0.642
+        },
+        {
+          "timestamp": "2026-04-30 05:00",
+          "temperature_c": 67.5,
+          "vibration_mm_s": 0.729
+        },
+        {
+          "timestamp": "2026-04-30 06:00",
+          "temperature_c": 70.6,
+          "vibration_mm_s": 0.74
+        },
+        {
+          "timestamp": "2026-04-30 07:00",
+          "temperature_c": 72.1,
+          "vibration_mm_s": 0.757
+        },
+        {
+          "timestamp": "2026-04-30 08:00",
+          "temperature_c": 70.3,
+          "vibration_mm_s": 0.721
+        },
+        {
+          "timestamp": "2026-04-30 09:00",
+          "temperature_c": 68.2,
+          "vibration_mm_s": 0.817
+        },
+        {
+          "timestamp": "2026-04-30 10:00",
+          "temperature_c": 68.1,
+          "vibration_mm_s": 0.701
+        },
+        {
+          "timestamp": "2026-04-30 11:00",
+          "temperature_c": 68.7,
+          "vibration_mm_s": 0.719
+        },
+        {
+          "timestamp": "2026-04-30 12:00",
+          "temperature_c": 68.8,
+          "vibration_mm_s": 0.671
+        },
+        {
+          "timestamp": "2026-04-30 13:00",
+          "temperature_c": 68.3,
+          "vibration_mm_s": 0.63
+        },
+        {
+          "timestamp": "2026-04-30 14:00",
+          "temperature_c": 69.8,
+          "vibration_mm_s": 0.779
+        },
+        {
+          "timestamp": "2026-04-30 15:00",
+          "temperature_c": 68.9,
+          "vibration_mm_s": 0.703
+        },
+        {
+          "timestamp": "2026-04-30 16:00",
+          "temperature_c": 71.7,
+          "vibration_mm_s": 0.779
+        },
+        {
+          "timestamp": "2026-04-30 17:00",
+          "temperature_c": 64.7,
+          "vibration_mm_s": 0.691
+        },
+        {
+          "timestamp": "2026-04-30 18:00",
+          "temperature_c": 67.3,
+          "vibration_mm_s": 0.685
+        },
+        {
+          "timestamp": "2026-04-30 19:00",
+          "temperature_c": 69.0,
+          "vibration_mm_s": 0.756
+        },
+        {
+          "timestamp": "2026-04-30 20:00",
+          "temperature_c": 71.3,
+          "vibration_mm_s": 0.714
+        },
+        {
+          "timestamp": "2026-04-30 21:00",
+          "temperature_c": 69.5,
+          "vibration_mm_s": 0.698
+        },
+        {
+          "timestamp": "2026-04-30 22:00",
+          "temperature_c": 71.1,
+          "vibration_mm_s": 0.73
+        },
+        {
+          "timestamp": "2026-04-30 23:00",
+          "temperature_c": 66.8,
+          "vibration_mm_s": 0.758
+        }
+      ]
+    },
+    {
+      "machine_id": "MCH-203",
+      "line": "Line B",
+      "is_new_machine": false,
+      "confidence": "high",
+      "method": "24h-lookahead LogisticRegression classifier",
+      "flag": "ok",
+      "risk_score": 0.0,
+      "as_of": "2026-04-30 23:00",
+      "current_temperature_c": 59.7,
+      "current_vibration_mm_s": 0.348,
+      "run_hours_since_maintenance": 19,
+      "temp_baseline_mean_c": 57.8,
+      "vib_baseline_mean": 0.753,
+      "temp_zscore": -0.13,
+      "vib_zscore": -1.39,
+      "temp_change_6h_c": 2.82,
+      "vib_change_6h": 0.026,
+      "total_historical_failures": 1,
+      "risk_trend_14d": [
+        {
+          "date": "2026-04-16",
+          "risk_score": 0.0
+        },
+        {
+          "date": "2026-04-17",
+          "risk_score": 0.0
+        },
+        {
+          "date": "2026-04-18",
+          "risk_score": 0.0
+        },
+        {
+          "date": "2026-04-19",
+          "risk_score": 0.0
+        },
+        {
+          "date": "2026-04-20",
+          "risk_score": 0.0
+        },
+        {
+          "date": "2026-04-21",
+          "risk_score": 0.0
+        },
+        {
+          "date": "2026-04-22",
+          "risk_score": 0.0
+        },
+        {
+          "date": "2026-04-23",
+          "risk_score": 0.0
+        },
+        {
+          "date": "2026-04-24",
+          "risk_score": 0.001
+        },
+        {
+          "date": "2026-04-25",
+          "risk_score": 0.006
+        },
+        {
+          "date": "2026-04-26",
+          "risk_score": 0.448
+        },
+        {
+          "date": "2026-04-27",
+          "risk_score": 0.843
+        },
+        {
+          "date": "2026-04-28",
+          "risk_score": 0.982
+        },
+        {
+          "date": "2026-04-29",
+          "risk_score": 0.999
+        },
+        {
+          "date": "2026-04-30",
+          "risk_score": 1.0
+        }
+      ],
+      "sensor_history_72h": [
+        {
+          "timestamp": "2026-04-28 00:00",
+          "temperature_c": 68.2,
+          "vibration_mm_s": 1.592
+        },
+        {
+          "timestamp": "2026-04-28 01:00",
+          "temperature_c": 67.0,
+          "vibration_mm_s": 1.681
+        },
+        {
+          "timestamp": "2026-04-28 02:00",
+          "temperature_c": 63.3,
+          "vibration_mm_s": 1.554
+        },
+        {
+          "timestamp": "2026-04-28 03:00",
+          "temperature_c": 64.9,
+          "vibration_mm_s": 1.519
+        },
+        {
+          "timestamp": "2026-04-28 04:00",
+          "temperature_c": 68.2,
+          "vibration_mm_s": 1.602
+        },
+        {
+          "timestamp": "2026-04-28 05:00",
+          "temperature_c": 65.0,
+          "vibration_mm_s": 1.461
+        },
+        {
+          "timestamp": "2026-04-28 06:00",
+          "temperature_c": 67.9,
+          "vibration_mm_s": 1.436
+        },
+        {
+          "timestamp": "2026-04-28 07:00",
+          "temperature_c": 63.5,
+          "vibration_mm_s": 1.369
+        },
+        {
+          "timestamp": "2026-04-28 08:00",
+          "temperature_c": 68.1,
+          "vibration_mm_s": 1.54
+        },
+        {
+          "timestamp": "2026-04-28 09:00",
+          "temperature_c": 68.7,
+          "vibration_mm_s": 1.541
+        },
+        {
+          "timestamp": "2026-04-28 10:00",
+          "temperature_c": 66.9,
+          "vibration_mm_s": 1.7
+        },
+        {
+          "timestamp": "2026-04-28 11:00",
+          "temperature_c": 70.0,
+          "vibration_mm_s": 1.656
+        },
+        {
+          "timestamp": "2026-04-28 12:00",
+          "temperature_c": 64.7,
+          "vibration_mm_s": 1.478
+        },
+        {
+          "timestamp": "2026-04-28 13:00",
+          "temperature_c": 69.3,
+          "vibration_mm_s": 1.494
+        },
+        {
+          "timestamp": "2026-04-28 14:00",
+          "temperature_c": 68.9,
+          "vibration_mm_s": 1.51
+        },
+        {
+          "timestamp": "2026-04-28 15:00",
+          "temperature_c": 62.9,
+          "vibration_mm_s": 1.546
+        },
+        {
+          "timestamp": "2026-04-28 16:00",
+          "temperature_c": 66.1,
+          "vibration_mm_s": 1.538
+        },
+        {
+          "timestamp": "2026-04-28 17:00",
+          "temperature_c": 65.0,
+          "vibration_mm_s": 1.719
+        },
+        {
+          "timestamp": "2026-04-28 18:00",
+          "temperature_c": 64.7,
+          "vibration_mm_s": 1.499
+        },
+        {
+          "timestamp": "2026-04-28 19:00",
+          "temperature_c": 67.8,
+          "vibration_mm_s": 1.492
+        },
+        {
+          "timestamp": "2026-04-28 20:00",
+          "temperature_c": 68.5,
+          "vibration_mm_s": 1.421
+        },
+        {
+          "timestamp": "2026-04-28 21:00",
+          "temperature_c": 69.0,
+          "vibration_mm_s": 1.426
+        },
+        {
+          "timestamp": "2026-04-28 22:00",
+          "temperature_c": 64.3,
+          "vibration_mm_s": 1.595
+        },
+        {
+          "timestamp": "2026-04-28 23:00",
+          "temperature_c": 68.5,
+          "vibration_mm_s": 1.356
+        },
+        {
+          "timestamp": "2026-04-29 00:00",
+          "temperature_c": 63.5,
+          "vibration_mm_s": 1.693
+        },
+        {
+          "timestamp": "2026-04-29 01:00",
+          "temperature_c": 68.2,
+          "vibration_mm_s": 1.727
+        },
+        {
+          "timestamp": "2026-04-29 02:00",
+          "temperature_c": 69.0,
+          "vibration_mm_s": 1.555
+        },
+        {
+          "timestamp": "2026-04-29 03:00",
+          "temperature_c": 63.3,
+          "vibration_mm_s": 1.544
+        },
+        {
+          "timestamp": "2026-04-29 04:00",
+          "temperature_c": 64.8,
+          "vibration_mm_s": 1.584
+        },
+        {
+          "timestamp": "2026-04-29 05:00",
+          "temperature_c": 62.4,
+          "vibration_mm_s": 1.796
+        },
+        {
+          "timestamp": "2026-04-29 06:00",
+          "temperature_c": 61.2,
+          "vibration_mm_s": 1.867
+        },
+        {
+          "timestamp": "2026-04-29 07:00",
+          "temperature_c": 67.0,
+          "vibration_mm_s": 1.682
+        },
+        {
+          "timestamp": "2026-04-29 08:00",
+          "temperature_c": 66.2,
+          "vibration_mm_s": 1.565
+        },
+        {
+          "timestamp": "2026-04-29 09:00",
+          "temperature_c": 67.2,
+          "vibration_mm_s": 1.589
+        },
+        {
+          "timestamp": "2026-04-29 10:00",
+          "temperature_c": 70.3,
+          "vibration_mm_s": 1.343
+        },
+        {
+          "timestamp": "2026-04-29 11:00",
+          "temperature_c": 66.8,
+          "vibration_mm_s": 1.893
+        },
+        {
+          "timestamp": "2026-04-29 12:00",
+          "temperature_c": 67.7,
+          "vibration_mm_s": 1.669
+        },
+        {
+          "timestamp": "2026-04-29 13:00",
+          "temperature_c": 74.1,
+          "vibration_mm_s": 1.657
+        },
+        {
+          "timestamp": "2026-04-29 14:00",
+          "temperature_c": 67.3,
+          "vibration_mm_s": 1.403
+        },
+        {
+          "timestamp": "2026-04-29 15:00",
+          "temperature_c": 65.2,
+          "vibration_mm_s": 1.642
+        },
+        {
+          "timestamp": "2026-04-29 16:00",
+          "temperature_c": 68.8,
+          "vibration_mm_s": 1.597
+        },
+        {
+          "timestamp": "2026-04-29 17:00",
+          "temperature_c": 71.7,
+          "vibration_mm_s": 1.592
+        },
+        {
+          "timestamp": "2026-04-29 18:00",
+          "temperature_c": 70.7,
+          "vibration_mm_s": 1.813
+        },
+        {
+          "timestamp": "2026-04-29 19:00",
+          "temperature_c": 68.2,
+          "vibration_mm_s": 1.465
+        },
+        {
+          "timestamp": "2026-04-29 20:00",
+          "temperature_c": 65.6,
+          "vibration_mm_s": 1.54
+        },
+        {
+          "timestamp": "2026-04-29 21:00",
+          "temperature_c": 69.0,
+          "vibration_mm_s": 1.466
+        },
+        {
+          "timestamp": "2026-04-29 22:00",
+          "temperature_c": 68.5,
+          "vibration_mm_s": 1.691
+        },
+        {
+          "timestamp": "2026-04-29 23:00",
+          "temperature_c": 71.4,
+          "vibration_mm_s": 1.475
+        },
+        {
+          "timestamp": "2026-04-30 00:00",
+          "temperature_c": 70.5,
+          "vibration_mm_s": 1.61
+        },
+        {
+          "timestamp": "2026-04-30 01:00",
+          "temperature_c": 66.8,
+          "vibration_mm_s": 1.928
+        },
+        {
+          "timestamp": "2026-04-30 02:00",
+          "temperature_c": 68.2,
+          "vibration_mm_s": 1.661
+        },
+        {
+          "timestamp": "2026-04-30 03:00",
+          "temperature_c": 70.9,
+          "vibration_mm_s": 1.861
+        },
+        {
+          "timestamp": "2026-04-30 04:00",
+          "temperature_c": 69.2,
+          "vibration_mm_s": 1.776
+        },
+        {
+          "timestamp": "2026-04-30 05:00",
+          "temperature_c": 56.7,
+          "vibration_mm_s": 0.316
+        },
+        {
+          "timestamp": "2026-04-30 06:00",
+          "temperature_c": 55.9,
+          "vibration_mm_s": 0.401
+        },
+        {
+          "timestamp": "2026-04-30 07:00",
+          "temperature_c": 59.0,
+          "vibration_mm_s": 0.229
+        },
+        {
+          "timestamp": "2026-04-30 08:00",
+          "temperature_c": 57.4,
+          "vibration_mm_s": 0.313
+        },
+        {
+          "timestamp": "2026-04-30 09:00",
+          "temperature_c": 57.5,
+          "vibration_mm_s": 0.397
+        },
+        {
+          "timestamp": "2026-04-30 10:00",
+          "temperature_c": 55.6,
+          "vibration_mm_s": 0.28
+        },
+        {
+          "timestamp": "2026-04-30 11:00",
+          "temperature_c": 56.4,
+          "vibration_mm_s": 0.29
+        },
+        {
+          "timestamp": "2026-04-30 12:00",
+          "temperature_c": 59.8,
+          "vibration_mm_s": 0.316
+        },
+        {
+          "timestamp": "2026-04-30 13:00",
+          "temperature_c": 56.5,
+          "vibration_mm_s": 0.27
+        },
+        {
+          "timestamp": "2026-04-30 14:00",
+          "temperature_c": 58.0,
+          "vibration_mm_s": 0.355
+        },
+        {
+          "timestamp": "2026-04-30 15:00",
+          "temperature_c": 56.4,
+          "vibration_mm_s": 0.284
+        },
+        {
+          "timestamp": "2026-04-30 16:00",
+          "temperature_c": 58.4,
+          "vibration_mm_s": 0.298
+        },
+        {
+          "timestamp": "2026-04-30 17:00",
+          "temperature_c": 56.9,
+          "vibration_mm_s": 0.322
+        },
+        {
+          "timestamp": "2026-04-30 18:00",
+          "temperature_c": 55.1,
+          "vibration_mm_s": 0.446
+        },
+        {
+          "timestamp": "2026-04-30 19:00",
+          "temperature_c": 58.0,
+          "vibration_mm_s": 0.277
+        },
+        {
+          "timestamp": "2026-04-30 20:00",
+          "temperature_c": 57.3,
+          "vibration_mm_s": 0.392
+        },
+        {
+          "timestamp": "2026-04-30 21:00",
+          "temperature_c": 56.6,
+          "vibration_mm_s": 0.356
+        },
+        {
+          "timestamp": "2026-04-30 22:00",
+          "temperature_c": 58.0,
+          "vibration_mm_s": 0.362
+        },
+        {
+          "timestamp": "2026-04-30 23:00",
+          "temperature_c": 59.7,
+          "vibration_mm_s": 0.348
+        }
+      ]
+    },
+    {
+      "machine_id": "MCH-204",
+      "line": "Line A",
+      "is_new_machine": false,
+      "confidence": "high",
+      "method": "24h-lookahead LogisticRegression classifier",
+      "flag": "ok",
+      "risk_score": 0.0,
+      "as_of": "2026-04-30 23:00",
+      "current_temperature_c": 69.0,
+      "current_vibration_mm_s": 0.994,
+      "run_hours_since_maintenance": 1504,
+      "temp_baseline_mean_c": 65.0,
+      "vib_baseline_mean": 0.697,
+      "temp_zscore": 0.59,
+      "vib_zscore": 1.28,
+      "temp_change_6h_c": 4.55,
+      "vib_change_6h": 0.092,
+      "total_historical_failures": 1,
+      "risk_trend_14d": [
+        {
+          "date": "2026-04-16",
+          "risk_score": 0.0
+        },
+        {
+          "date": "2026-04-17",
+          "risk_score": 0.0
+        },
+        {
+          "date": "2026-04-18",
+          "risk_score": 0.0
+        },
+        {
+          "date": "2026-04-19",
+          "risk_score": 0.0
+        },
+        {
+          "date": "2026-04-20",
+          "risk_score": 0.0
+        },
+        {
+          "date": "2026-04-21",
+          "risk_score": 0.0
+        },
+        {
+          "date": "2026-04-22",
+          "risk_score": 0.0
+        },
+        {
+          "date": "2026-04-23",
+          "risk_score": 0.0
+        },
+        {
+          "date": "2026-04-24",
+          "risk_score": 0.0
+        },
+        {
+          "date": "2026-04-25",
+          "risk_score": 0.0
+        },
+        {
+          "date": "2026-04-26",
+          "risk_score": 0.0
+        },
+        {
+          "date": "2026-04-27",
+          "risk_score": 0.0
+        },
+        {
+          "date": "2026-04-28",
+          "risk_score": 0.0
+        },
+        {
+          "date": "2026-04-29",
+          "risk_score": 0.0
+        },
+        {
+          "date": "2026-04-30",
+          "risk_score": 0.0
+        }
+      ],
+      "sensor_history_72h": [
+        {
+          "timestamp": "2026-04-28 00:00",
+          "temperature_c": 64.2,
+          "vibration_mm_s": 0.831
+        },
+        {
+          "timestamp": "2026-04-28 01:00",
+          "temperature_c": 67.8,
+          "vibration_mm_s": 0.798
+        },
+        {
+          "timestamp": "2026-04-28 02:00",
+          "temperature_c": 64.3,
+          "vibration_mm_s": 0.893
+        },
+        {
+          "timestamp": "2026-04-28 03:00",
+          "temperature_c": 68.9,
+          "vibration_mm_s": 0.811
+        },
+        {
+          "timestamp": "2026-04-28 04:00",
+          "temperature_c": 67.1,
+          "vibration_mm_s": 0.894
+        },
+        {
+          "timestamp": "2026-04-28 05:00",
+          "temperature_c": 66.0,
+          "vibration_mm_s": 0.992
+        },
+        {
+          "timestamp": "2026-04-28 06:00",
+          "temperature_c": 64.6,
+          "vibration_mm_s": 0.861
+        },
+        {
+          "timestamp": "2026-04-28 07:00",
+          "temperature_c": 65.1,
+          "vibration_mm_s": 0.916
+        },
+        {
+          "timestamp": "2026-04-28 08:00",
+          "temperature_c": 65.8,
+          "vibration_mm_s": 0.883
+        },
+        {
+          "timestamp": "2026-04-28 09:00",
+          "temperature_c": 63.5,
+          "vibration_mm_s": 0.856
+        },
+        {
+          "timestamp": "2026-04-28 10:00",
+          "temperature_c": 64.8,
+          "vibration_mm_s": 0.855
+        },
+        {
+          "timestamp": "2026-04-28 11:00",
+          "temperature_c": 65.7,
+          "vibration_mm_s": 0.814
+        },
+        {
+          "timestamp": "2026-04-28 12:00",
+          "temperature_c": 65.2,
+          "vibration_mm_s": 0.88
+        },
+        {
+          "timestamp": "2026-04-28 13:00",
+          "temperature_c": 66.0,
+          "vibration_mm_s": 0.821
+        },
+        {
+          "timestamp": "2026-04-28 14:00",
+          "temperature_c": 65.5,
+          "vibration_mm_s": 0.856
+        },
+        {
+          "timestamp": "2026-04-28 15:00",
+          "temperature_c": 64.9,
+          "vibration_mm_s": 0.891
+        },
+        {
+          "timestamp": "2026-04-28 16:00",
+          "temperature_c": 64.0,
+          "vibration_mm_s": 0.843
+        },
+        {
+          "timestamp": "2026-04-28 17:00",
+          "temperature_c": 65.6,
+          "vibration_mm_s": 0.842
+        },
+        {
+          "timestamp": "2026-04-28 18:00",
+          "temperature_c": 65.7,
+          "vibration_mm_s": 0.87
+        },
+        {
+          "timestamp": "2026-04-28 19:00",
+          "temperature_c": 63.1,
+          "vibration_mm_s": 0.826
+        },
+        {
+          "timestamp": "2026-04-28 20:00",
+          "temperature_c": 66.1,
+          "vibration_mm_s": 0.853
+        },
+        {
+          "timestamp": "2026-04-28 21:00",
+          "temperature_c": 65.9,
+          "vibration_mm_s": 0.843
+        },
+        {
+          "timestamp": "2026-04-28 22:00",
+          "temperature_c": 66.0,
+          "vibration_mm_s": 0.811
+        },
+        {
+          "timestamp": "2026-04-28 23:00",
+          "temperature_c": 66.1,
+          "vibration_mm_s": 0.921
+        },
+        {
+          "timestamp": "2026-04-29 00:00",
+          "temperature_c": 67.6,
+          "vibration_mm_s": 0.847
+        },
+        {
+          "timestamp": "2026-04-29 01:00",
+          "temperature_c": 62.4,
+          "vibration_mm_s": 0.921
+        },
+        {
+          "timestamp": "2026-04-29 02:00",
+          "temperature_c": 66.9,
+          "vibration_mm_s": 0.991
+        },
+        {
+          "timestamp": "2026-04-29 03:00",
+          "temperature_c": 66.1,
+          "vibration_mm_s": 0.892
+        },
+        {
+          "timestamp": "2026-04-29 04:00",
+          "temperature_c": 66.2,
+          "vibration_mm_s": 0.837
+        },
+        {
+          "timestamp": "2026-04-29 05:00",
+          "temperature_c": 64.7,
+          "vibration_mm_s": 0.856
+        },
+        {
+          "timestamp": "2026-04-29 06:00",
+          "temperature_c": 68.0,
+          "vibration_mm_s": 0.922
+        },
+        {
+          "timestamp": "2026-04-29 07:00",
+          "temperature_c": 64.2,
+          "vibration_mm_s": 0.93
+        },
+        {
+          "timestamp": "2026-04-29 08:00",
+          "temperature_c": 64.5,
+          "vibration_mm_s": 0.945
+        },
+        {
+          "timestamp": "2026-04-29 09:00",
+          "temperature_c": 67.1,
+          "vibration_mm_s": 0.974
+        },
+        {
+          "timestamp": "2026-04-29 10:00",
+          "temperature_c": 63.2,
+          "vibration_mm_s": 0.791
+        },
+        {
+          "timestamp": "2026-04-29 11:00",
+          "temperature_c": 64.1,
+          "vibration_mm_s": 0.866
+        },
+        {
+          "timestamp": "2026-04-29 12:00",
+          "temperature_c": 62.5,
+          "vibration_mm_s": 0.889
+        },
+        {
+          "timestamp": "2026-04-29 13:00",
+          "temperature_c": 66.5,
+          "vibration_mm_s": 0.795
+        },
+        {
+          "timestamp": "2026-04-29 14:00",
+          "temperature_c": 66.5,
+          "vibration_mm_s": 0.946
+        },
+        {
+          "timestamp": "2026-04-29 15:00",
+          "temperature_c": 64.6,
+          "vibration_mm_s": 0.827
+        },
+        {
+          "timestamp": "2026-04-29 16:00",
+          "temperature_c": 63.6,
+          "vibration_mm_s": 0.948
+        },
+        {
+          "timestamp": "2026-04-29 17:00",
+          "temperature_c": 64.1,
+          "vibration_mm_s": 0.86
+        },
+        {
+          "timestamp": "2026-04-29 18:00",
+          "temperature_c": 65.0,
+          "vibration_mm_s": 0.934
+        },
+        {
+          "timestamp": "2026-04-29 19:00",
+          "temperature_c": 66.1,
+          "vibration_mm_s": 0.912
+        },
+        {
+          "timestamp": "2026-04-29 20:00",
+          "temperature_c": 65.3,
+          "vibration_mm_s": 0.9
+        },
+        {
+          "timestamp": "2026-04-29 21:00",
+          "temperature_c": 66.5,
+          "vibration_mm_s": 0.938
+        },
+        {
+          "timestamp": "2026-04-29 22:00",
+          "temperature_c": 64.8,
+          "vibration_mm_s": 0.801
+        },
+        {
+          "timestamp": "2026-04-29 23:00",
+          "temperature_c": 64.0,
+          "vibration_mm_s": 0.874
+        },
+        {
+          "timestamp": "2026-04-30 00:00",
+          "temperature_c": 63.2,
+          "vibration_mm_s": 0.929
+        },
+        {
+          "timestamp": "2026-04-30 01:00",
+          "temperature_c": 64.5,
+          "vibration_mm_s": 0.891
+        },
+        {
+          "timestamp": "2026-04-30 02:00",
+          "temperature_c": 67.4,
+          "vibration_mm_s": 0.89
+        },
+        {
+          "timestamp": "2026-04-30 03:00",
+          "temperature_c": 65.0,
+          "vibration_mm_s": 0.939
+        },
+        {
+          "timestamp": "2026-04-30 04:00",
+          "temperature_c": 64.3,
+          "vibration_mm_s": 0.891
+        },
+        {
+          "timestamp": "2026-04-30 05:00",
+          "temperature_c": 63.7,
+          "vibration_mm_s": 0.896
+        },
+        {
+          "timestamp": "2026-04-30 06:00",
+          "temperature_c": 65.6,
+          "vibration_mm_s": 0.92
+        },
+        {
+          "timestamp": "2026-04-30 07:00",
+          "temperature_c": 63.6,
+          "vibration_mm_s": 0.845
+        },
+        {
+          "timestamp": "2026-04-30 08:00",
+          "temperature_c": 64.5,
+          "vibration_mm_s": 0.826
+        },
+        {
+          "timestamp": "2026-04-30 09:00",
+          "temperature_c": 65.8,
+          "vibration_mm_s": 0.831
+        },
+        {
+          "timestamp": "2026-04-30 10:00",
+          "temperature_c": 66.4,
+          "vibration_mm_s": 0.812
+        },
+        {
+          "timestamp": "2026-04-30 11:00",
+          "temperature_c": 61.4,
+          "vibration_mm_s": 0.872
+        },
+        {
+          "timestamp": "2026-04-30 12:00",
+          "temperature_c": 65.2,
+          "vibration_mm_s": 0.818
+        },
+        {
+          "timestamp": "2026-04-30 13:00",
+          "temperature_c": 68.9,
+          "vibration_mm_s": 0.872
+        },
+        {
+          "timestamp": "2026-04-30 14:00",
+          "temperature_c": 66.4,
+          "vibration_mm_s": 0.852
+        },
+        {
+          "timestamp": "2026-04-30 15:00",
+          "temperature_c": 64.9,
+          "vibration_mm_s": 0.835
+        },
+        {
+          "timestamp": "2026-04-30 16:00",
+          "temperature_c": 65.0,
+          "vibration_mm_s": 0.835
+        },
+        {
+          "timestamp": "2026-04-30 17:00",
+          "temperature_c": 64.5,
+          "vibration_mm_s": 0.902
+        },
+        {
+          "timestamp": "2026-04-30 18:00",
+          "temperature_c": 68.0,
+          "vibration_mm_s": 0.886
+        },
+        {
+          "timestamp": "2026-04-30 19:00",
+          "temperature_c": 62.4,
+          "vibration_mm_s": 0.866
+        },
+        {
+          "timestamp": "2026-04-30 20:00",
+          "temperature_c": 67.7,
+          "vibration_mm_s": 0.915
+        },
+        {
+          "timestamp": "2026-04-30 21:00",
+          "temperature_c": 65.7,
+          "vibration_mm_s": 0.929
+        },
+        {
+          "timestamp": "2026-04-30 22:00",
+          "temperature_c": 65.1,
+          "vibration_mm_s": 0.854
+        },
+        {
+          "timestamp": "2026-04-30 23:00",
+          "temperature_c": 69.0,
+          "vibration_mm_s": 0.994
+        }
+      ]
+    },
+    {
+      "machine_id": "MCH-205",
+      "line": "Line A",
+      "is_new_machine": false,
+      "confidence": "high",
+      "method": "24h-lookahead LogisticRegression classifier",
+      "flag": "ok",
+      "risk_score": 0.0,
+      "as_of": "2026-04-30 23:00",
+      "current_temperature_c": 59.2,
+      "current_vibration_mm_s": 0.998,
+      "run_hours_since_maintenance": 1501,
+      "temp_baseline_mean_c": 58.1,
+      "vib_baseline_mean": 0.711,
+      "temp_zscore": 0.08,
+      "vib_zscore": 1.3,
+      "temp_change_6h_c": 0.61,
+      "vib_change_6h": 0.005,
+      "total_historical_failures": 1,
+      "risk_trend_14d": [
+        {
+          "date": "2026-04-16",
+          "risk_score": 0.0
+        },
+        {
+          "date": "2026-04-17",
+          "risk_score": 0.0
+        },
+        {
+          "date": "2026-04-18",
+          "risk_score": 0.0
+        },
+        {
+          "date": "2026-04-19",
+          "risk_score": 0.0
+        },
+        {
+          "date": "2026-04-20",
+          "risk_score": 0.0
+        },
+        {
+          "date": "2026-04-21",
+          "risk_score": 0.0
+        },
+        {
+          "date": "2026-04-22",
+          "risk_score": 0.0
+        },
+        {
+          "date": "2026-04-23",
+          "risk_score": 0.0
+        },
+        {
+          "date": "2026-04-24",
+          "risk_score": 0.0
+        },
+        {
+          "date": "2026-04-25",
+          "risk_score": 0.0
+        },
+        {
+          "date": "2026-04-26",
+          "risk_score": 0.0
+        },
+        {
+          "date": "2026-04-27",
+          "risk_score": 0.0
+        },
+        {
+          "date": "2026-04-28",
+          "risk_score": 0.0
+        },
+        {
+          "date": "2026-04-29",
+          "risk_score": 0.0
+        },
+        {
+          "date": "2026-04-30",
+          "risk_score": 0.0
+        }
+      ],
+      "sensor_history_72h": [
+        {
+          "timestamp": "2026-04-28 00:00",
+          "temperature_c": 55.4,
+          "vibration_mm_s": 0.923
+        },
+        {
+          "timestamp": "2026-04-28 01:00",
+          "temperature_c": 60.0,
+          "vibration_mm_s": 0.931
+        },
+        {
+          "timestamp": "2026-04-28 02:00",
+          "temperature_c": 61.4,
+          "vibration_mm_s": 0.965
+        },
+        {
+          "timestamp": "2026-04-28 03:00",
+          "temperature_c": 60.9,
+          "vibration_mm_s": 0.97
+        },
+        {
+          "timestamp": "2026-04-28 04:00",
+          "temperature_c": 60.4,
+          "vibration_mm_s": 0.872
+        },
+        {
+          "timestamp": "2026-04-28 05:00",
+          "temperature_c": 58.7,
+          "vibration_mm_s": 0.869
+        },
+        {
+          "timestamp": "2026-04-28 06:00",
+          "temperature_c": 60.1,
+          "vibration_mm_s": 0.958
+        },
+        {
+          "timestamp": "2026-04-28 07:00",
+          "temperature_c": 55.5,
+          "vibration_mm_s": 0.964
+        },
+        {
+          "timestamp": "2026-04-28 08:00",
+          "temperature_c": 58.8,
+          "vibration_mm_s": 0.915
+        },
+        {
+          "timestamp": "2026-04-28 09:00",
+          "temperature_c": 60.7,
+          "vibration_mm_s": 0.936
+        },
+        {
+          "timestamp": "2026-04-28 10:00",
+          "temperature_c": 58.0,
+          "vibration_mm_s": 0.947
+        },
+        {
+          "timestamp": "2026-04-28 11:00",
+          "temperature_c": 58.8,
+          "vibration_mm_s": 0.933
+        },
+        {
+          "timestamp": "2026-04-28 12:00",
+          "temperature_c": 57.7,
+          "vibration_mm_s": 0.921
+        },
+        {
+          "timestamp": "2026-04-28 13:00",
+          "temperature_c": 61.5,
+          "vibration_mm_s": 0.954
+        },
+        {
+          "timestamp": "2026-04-28 14:00",
+          "temperature_c": 58.9,
+          "vibration_mm_s": 0.99
+        },
+        {
+          "timestamp": "2026-04-28 15:00",
+          "temperature_c": 58.4,
+          "vibration_mm_s": 0.92
+        },
+        {
+          "timestamp": "2026-04-28 16:00",
+          "temperature_c": 58.0,
+          "vibration_mm_s": 0.875
+        },
+        {
+          "timestamp": "2026-04-28 17:00",
+          "temperature_c": 57.0,
+          "vibration_mm_s": 0.88
+        },
+        {
+          "timestamp": "2026-04-28 18:00",
+          "temperature_c": 60.5,
+          "vibration_mm_s": 0.959
+        },
+        {
+          "timestamp": "2026-04-28 19:00",
+          "temperature_c": 57.2,
+          "vibration_mm_s": 0.943
+        },
+        {
+          "timestamp": "2026-04-28 20:00",
+          "temperature_c": 61.5,
+          "vibration_mm_s": 0.882
+        },
+        {
+          "timestamp": "2026-04-28 21:00",
+          "temperature_c": 58.2,
+          "vibration_mm_s": 0.961
+        },
+        {
+          "timestamp": "2026-04-28 22:00",
+          "temperature_c": 58.5,
+          "vibration_mm_s": 0.933
+        },
+        {
+          "timestamp": "2026-04-28 23:00",
+          "temperature_c": 57.4,
+          "vibration_mm_s": 0.962
+        },
+        {
+          "timestamp": "2026-04-29 00:00",
+          "temperature_c": 55.2,
+          "vibration_mm_s": 0.922
+        },
+        {
+          "timestamp": "2026-04-29 01:00",
+          "temperature_c": 60.2,
+          "vibration_mm_s": 0.943
+        },
+        {
+          "timestamp": "2026-04-29 02:00",
+          "temperature_c": 57.9,
+          "vibration_mm_s": 0.986
+        },
+        {
+          "timestamp": "2026-04-29 03:00",
+          "temperature_c": 59.2,
+          "vibration_mm_s": 0.897
+        },
+        {
+          "timestamp": "2026-04-29 04:00",
+          "temperature_c": 56.3,
+          "vibration_mm_s": 0.88
+        },
+        {
+          "timestamp": "2026-04-29 05:00",
+          "temperature_c": 56.0,
+          "vibration_mm_s": 0.843
+        },
+        {
+          "timestamp": "2026-04-29 06:00",
+          "temperature_c": 61.8,
+          "vibration_mm_s": 0.917
+        },
+        {
+          "timestamp": "2026-04-29 07:00",
+          "temperature_c": 60.0,
+          "vibration_mm_s": 0.95
+        },
+        {
+          "timestamp": "2026-04-29 08:00",
+          "temperature_c": 60.2,
+          "vibration_mm_s": 1.016
+        },
+        {
+          "timestamp": "2026-04-29 09:00",
+          "temperature_c": 59.6,
+          "vibration_mm_s": 0.956
+        },
+        {
+          "timestamp": "2026-04-29 10:00",
+          "temperature_c": 59.6,
+          "vibration_mm_s": 0.847
+        },
+        {
+          "timestamp": "2026-04-29 11:00",
+          "temperature_c": 59.6,
+          "vibration_mm_s": 0.898
+        },
+        {
+          "timestamp": "2026-04-29 12:00",
+          "temperature_c": 60.4,
+          "vibration_mm_s": 0.946
+        },
+        {
+          "timestamp": "2026-04-29 13:00",
+          "temperature_c": 57.6,
+          "vibration_mm_s": 0.896
+        },
+        {
+          "timestamp": "2026-04-29 14:00",
+          "temperature_c": 60.2,
+          "vibration_mm_s": 0.944
+        },
+        {
+          "timestamp": "2026-04-29 15:00",
+          "temperature_c": 59.2,
+          "vibration_mm_s": 0.961
+        },
+        {
+          "timestamp": "2026-04-29 16:00",
+          "temperature_c": 59.9,
+          "vibration_mm_s": 0.958
+        },
+        {
+          "timestamp": "2026-04-29 17:00",
+          "temperature_c": 61.3,
+          "vibration_mm_s": 0.912
+        },
+        {
+          "timestamp": "2026-04-29 18:00",
+          "temperature_c": 60.9,
+          "vibration_mm_s": 0.929
+        },
+        {
+          "timestamp": "2026-04-29 19:00",
+          "temperature_c": 57.3,
+          "vibration_mm_s": 0.979
+        },
+        {
+          "timestamp": "2026-04-29 20:00",
+          "temperature_c": 56.2,
+          "vibration_mm_s": 0.946
+        },
+        {
+          "timestamp": "2026-04-29 21:00",
+          "temperature_c": 57.9,
+          "vibration_mm_s": 0.92
+        },
+        {
+          "timestamp": "2026-04-29 22:00",
+          "temperature_c": 57.0,
+          "vibration_mm_s": 0.937
+        },
+        {
+          "timestamp": "2026-04-29 23:00",
+          "temperature_c": 56.1,
+          "vibration_mm_s": 1.037
+        },
+        {
+          "timestamp": "2026-04-30 00:00",
+          "temperature_c": 57.9,
+          "vibration_mm_s": 0.974
+        },
+        {
+          "timestamp": "2026-04-30 01:00",
+          "temperature_c": 59.9,
+          "vibration_mm_s": 0.91
+        },
+        {
+          "timestamp": "2026-04-30 02:00",
+          "temperature_c": 58.3,
+          "vibration_mm_s": 0.996
+        },
+        {
+          "timestamp": "2026-04-30 03:00",
+          "temperature_c": 54.0,
+          "vibration_mm_s": 0.966
+        },
+        {
+          "timestamp": "2026-04-30 04:00",
+          "temperature_c": 59.2,
+          "vibration_mm_s": 0.917
+        },
+        {
+          "timestamp": "2026-04-30 05:00",
+          "temperature_c": 56.9,
+          "vibration_mm_s": 0.932
+        },
+        {
+          "timestamp": "2026-04-30 06:00",
+          "temperature_c": 58.5,
+          "vibration_mm_s": 1.017
+        },
+        {
+          "timestamp": "2026-04-30 07:00",
+          "temperature_c": 57.8,
+          "vibration_mm_s": 0.943
+        },
+        {
+          "timestamp": "2026-04-30 08:00",
+          "temperature_c": 59.3,
+          "vibration_mm_s": 0.984
+        },
+        {
+          "timestamp": "2026-04-30 09:00",
+          "temperature_c": 58.9,
+          "vibration_mm_s": 0.933
+        },
+        {
+          "timestamp": "2026-04-30 10:00",
+          "temperature_c": 58.1,
+          "vibration_mm_s": 0.825
+        },
+        {
+          "timestamp": "2026-04-30 11:00",
+          "temperature_c": 59.6,
+          "vibration_mm_s": 0.91
+        },
+        {
+          "timestamp": "2026-04-30 12:00",
+          "temperature_c": 57.7,
+          "vibration_mm_s": 0.938
+        },
+        {
+          "timestamp": "2026-04-30 13:00",
+          "temperature_c": 58.0,
+          "vibration_mm_s": 0.863
+        },
+        {
+          "timestamp": "2026-04-30 14:00",
+          "temperature_c": 58.7,
+          "vibration_mm_s": 0.938
+        },
+        {
+          "timestamp": "2026-04-30 15:00",
+          "temperature_c": 59.3,
+          "vibration_mm_s": 0.938
+        },
+        {
+          "timestamp": "2026-04-30 16:00",
+          "temperature_c": 59.4,
+          "vibration_mm_s": 1.036
+        },
+        {
+          "timestamp": "2026-04-30 17:00",
+          "temperature_c": 58.6,
+          "vibration_mm_s": 0.993
+        },
+        {
+          "timestamp": "2026-04-30 18:00",
+          "temperature_c": 57.9,
+          "vibration_mm_s": 0.916
+        },
+        {
+          "timestamp": "2026-04-30 19:00",
+          "temperature_c": 61.1,
+          "vibration_mm_s": 0.909
+        },
+        {
+          "timestamp": "2026-04-30 20:00",
+          "temperature_c": 57.9,
+          "vibration_mm_s": 0.979
+        },
+        {
+          "timestamp": "2026-04-30 21:00",
+          "temperature_c": 56.8,
+          "vibration_mm_s": 0.939
+        },
+        {
+          "timestamp": "2026-04-30 22:00",
+          "temperature_c": 57.0,
+          "vibration_mm_s": 1.025
+        },
+        {
+          "timestamp": "2026-04-30 23:00",
+          "temperature_c": 59.2,
+          "vibration_mm_s": 0.998
+        }
+      ]
+    },
+    {
+      "machine_id": "MCH-206",
+      "line": "Line B",
+      "is_new_machine": false,
+      "confidence": "high",
+      "method": "24h-lookahead LogisticRegression classifier",
+      "flag": "ok",
+      "risk_score": 0.0,
+      "as_of": "2026-04-30 23:00",
+      "current_temperature_c": 57.7,
+      "current_vibration_mm_s": 0.486,
+      "run_hours_since_maintenance": 235,
+      "temp_baseline_mean_c": 58.6,
+      "vib_baseline_mean": 0.522,
+      "temp_zscore": -0.42,
+      "vib_zscore": -0.38,
+      "temp_change_6h_c": 0.81,
+      "vib_change_6h": 0.042,
+      "total_historical_failures": 2,
+      "risk_trend_14d": [
+        {
+          "date": "2026-04-16",
+          "risk_score": 0.004
+        },
+        {
+          "date": "2026-04-17",
+          "risk_score": 0.022
+        },
+        {
+          "date": "2026-04-18",
+          "risk_score": 0.642
+        },
+        {
+          "date": "2026-04-19",
+          "risk_score": 0.964
+        },
+        {
+          "date": "2026-04-20",
+          "risk_score": 0.998
+        },
+        {
+          "date": "2026-04-21",
+          "risk_score": 0.997
+        },
+        {
+          "date": "2026-04-22",
+          "risk_score": 0.0
+        },
+        {
+          "date": "2026-04-23",
+          "risk_score": 0.0
+        },
+        {
+          "date": "2026-04-24",
+          "risk_score": 0.0
+        },
+        {
+          "date": "2026-04-25",
+          "risk_score": 0.0
+        },
+        {
+          "date": "2026-04-26",
+          "risk_score": 0.0
+        },
+        {
+          "date": "2026-04-27",
+          "risk_score": 0.0
+        },
+        {
+          "date": "2026-04-28",
+          "risk_score": 0.0
+        },
+        {
+          "date": "2026-04-29",
+          "risk_score": 0.0
+        },
+        {
+          "date": "2026-04-30",
+          "risk_score": 0.0
+        }
+      ],
+      "sensor_history_72h": [
+        {
+          "timestamp": "2026-04-28 00:00",
+          "temperature_c": 57.6,
+          "vibration_mm_s": 0.405
+        },
+        {
+          "timestamp": "2026-04-28 01:00",
+          "temperature_c": 56.4,
+          "vibration_mm_s": 0.416
+        },
+        {
+          "timestamp": "2026-04-28 02:00",
+          "temperature_c": 53.7,
+          "vibration_mm_s": 0.399
+        },
+        {
+          "timestamp": "2026-04-28 03:00",
+          "temperature_c": 55.5,
+          "vibration_mm_s": 0.544
+        },
+        {
+          "timestamp": "2026-04-28 04:00",
+          "temperature_c": 60.3,
+          "vibration_mm_s": 0.377
+        },
+        {
+          "timestamp": "2026-04-28 05:00",
+          "temperature_c": 58.2,
+          "vibration_mm_s": 0.442
+        },
+        {
+          "timestamp": "2026-04-28 06:00",
+          "temperature_c": 57.0,
+          "vibration_mm_s": 0.376
+        },
+        {
+          "timestamp": "2026-04-28 07:00",
+          "temperature_c": 58.9,
+          "vibration_mm_s": 0.393
+        },
+        {
+          "timestamp": "2026-04-28 08:00",
+          "temperature_c": 55.9,
+          "vibration_mm_s": 0.436
+        },
+        {
+          "timestamp": "2026-04-28 09:00",
+          "temperature_c": 57.4,
+          "vibration_mm_s": 0.523
+        },
+        {
+          "timestamp": "2026-04-28 10:00",
+          "temperature_c": 57.4,
+          "vibration_mm_s": 0.42
+        },
+        {
+          "timestamp": "2026-04-28 11:00",
+          "temperature_c": 56.4,
+          "vibration_mm_s": 0.414
+        },
+        {
+          "timestamp": "2026-04-28 12:00",
+          "temperature_c": 56.8,
+          "vibration_mm_s": 0.421
+        },
+        {
+          "timestamp": "2026-04-28 13:00",
+          "temperature_c": 56.1,
+          "vibration_mm_s": 0.444
+        },
+        {
+          "timestamp": "2026-04-28 14:00",
+          "temperature_c": 57.2,
+          "vibration_mm_s": 0.54
+        },
+        {
+          "timestamp": "2026-04-28 15:00",
+          "temperature_c": 56.9,
+          "vibration_mm_s": 0.394
+        },
+        {
+          "timestamp": "2026-04-28 16:00",
+          "temperature_c": 61.8,
+          "vibration_mm_s": 0.358
+        },
+        {
+          "timestamp": "2026-04-28 17:00",
+          "temperature_c": 57.5,
+          "vibration_mm_s": 0.404
+        },
+        {
+          "timestamp": "2026-04-28 18:00",
+          "temperature_c": 59.3,
+          "vibration_mm_s": 0.409
+        },
+        {
+          "timestamp": "2026-04-28 19:00",
+          "temperature_c": 57.0,
+          "vibration_mm_s": 0.355
+        },
+        {
+          "timestamp": "2026-04-28 20:00",
+          "temperature_c": 56.8,
+          "vibration_mm_s": 0.426
+        },
+        {
+          "timestamp": "2026-04-28 21:00",
+          "temperature_c": 58.3,
+          "vibration_mm_s": 0.385
+        },
+        {
+          "timestamp": "2026-04-28 22:00",
+          "temperature_c": 57.9,
+          "vibration_mm_s": 0.424
+        },
+        {
+          "timestamp": "2026-04-28 23:00",
+          "temperature_c": 58.8,
+          "vibration_mm_s": 0.427
+        },
+        {
+          "timestamp": "2026-04-29 00:00",
+          "temperature_c": 57.0,
+          "vibration_mm_s": 0.421
+        },
+        {
+          "timestamp": "2026-04-29 01:00",
+          "temperature_c": 58.4,
+          "vibration_mm_s": 0.372
+        },
+        {
+          "timestamp": "2026-04-29 02:00",
+          "temperature_c": 58.1,
+          "vibration_mm_s": 0.353
+        },
+        {
+          "timestamp": "2026-04-29 03:00",
+          "temperature_c": 59.1,
+          "vibration_mm_s": 0.39
+        },
+        {
+          "timestamp": "2026-04-29 04:00",
+          "temperature_c": 57.6,
+          "vibration_mm_s": 0.353
+        },
+        {
+          "timestamp": "2026-04-29 05:00",
+          "temperature_c": 58.4,
+          "vibration_mm_s": 0.399
+        },
+        {
+          "timestamp": "2026-04-29 06:00",
+          "temperature_c": 57.9,
+          "vibration_mm_s": 0.384
+        },
+        {
+          "timestamp": "2026-04-29 07:00",
+          "temperature_c": 57.6,
+          "vibration_mm_s": 0.408
+        },
+        {
+          "timestamp": "2026-04-29 08:00",
+          "temperature_c": 58.7,
+          "vibration_mm_s": 0.402
+        },
+        {
+          "timestamp": "2026-04-29 09:00",
+          "temperature_c": 57.7,
+          "vibration_mm_s": 0.45
+        },
+        {
+          "timestamp": "2026-04-29 10:00",
+          "temperature_c": 56.6,
+          "vibration_mm_s": 0.362
+        },
+        {
+          "timestamp": "2026-04-29 11:00",
+          "temperature_c": 56.9,
+          "vibration_mm_s": 0.381
+        },
+        {
+          "timestamp": "2026-04-29 12:00",
+          "temperature_c": 56.4,
+          "vibration_mm_s": 0.418
+        },
+        {
+          "timestamp": "2026-04-29 13:00",
+          "temperature_c": 58.3,
+          "vibration_mm_s": 0.452
+        },
+        {
+          "timestamp": "2026-04-29 14:00",
+          "temperature_c": 56.7,
+          "vibration_mm_s": 0.405
+        },
+        {
+          "timestamp": "2026-04-29 15:00",
+          "temperature_c": 57.0,
+          "vibration_mm_s": 0.401
+        },
+        {
+          "timestamp": "2026-04-29 16:00",
+          "temperature_c": 61.8,
+          "vibration_mm_s": 0.429
+        },
+        {
+          "timestamp": "2026-04-29 17:00",
+          "temperature_c": 58.7,
+          "vibration_mm_s": 0.386
+        },
+        {
+          "timestamp": "2026-04-29 18:00",
+          "temperature_c": 60.8,
+          "vibration_mm_s": 0.449
+        },
+        {
+          "timestamp": "2026-04-29 19:00",
+          "temperature_c": 58.7,
+          "vibration_mm_s": 0.435
+        },
+        {
+          "timestamp": "2026-04-29 20:00",
+          "temperature_c": 57.9,
+          "vibration_mm_s": 0.419
+        },
+        {
+          "timestamp": "2026-04-29 21:00",
+          "temperature_c": 57.8,
+          "vibration_mm_s": 0.408
+        },
+        {
+          "timestamp": "2026-04-29 22:00",
+          "temperature_c": 54.5,
+          "vibration_mm_s": 0.343
+        },
+        {
+          "timestamp": "2026-04-29 23:00",
+          "temperature_c": 55.0,
+          "vibration_mm_s": 0.408
+        },
+        {
+          "timestamp": "2026-04-30 00:00",
+          "temperature_c": 56.8,
+          "vibration_mm_s": 0.438
+        },
+        {
+          "timestamp": "2026-04-30 01:00",
+          "temperature_c": 60.5,
+          "vibration_mm_s": 0.383
+        },
+        {
+          "timestamp": "2026-04-30 02:00",
+          "temperature_c": 57.4,
+          "vibration_mm_s": 0.441
+        },
+        {
+          "timestamp": "2026-04-30 03:00",
+          "temperature_c": 57.9,
+          "vibration_mm_s": 0.363
+        },
+        {
+          "timestamp": "2026-04-30 04:00",
+          "temperature_c": 58.0,
+          "vibration_mm_s": 0.374
+        },
+        {
+          "timestamp": "2026-04-30 05:00",
+          "temperature_c": 57.4,
+          "vibration_mm_s": 0.362
+        },
+        {
+          "timestamp": "2026-04-30 06:00",
+          "temperature_c": 56.1,
+          "vibration_mm_s": 0.369
+        },
+        {
+          "timestamp": "2026-04-30 07:00",
+          "temperature_c": 58.4,
+          "vibration_mm_s": 0.377
+        },
+        {
+          "timestamp": "2026-04-30 08:00",
+          "temperature_c": 59.4,
+          "vibration_mm_s": 0.448
+        },
+        {
+          "timestamp": "2026-04-30 09:00",
+          "temperature_c": 56.3,
+          "vibration_mm_s": 0.33
+        },
+        {
+          "timestamp": "2026-04-30 10:00",
+          "temperature_c": 58.5,
+          "vibration_mm_s": 0.449
+        },
+        {
+          "timestamp": "2026-04-30 11:00",
+          "temperature_c": 56.3,
+          "vibration_mm_s": 0.334
+        },
+        {
+          "timestamp": "2026-04-30 12:00",
+          "temperature_c": 56.8,
+          "vibration_mm_s": 0.418
+        },
+        {
+          "timestamp": "2026-04-30 13:00",
+          "temperature_c": 57.3,
+          "vibration_mm_s": 0.382
+        },
+        {
+          "timestamp": "2026-04-30 14:00",
+          "temperature_c": 57.0,
+          "vibration_mm_s": 0.43
+        },
+        {
+          "timestamp": "2026-04-30 15:00",
+          "temperature_c": 59.9,
+          "vibration_mm_s": 0.501
+        },
+        {
+          "timestamp": "2026-04-30 16:00",
+          "temperature_c": 57.6,
+          "vibration_mm_s": 0.381
+        },
+        {
+          "timestamp": "2026-04-30 17:00",
+          "temperature_c": 56.9,
+          "vibration_mm_s": 0.444
+        },
+        {
+          "timestamp": "2026-04-30 18:00",
+          "temperature_c": 57.0,
+          "vibration_mm_s": 0.429
+        },
+        {
+          "timestamp": "2026-04-30 19:00",
+          "temperature_c": 58.1,
+          "vibration_mm_s": 0.462
+        },
+        {
+          "timestamp": "2026-04-30 20:00",
+          "temperature_c": 58.4,
+          "vibration_mm_s": 0.532
+        },
+        {
+          "timestamp": "2026-04-30 21:00",
+          "temperature_c": 55.3,
+          "vibration_mm_s": 0.453
+        },
+        {
+          "timestamp": "2026-04-30 22:00",
+          "temperature_c": 58.2,
+          "vibration_mm_s": 0.395
+        },
+        {
+          "timestamp": "2026-04-30 23:00",
+          "temperature_c": 57.7,
+          "vibration_mm_s": 0.486
+        }
+      ]
+    },
+    {
+      "machine_id": "MCH-207",
+      "line": "Line C",
+      "is_new_machine": false,
+      "confidence": "high",
+      "method": "24h-lookahead LogisticRegression classifier",
+      "flag": "ok",
+      "risk_score": 0.0,
+      "as_of": "2026-04-30 23:00",
+      "current_temperature_c": 60.4,
+      "current_vibration_mm_s": 0.767,
+      "run_hours_since_maintenance": 407,
+      "temp_baseline_mean_c": 61.2,
+      "vib_baseline_mean": 1.096,
+      "temp_zscore": -0.51,
+      "vib_zscore": -0.82,
+      "temp_change_6h_c": -0.06,
+      "vib_change_6h": 0.009,
+      "total_historical_failures": 1,
+      "risk_trend_14d": [
+        {
+          "date": "2026-04-16",
+          "risk_score": 0.0
+        },
+        {
+          "date": "2026-04-17",
+          "risk_score": 0.0
+        },
+        {
+          "date": "2026-04-18",
+          "risk_score": 0.0
+        },
+        {
+          "date": "2026-04-19",
+          "risk_score": 0.0
+        },
+        {
+          "date": "2026-04-20",
+          "risk_score": 0.0
+        },
+        {
+          "date": "2026-04-21",
+          "risk_score": 0.0
+        },
+        {
+          "date": "2026-04-22",
+          "risk_score": 0.0
+        },
+        {
+          "date": "2026-04-23",
+          "risk_score": 0.0
+        },
+        {
+          "date": "2026-04-24",
+          "risk_score": 0.0
+        },
+        {
+          "date": "2026-04-25",
+          "risk_score": 0.0
+        },
+        {
+          "date": "2026-04-26",
+          "risk_score": 0.0
+        },
+        {
+          "date": "2026-04-27",
+          "risk_score": 0.0
+        },
+        {
+          "date": "2026-04-28",
+          "risk_score": 0.0
+        },
+        {
+          "date": "2026-04-29",
+          "risk_score": 0.0
+        },
+        {
+          "date": "2026-04-30",
+          "risk_score": 0.0
+        }
+      ],
+      "sensor_history_72h": [
+        {
+          "timestamp": "2026-04-28 00:00",
+          "temperature_c": 60.7,
+          "vibration_mm_s": 0.754
+        },
+        {
+          "timestamp": "2026-04-28 01:00",
+          "temperature_c": 60.3,
+          "vibration_mm_s": 0.703
+        },
+        {
+          "timestamp": "2026-04-28 02:00",
+          "temperature_c": 58.3,
+          "vibration_mm_s": 0.676
+        },
+        {
+          "timestamp": "2026-04-28 03:00",
+          "temperature_c": 60.4,
+          "vibration_mm_s": 0.72
+        },
+        {
+          "timestamp": "2026-04-28 04:00",
+          "temperature_c": 59.5,
+          "vibration_mm_s": 0.652
+        },
+        {
+          "timestamp": "2026-04-28 05:00",
+          "temperature_c": 61.0,
+          "vibration_mm_s": 0.676
+        },
+        {
+          "timestamp": "2026-04-28 06:00",
+          "temperature_c": 60.7,
+          "vibration_mm_s": 0.797
+        },
+        {
+          "timestamp": "2026-04-28 07:00",
+          "temperature_c": 62.5,
+          "vibration_mm_s": 0.713
+        },
+        {
+          "timestamp": "2026-04-28 08:00",
+          "temperature_c": 60.0,
+          "vibration_mm_s": 0.684
+        },
+        {
+          "timestamp": "2026-04-28 09:00",
+          "temperature_c": 59.8,
+          "vibration_mm_s": 0.654
+        },
+        {
+          "timestamp": "2026-04-28 10:00",
+          "temperature_c": 60.6,
+          "vibration_mm_s": 0.638
+        },
+        {
+          "timestamp": "2026-04-28 11:00",
+          "temperature_c": 58.5,
+          "vibration_mm_s": 0.834
+        },
+        {
+          "timestamp": "2026-04-28 12:00",
+          "temperature_c": 63.1,
+          "vibration_mm_s": 0.8
+        },
+        {
+          "timestamp": "2026-04-28 13:00",
+          "temperature_c": 59.3,
+          "vibration_mm_s": 0.767
+        },
+        {
+          "timestamp": "2026-04-28 14:00",
+          "temperature_c": 62.9,
+          "vibration_mm_s": 0.694
+        },
+        {
+          "timestamp": "2026-04-28 15:00",
+          "temperature_c": 60.0,
+          "vibration_mm_s": 0.731
+        },
+        {
+          "timestamp": "2026-04-28 16:00",
+          "temperature_c": 58.7,
+          "vibration_mm_s": 0.726
+        },
+        {
+          "timestamp": "2026-04-28 17:00",
+          "temperature_c": 57.1,
+          "vibration_mm_s": 0.72
+        },
+        {
+          "timestamp": "2026-04-28 18:00",
+          "temperature_c": 58.7,
+          "vibration_mm_s": 0.746
+        },
+        {
+          "timestamp": "2026-04-28 19:00",
+          "temperature_c": 59.8,
+          "vibration_mm_s": 0.715
+        },
+        {
+          "timestamp": "2026-04-28 20:00",
+          "temperature_c": 61.1,
+          "vibration_mm_s": 0.718
+        },
+        {
+          "timestamp": "2026-04-28 21:00",
+          "temperature_c": 57.2,
+          "vibration_mm_s": 0.76
+        },
+        {
+          "timestamp": "2026-04-28 22:00",
+          "temperature_c": 57.6,
+          "vibration_mm_s": 0.782
+        },
+        {
+          "timestamp": "2026-04-28 23:00",
+          "temperature_c": 60.6,
+          "vibration_mm_s": 0.828
+        },
+        {
+          "timestamp": "2026-04-29 00:00",
+          "temperature_c": 59.2,
+          "vibration_mm_s": 0.645
+        },
+        {
+          "timestamp": "2026-04-29 01:00",
+          "temperature_c": 59.0,
+          "vibration_mm_s": 0.664
+        },
+        {
+          "timestamp": "2026-04-29 02:00",
+          "temperature_c": 60.2,
+          "vibration_mm_s": 0.757
+        },
+        {
+          "timestamp": "2026-04-29 03:00",
+          "temperature_c": 56.3,
+          "vibration_mm_s": 0.679
+        },
+        {
+          "timestamp": "2026-04-29 04:00",
+          "temperature_c": 61.2,
+          "vibration_mm_s": 0.728
+        },
+        {
+          "timestamp": "2026-04-29 05:00",
+          "temperature_c": 59.7,
+          "vibration_mm_s": 0.691
+        },
+        {
+          "timestamp": "2026-04-29 06:00",
+          "temperature_c": 60.2,
+          "vibration_mm_s": 0.738
+        },
+        {
+          "timestamp": "2026-04-29 07:00",
+          "temperature_c": 56.7,
+          "vibration_mm_s": 0.714
+        },
+        {
+          "timestamp": "2026-04-29 08:00",
+          "temperature_c": 60.5,
+          "vibration_mm_s": 0.779
+        },
+        {
+          "timestamp": "2026-04-29 09:00",
+          "temperature_c": 59.5,
+          "vibration_mm_s": 0.714
+        },
+        {
+          "timestamp": "2026-04-29 10:00",
+          "temperature_c": 61.6,
+          "vibration_mm_s": 0.729
+        },
+        {
+          "timestamp": "2026-04-29 11:00",
+          "temperature_c": 59.5,
+          "vibration_mm_s": 0.649
+        },
+        {
+          "timestamp": "2026-04-29 12:00",
+          "temperature_c": 58.0,
+          "vibration_mm_s": 0.708
+        },
+        {
+          "timestamp": "2026-04-29 13:00",
+          "temperature_c": 59.2,
+          "vibration_mm_s": 0.765
+        },
+        {
+          "timestamp": "2026-04-29 14:00",
+          "temperature_c": 63.6,
+          "vibration_mm_s": 0.734
+        },
+        {
+          "timestamp": "2026-04-29 15:00",
+          "temperature_c": 62.8,
+          "vibration_mm_s": 0.694
+        },
+        {
+          "timestamp": "2026-04-29 16:00",
+          "temperature_c": 61.4,
+          "vibration_mm_s": 0.808
+        },
+        {
+          "timestamp": "2026-04-29 17:00",
+          "temperature_c": 59.9,
+          "vibration_mm_s": 0.771
+        },
+        {
+          "timestamp": "2026-04-29 18:00",
+          "temperature_c": 59.6,
+          "vibration_mm_s": 0.731
+        },
+        {
+          "timestamp": "2026-04-29 19:00",
+          "temperature_c": 60.4,
+          "vibration_mm_s": 0.77
+        },
+        {
+          "timestamp": "2026-04-29 20:00",
+          "temperature_c": 60.2,
+          "vibration_mm_s": 0.659
+        },
+        {
+          "timestamp": "2026-04-29 21:00",
+          "temperature_c": 61.3,
+          "vibration_mm_s": 0.715
+        },
+        {
+          "timestamp": "2026-04-29 22:00",
+          "temperature_c": 61.9,
+          "vibration_mm_s": 0.726
+        },
+        {
+          "timestamp": "2026-04-29 23:00",
+          "temperature_c": 60.5,
+          "vibration_mm_s": 0.707
+        },
+        {
+          "timestamp": "2026-04-30 00:00",
+          "temperature_c": 59.3,
+          "vibration_mm_s": 0.842
+        },
+        {
+          "timestamp": "2026-04-30 01:00",
+          "temperature_c": 61.6,
+          "vibration_mm_s": 0.676
+        },
+        {
+          "timestamp": "2026-04-30 02:00",
+          "temperature_c": 59.2,
+          "vibration_mm_s": 0.786
+        },
+        {
+          "timestamp": "2026-04-30 03:00",
+          "temperature_c": 60.9,
+          "vibration_mm_s": 0.756
+        },
+        {
+          "timestamp": "2026-04-30 04:00",
+          "temperature_c": 60.9,
+          "vibration_mm_s": 0.762
+        },
+        {
+          "timestamp": "2026-04-30 05:00",
+          "temperature_c": 59.8,
+          "vibration_mm_s": 0.903
+        },
+        {
+          "timestamp": "2026-04-30 06:00",
+          "temperature_c": 60.6,
+          "vibration_mm_s": 0.763
+        },
+        {
+          "timestamp": "2026-04-30 07:00",
+          "temperature_c": 58.7,
+          "vibration_mm_s": 0.671
+        },
+        {
+          "timestamp": "2026-04-30 08:00",
+          "temperature_c": 60.2,
+          "vibration_mm_s": 0.766
+        },
+        {
+          "timestamp": "2026-04-30 09:00",
+          "temperature_c": 58.5,
+          "vibration_mm_s": 0.765
+        },
+        {
+          "timestamp": "2026-04-30 10:00",
+          "temperature_c": 60.2,
+          "vibration_mm_s": 0.855
+        },
+        {
+          "timestamp": "2026-04-30 11:00",
+          "temperature_c": 57.1,
+          "vibration_mm_s": 0.844
+        },
+        {
+          "timestamp": "2026-04-30 12:00",
+          "temperature_c": 57.6,
+          "vibration_mm_s": 0.717
+        },
+        {
+          "timestamp": "2026-04-30 13:00",
+          "temperature_c": 59.0,
+          "vibration_mm_s": 0.732
+        },
+        {
+          "timestamp": "2026-04-30 14:00",
+          "temperature_c": 63.6,
+          "vibration_mm_s": 0.745
+        },
+        {
+          "timestamp": "2026-04-30 15:00",
+          "temperature_c": 55.2,
+          "vibration_mm_s": 0.759
+        },
+        {
+          "timestamp": "2026-04-30 16:00",
+          "temperature_c": 60.5,
+          "vibration_mm_s": 0.763
+        },
+        {
+          "timestamp": "2026-04-30 17:00",
+          "temperature_c": 60.4,
+          "vibration_mm_s": 0.758
+        },
+        {
+          "timestamp": "2026-04-30 18:00",
+          "temperature_c": 58.3,
+          "vibration_mm_s": 0.816
+        },
+        {
+          "timestamp": "2026-04-30 19:00",
+          "temperature_c": 59.0,
+          "vibration_mm_s": 0.78
+        },
+        {
+          "timestamp": "2026-04-30 20:00",
+          "temperature_c": 62.0,
+          "vibration_mm_s": 0.745
+        },
+        {
+          "timestamp": "2026-04-30 21:00",
+          "temperature_c": 59.3,
+          "vibration_mm_s": 0.756
+        },
+        {
+          "timestamp": "2026-04-30 22:00",
+          "temperature_c": 60.6,
+          "vibration_mm_s": 0.767
+        },
+        {
+          "timestamp": "2026-04-30 23:00",
+          "temperature_c": 60.4,
+          "vibration_mm_s": 0.767
+        }
+      ]
+    },
+    {
+      "machine_id": "MCH-208",
+      "line": "Line A",
+      "is_new_machine": false,
+      "confidence": "high",
+      "method": "24h-lookahead LogisticRegression classifier",
+      "flag": "ok",
+      "risk_score": 0.0,
+      "as_of": "2026-04-30 23:00",
+      "current_temperature_c": 69.9,
+      "current_vibration_mm_s": 1.328,
+      "run_hours_since_maintenance": 1701,
+      "temp_baseline_mean_c": 69.7,
+      "vib_baseline_mean": 0.849,
+      "temp_zscore": 0.12,
+      "vib_zscore": 1.62,
+      "temp_change_6h_c": 1.28,
+      "vib_change_6h": -0.007,
+      "total_historical_failures": 1,
+      "risk_trend_14d": [
+        {
+          "date": "2026-04-16",
+          "risk_score": 0.0
+        },
+        {
+          "date": "2026-04-17",
+          "risk_score": 0.0
+        },
+        {
+          "date": "2026-04-18",
+          "risk_score": 0.0
+        },
+        {
+          "date": "2026-04-19",
+          "risk_score": 0.0
+        },
+        {
+          "date": "2026-04-20",
+          "risk_score": 0.0
+        },
+        {
+          "date": "2026-04-21",
+          "risk_score": 0.0
+        },
+        {
+          "date": "2026-04-22",
+          "risk_score": 0.0
+        },
+        {
+          "date": "2026-04-23",
+          "risk_score": 0.0
+        },
+        {
+          "date": "2026-04-24",
+          "risk_score": 0.0
+        },
+        {
+          "date": "2026-04-25",
+          "risk_score": 0.0
+        },
+        {
+          "date": "2026-04-26",
+          "risk_score": 0.0
+        },
+        {
+          "date": "2026-04-27",
+          "risk_score": 0.0
+        },
+        {
+          "date": "2026-04-28",
+          "risk_score": 0.0
+        },
+        {
+          "date": "2026-04-29",
+          "risk_score": 0.0
+        },
+        {
+          "date": "2026-04-30",
+          "risk_score": 0.0
+        }
+      ],
+      "sensor_history_72h": [
+        {
+          "timestamp": "2026-04-28 00:00",
+          "temperature_c": 72.4,
+          "vibration_mm_s": 1.116
+        },
+        {
+          "timestamp": "2026-04-28 01:00",
+          "temperature_c": 68.3,
+          "vibration_mm_s": 1.309
+        },
+        {
+          "timestamp": "2026-04-28 02:00",
+          "temperature_c": 70.7,
+          "vibration_mm_s": 1.206
+        },
+        {
+          "timestamp": "2026-04-28 03:00",
+          "temperature_c": 68.8,
+          "vibration_mm_s": 1.178
+        },
+        {
+          "timestamp": "2026-04-28 04:00",
+          "temperature_c": 70.4,
+          "vibration_mm_s": 1.209
+        },
+        {
+          "timestamp": "2026-04-28 05:00",
+          "temperature_c": 70.8,
+          "vibration_mm_s": 1.213
+        },
+        {
+          "timestamp": "2026-04-28 06:00",
+          "temperature_c": 67.7,
+          "vibration_mm_s": 1.247
+        },
+        {
+          "timestamp": "2026-04-28 07:00",
+          "temperature_c": 69.7,
+          "vibration_mm_s": 1.243
+        },
+        {
+          "timestamp": "2026-04-28 08:00",
+          "temperature_c": 71.4,
+          "vibration_mm_s": 1.293
+        },
+        {
+          "timestamp": "2026-04-28 09:00",
+          "temperature_c": 71.1,
+          "vibration_mm_s": 1.293
+        },
+        {
+          "timestamp": "2026-04-28 10:00",
+          "temperature_c": 71.0,
+          "vibration_mm_s": 1.289
+        },
+        {
+          "timestamp": "2026-04-28 11:00",
+          "temperature_c": 72.5,
+          "vibration_mm_s": 1.191
+        },
+        {
+          "timestamp": "2026-04-28 12:00",
+          "temperature_c": 69.5,
+          "vibration_mm_s": 1.291
+        },
+        {
+          "timestamp": "2026-04-28 13:00",
+          "temperature_c": 70.8,
+          "vibration_mm_s": 1.168
+        },
+        {
+          "timestamp": "2026-04-28 14:00",
+          "temperature_c": 70.0,
+          "vibration_mm_s": 1.169
+        },
+        {
+          "timestamp": "2026-04-28 15:00",
+          "temperature_c": 68.7,
+          "vibration_mm_s": 1.314
+        },
+        {
+          "timestamp": "2026-04-28 16:00",
+          "temperature_c": 68.5,
+          "vibration_mm_s": 1.219
+        },
+        {
+          "timestamp": "2026-04-28 17:00",
+          "temperature_c": 68.1,
+          "vibration_mm_s": 1.245
+        },
+        {
+          "timestamp": "2026-04-28 18:00",
+          "temperature_c": 68.4,
+          "vibration_mm_s": 1.285
+        },
+        {
+          "timestamp": "2026-04-28 19:00",
+          "temperature_c": 67.5,
+          "vibration_mm_s": 1.266
+        },
+        {
+          "timestamp": "2026-04-28 20:00",
+          "temperature_c": 71.2,
+          "vibration_mm_s": 1.263
+        },
+        {
+          "timestamp": "2026-04-28 21:00",
+          "temperature_c": 71.8,
+          "vibration_mm_s": 1.182
+        },
+        {
+          "timestamp": "2026-04-28 22:00",
+          "temperature_c": 71.6,
+          "vibration_mm_s": 1.271
+        },
+        {
+          "timestamp": "2026-04-28 23:00",
+          "temperature_c": 70.3,
+          "vibration_mm_s": 1.17
+        },
+        {
+          "timestamp": "2026-04-29 00:00",
+          "temperature_c": 67.0,
+          "vibration_mm_s": 1.249
+        },
+        {
+          "timestamp": "2026-04-29 01:00",
+          "temperature_c": 70.0,
+          "vibration_mm_s": 1.319
+        },
+        {
+          "timestamp": "2026-04-29 02:00",
+          "temperature_c": 72.0,
+          "vibration_mm_s": 1.227
+        },
+        {
+          "timestamp": "2026-04-29 03:00",
+          "temperature_c": 69.6,
+          "vibration_mm_s": 1.249
+        },
+        {
+          "timestamp": "2026-04-29 04:00",
+          "temperature_c": 71.0,
+          "vibration_mm_s": 1.367
+        },
+        {
+          "timestamp": "2026-04-29 05:00",
+          "temperature_c": 69.5,
+          "vibration_mm_s": 1.293
+        },
+        {
+          "timestamp": "2026-04-29 06:00",
+          "temperature_c": 72.0,
+          "vibration_mm_s": 1.279
+        },
+        {
+          "timestamp": "2026-04-29 07:00",
+          "temperature_c": 68.3,
+          "vibration_mm_s": 1.33
+        },
+        {
+          "timestamp": "2026-04-29 08:00",
+          "temperature_c": 72.6,
+          "vibration_mm_s": 1.279
+        },
+        {
+          "timestamp": "2026-04-29 09:00",
+          "temperature_c": 69.3,
+          "vibration_mm_s": 1.288
+        },
+        {
+          "timestamp": "2026-04-29 10:00",
+          "temperature_c": 71.0,
+          "vibration_mm_s": 1.306
+        },
+        {
+          "timestamp": "2026-04-29 11:00",
+          "temperature_c": 70.0,
+          "vibration_mm_s": 1.163
+        },
+        {
+          "timestamp": "2026-04-29 12:00",
+          "temperature_c": 72.5,
+          "vibration_mm_s": 1.345
+        },
+        {
+          "timestamp": "2026-04-29 13:00",
+          "temperature_c": 68.6,
+          "vibration_mm_s": 1.24
+        },
+        {
+          "timestamp": "2026-04-29 14:00",
+          "temperature_c": 70.2,
+          "vibration_mm_s": 1.282
+        },
+        {
+          "timestamp": "2026-04-29 15:00",
+          "temperature_c": 72.1,
+          "vibration_mm_s": 1.283
+        },
+        {
+          "timestamp": "2026-04-29 16:00",
+          "temperature_c": 67.6,
+          "vibration_mm_s": 1.273
+        },
+        {
+          "timestamp": "2026-04-29 17:00",
+          "temperature_c": 68.6,
+          "vibration_mm_s": 1.272
+        },
+        {
+          "timestamp": "2026-04-29 18:00",
+          "temperature_c": 70.5,
+          "vibration_mm_s": 1.301
+        },
+        {
+          "timestamp": "2026-04-29 19:00",
+          "temperature_c": 67.8,
+          "vibration_mm_s": 1.287
+        },
+        {
+          "timestamp": "2026-04-29 20:00",
+          "temperature_c": 69.3,
+          "vibration_mm_s": 1.15
+        },
+        {
+          "timestamp": "2026-04-29 21:00",
+          "temperature_c": 67.6,
+          "vibration_mm_s": 1.315
+        },
+        {
+          "timestamp": "2026-04-29 22:00",
+          "temperature_c": 70.5,
+          "vibration_mm_s": 1.377
+        },
+        {
+          "timestamp": "2026-04-29 23:00",
+          "temperature_c": 70.1,
+          "vibration_mm_s": 1.279
+        },
+        {
+          "timestamp": "2026-04-30 00:00",
+          "temperature_c": 70.8,
+          "vibration_mm_s": 1.359
+        },
+        {
+          "timestamp": "2026-04-30 01:00",
+          "temperature_c": 69.2,
+          "vibration_mm_s": 1.267
+        },
+        {
+          "timestamp": "2026-04-30 02:00",
+          "temperature_c": 69.2,
+          "vibration_mm_s": 1.23
+        },
+        {
+          "timestamp": "2026-04-30 03:00",
+          "temperature_c": 70.0,
+          "vibration_mm_s": 1.246
+        },
+        {
+          "timestamp": "2026-04-30 04:00",
+          "temperature_c": 73.0,
+          "vibration_mm_s": 1.345
+        },
+        {
+          "timestamp": "2026-04-30 05:00",
+          "temperature_c": 72.0,
+          "vibration_mm_s": 1.296
+        },
+        {
+          "timestamp": "2026-04-30 06:00",
+          "temperature_c": 71.4,
+          "vibration_mm_s": 1.306
+        },
+        {
+          "timestamp": "2026-04-30 07:00",
+          "temperature_c": 67.0,
+          "vibration_mm_s": 1.272
+        },
+        {
+          "timestamp": "2026-04-30 08:00",
+          "temperature_c": 70.8,
+          "vibration_mm_s": 1.211
+        },
+        {
+          "timestamp": "2026-04-30 09:00",
+          "temperature_c": 68.9,
+          "vibration_mm_s": 1.36
+        },
+        {
+          "timestamp": "2026-04-30 10:00",
+          "temperature_c": 71.0,
+          "vibration_mm_s": 1.238
+        },
+        {
+          "timestamp": "2026-04-30 11:00",
+          "temperature_c": 72.5,
+          "vibration_mm_s": 1.264
+        },
+        {
+          "timestamp": "2026-04-30 12:00",
+          "temperature_c": 69.9,
+          "vibration_mm_s": 1.336
+        },
+        {
+          "timestamp": "2026-04-30 13:00",
+          "temperature_c": 73.0,
+          "vibration_mm_s": 1.307
+        },
+        {
+          "timestamp": "2026-04-30 14:00",
+          "temperature_c": 70.8,
+          "vibration_mm_s": 1.348
+        },
+        {
+          "timestamp": "2026-04-30 15:00",
+          "temperature_c": 71.3,
+          "vibration_mm_s": 1.374
+        },
+        {
+          "timestamp": "2026-04-30 16:00",
+          "temperature_c": 70.5,
+          "vibration_mm_s": 1.262
+        },
+        {
+          "timestamp": "2026-04-30 17:00",
+          "temperature_c": 68.6,
+          "vibration_mm_s": 1.335
+        },
+        {
+          "timestamp": "2026-04-30 18:00",
+          "temperature_c": 70.7,
+          "vibration_mm_s": 1.166
+        },
+        {
+          "timestamp": "2026-04-30 19:00",
+          "temperature_c": 68.8,
+          "vibration_mm_s": 1.274
+        },
+        {
+          "timestamp": "2026-04-30 20:00",
+          "temperature_c": 70.2,
+          "vibration_mm_s": 1.285
+        },
+        {
+          "timestamp": "2026-04-30 21:00",
+          "temperature_c": 69.3,
+          "vibration_mm_s": 1.231
+        },
+        {
+          "timestamp": "2026-04-30 22:00",
+          "temperature_c": 70.7,
+          "vibration_mm_s": 1.24
+        },
+        {
+          "timestamp": "2026-04-30 23:00",
+          "temperature_c": 69.9,
+          "vibration_mm_s": 1.328
+        }
+      ]
+    },
+    {
+      "machine_id": "MCH-209",
+      "line": "Line C",
+      "is_new_machine": false,
+      "confidence": "high",
+      "method": "24h-lookahead LogisticRegression classifier",
+      "flag": "ok",
+      "risk_score": 0.0,
+      "as_of": "2026-04-30 23:00",
+      "current_temperature_c": 71.6,
+      "current_vibration_mm_s": 0.711,
+      "run_hours_since_maintenance": 976,
+      "temp_baseline_mean_c": 69.8,
+      "vib_baseline_mean": 0.636,
+      "temp_zscore": 0.11,
+      "vib_zscore": 0.6,
+      "temp_change_6h_c": -0.22,
+      "vib_change_6h": -0.046,
+      "total_historical_failures": 1,
+      "risk_trend_14d": [
+        {
+          "date": "2026-04-16",
+          "risk_score": 0.0
+        },
+        {
+          "date": "2026-04-17",
+          "risk_score": 0.0
+        },
+        {
+          "date": "2026-04-18",
+          "risk_score": 0.0
+        },
+        {
+          "date": "2026-04-19",
+          "risk_score": 0.0
+        },
+        {
+          "date": "2026-04-20",
+          "risk_score": 0.0
+        },
+        {
+          "date": "2026-04-21",
+          "risk_score": 0.0
+        },
+        {
+          "date": "2026-04-22",
+          "risk_score": 0.0
+        },
+        {
+          "date": "2026-04-23",
+          "risk_score": 0.0
+        },
+        {
+          "date": "2026-04-24",
+          "risk_score": 0.0
+        },
+        {
+          "date": "2026-04-25",
+          "risk_score": 0.0
+        },
+        {
+          "date": "2026-04-26",
+          "risk_score": 0.0
+        },
+        {
+          "date": "2026-04-27",
+          "risk_score": 0.0
+        },
+        {
+          "date": "2026-04-28",
+          "risk_score": 0.0
+        },
+        {
+          "date": "2026-04-29",
+          "risk_score": 0.0
+        },
+        {
+          "date": "2026-04-30",
+          "risk_score": 0.0
+        }
+      ],
+      "sensor_history_72h": [
+        {
+          "timestamp": "2026-04-28 00:00",
+          "temperature_c": 72.7,
+          "vibration_mm_s": 0.73
+        },
+        {
+          "timestamp": "2026-04-28 01:00",
+          "temperature_c": 67.9,
+          "vibration_mm_s": 0.665
+        },
+        {
+          "timestamp": "2026-04-28 02:00",
+          "temperature_c": 70.7,
+          "vibration_mm_s": 0.664
+        },
+        {
+          "timestamp": "2026-04-28 03:00",
+          "temperature_c": 70.9,
+          "vibration_mm_s": 0.728
+        },
+        {
+          "timestamp": "2026-04-28 04:00",
+          "temperature_c": 68.0,
+          "vibration_mm_s": 0.79
+        },
+        {
+          "timestamp": "2026-04-28 05:00",
+          "temperature_c": 73.3,
+          "vibration_mm_s": 0.745
+        },
+        {
+          "timestamp": "2026-04-28 06:00",
+          "temperature_c": 68.7,
+          "vibration_mm_s": 0.766
+        },
+        {
+          "timestamp": "2026-04-28 07:00",
+          "temperature_c": 65.9,
+          "vibration_mm_s": 0.724
+        },
+        {
+          "timestamp": "2026-04-28 08:00",
+          "temperature_c": 72.7,
+          "vibration_mm_s": 0.738
+        },
+        {
+          "timestamp": "2026-04-28 09:00",
+          "temperature_c": 71.3,
+          "vibration_mm_s": 0.753
+        },
+        {
+          "timestamp": "2026-04-28 10:00",
+          "temperature_c": 72.1,
+          "vibration_mm_s": 0.644
+        },
+        {
+          "timestamp": "2026-04-28 11:00",
+          "temperature_c": 68.2,
+          "vibration_mm_s": 0.765
+        },
+        {
+          "timestamp": "2026-04-28 12:00",
+          "temperature_c": 70.0,
+          "vibration_mm_s": 0.723
+        },
+        {
+          "timestamp": "2026-04-28 13:00",
+          "temperature_c": 69.8,
+          "vibration_mm_s": 0.804
+        },
+        {
+          "timestamp": "2026-04-28 14:00",
+          "temperature_c": 69.6,
+          "vibration_mm_s": 0.745
+        },
+        {
+          "timestamp": "2026-04-28 15:00",
+          "temperature_c": 69.9,
+          "vibration_mm_s": 0.731
+        },
+        {
+          "timestamp": "2026-04-28 16:00",
+          "temperature_c": 68.9,
+          "vibration_mm_s": 0.69
+        },
+        {
+          "timestamp": "2026-04-28 17:00",
+          "temperature_c": 69.3,
+          "vibration_mm_s": 0.723
+        },
+        {
+          "timestamp": "2026-04-28 18:00",
+          "temperature_c": 70.8,
+          "vibration_mm_s": 0.669
+        },
+        {
+          "timestamp": "2026-04-28 19:00",
+          "temperature_c": 70.9,
+          "vibration_mm_s": 0.74
+        },
+        {
+          "timestamp": "2026-04-28 20:00",
+          "temperature_c": 70.4,
+          "vibration_mm_s": 0.774
+        },
+        {
+          "timestamp": "2026-04-28 21:00",
+          "temperature_c": 71.4,
+          "vibration_mm_s": 0.719
+        },
+        {
+          "timestamp": "2026-04-28 22:00",
+          "temperature_c": 71.8,
+          "vibration_mm_s": 0.718
+        },
+        {
+          "timestamp": "2026-04-28 23:00",
+          "temperature_c": 68.6,
+          "vibration_mm_s": 0.8
+        },
+        {
+          "timestamp": "2026-04-29 00:00",
+          "temperature_c": 70.6,
+          "vibration_mm_s": 0.762
+        },
+        {
+          "timestamp": "2026-04-29 01:00",
+          "temperature_c": 69.2,
+          "vibration_mm_s": 0.75
+        },
+        {
+          "timestamp": "2026-04-29 02:00",
+          "temperature_c": 68.4,
+          "vibration_mm_s": 0.72
+        },
+        {
+          "timestamp": "2026-04-29 03:00",
+          "temperature_c": 68.3,
+          "vibration_mm_s": 0.82
+        },
+        {
+          "timestamp": "2026-04-29 04:00",
+          "temperature_c": 69.3,
+          "vibration_mm_s": 0.781
+        },
+        {
+          "timestamp": "2026-04-29 05:00",
+          "temperature_c": 69.4,
+          "vibration_mm_s": 0.739
+        },
+        {
+          "timestamp": "2026-04-29 06:00",
+          "temperature_c": 70.5,
+          "vibration_mm_s": 0.677
+        },
+        {
+          "timestamp": "2026-04-29 07:00",
+          "temperature_c": 71.7,
+          "vibration_mm_s": 0.731
+        },
+        {
+          "timestamp": "2026-04-29 08:00",
+          "temperature_c": 68.5,
+          "vibration_mm_s": 0.716
+        },
+        {
+          "timestamp": "2026-04-29 09:00",
+          "temperature_c": 68.7,
+          "vibration_mm_s": 0.73
+        },
+        {
+          "timestamp": "2026-04-29 10:00",
+          "temperature_c": 71.8,
+          "vibration_mm_s": 0.811
+        },
+        {
+          "timestamp": "2026-04-29 11:00",
+          "temperature_c": 69.6,
+          "vibration_mm_s": 0.71
+        },
+        {
+          "timestamp": "2026-04-29 12:00",
+          "temperature_c": 71.2,
+          "vibration_mm_s": 0.776
+        },
+        {
+          "timestamp": "2026-04-29 13:00",
+          "temperature_c": 69.2,
+          "vibration_mm_s": 0.8
+        },
+        {
+          "timestamp": "2026-04-29 14:00",
+          "temperature_c": 70.3,
+          "vibration_mm_s": 0.757
+        },
+        {
+          "timestamp": "2026-04-29 15:00",
+          "temperature_c": 68.2,
+          "vibration_mm_s": 0.737
+        },
+        {
+          "timestamp": "2026-04-29 16:00",
+          "temperature_c": 70.5,
+          "vibration_mm_s": 0.791
+        },
+        {
+          "timestamp": "2026-04-29 17:00",
+          "temperature_c": 69.8,
+          "vibration_mm_s": 0.792
+        },
+        {
+          "timestamp": "2026-04-29 18:00",
+          "temperature_c": 72.4,
+          "vibration_mm_s": 0.861
+        },
+        {
+          "timestamp": "2026-04-29 19:00",
+          "temperature_c": 70.8,
+          "vibration_mm_s": 0.706
+        },
+        {
+          "timestamp": "2026-04-29 20:00",
+          "temperature_c": 69.0,
+          "vibration_mm_s": 0.74
+        },
+        {
+          "timestamp": "2026-04-29 21:00",
+          "temperature_c": 69.8,
+          "vibration_mm_s": 0.782
+        },
+        {
+          "timestamp": "2026-04-29 22:00",
+          "temperature_c": 70.5,
+          "vibration_mm_s": 0.725
+        },
+        {
+          "timestamp": "2026-04-29 23:00",
+          "temperature_c": 70.1,
+          "vibration_mm_s": 0.824
+        },
+        {
+          "timestamp": "2026-04-30 00:00",
+          "temperature_c": 70.9,
+          "vibration_mm_s": 0.836
+        },
+        {
+          "timestamp": "2026-04-30 01:00",
+          "temperature_c": 69.8,
+          "vibration_mm_s": 0.745
+        },
+        {
+          "timestamp": "2026-04-30 02:00",
+          "temperature_c": 70.1,
+          "vibration_mm_s": 0.713
+        },
+        {
+          "timestamp": "2026-04-30 03:00",
+          "temperature_c": 72.3,
+          "vibration_mm_s": 0.756
+        },
+        {
+          "timestamp": "2026-04-30 04:00",
+          "temperature_c": 70.8,
+          "vibration_mm_s": 0.758
+        },
+        {
+          "timestamp": "2026-04-30 05:00",
+          "temperature_c": 71.4,
+          "vibration_mm_s": 0.714
+        },
+        {
+          "timestamp": "2026-04-30 06:00",
+          "temperature_c": 69.8,
+          "vibration_mm_s": 0.748
+        },
+        {
+          "timestamp": "2026-04-30 07:00",
+          "temperature_c": 71.2,
+          "vibration_mm_s": 0.736
+        },
+        {
+          "timestamp": "2026-04-30 08:00",
+          "temperature_c": 67.8,
+          "vibration_mm_s": 0.759
+        },
+        {
+          "timestamp": "2026-04-30 09:00",
+          "temperature_c": 70.0,
+          "vibration_mm_s": 0.778
+        },
+        {
+          "timestamp": "2026-04-30 10:00",
+          "temperature_c": 70.9,
+          "vibration_mm_s": 0.775
+        },
+        {
+          "timestamp": "2026-04-30 11:00",
+          "temperature_c": 71.5,
+          "vibration_mm_s": 0.77
+        },
+        {
+          "timestamp": "2026-04-30 12:00",
+          "temperature_c": 69.3,
+          "vibration_mm_s": 0.782
+        },
+        {
+          "timestamp": "2026-04-30 13:00",
+          "temperature_c": 67.2,
+          "vibration_mm_s": 0.833
+        },
+        {
+          "timestamp": "2026-04-30 14:00",
+          "temperature_c": 71.3,
+          "vibration_mm_s": 0.704
+        },
+        {
+          "timestamp": "2026-04-30 15:00",
+          "temperature_c": 66.8,
+          "vibration_mm_s": 0.724
+        },
+        {
+          "timestamp": "2026-04-30 16:00",
+          "temperature_c": 66.9,
+          "vibration_mm_s": 0.721
+        },
+        {
+          "timestamp": "2026-04-30 17:00",
+          "temperature_c": 71.8,
+          "vibration_mm_s": 0.757
+        },
+        {
+          "timestamp": "2026-04-30 18:00",
+          "temperature_c": 67.3,
+          "vibration_mm_s": 0.686
+        },
+        {
+          "timestamp": "2026-04-30 19:00",
+          "temperature_c": 69.9,
+          "vibration_mm_s": 0.721
+        },
+        {
+          "timestamp": "2026-04-30 20:00",
+          "temperature_c": 69.6,
+          "vibration_mm_s": 0.738
+        },
+        {
+          "timestamp": "2026-04-30 21:00",
+          "temperature_c": 71.1,
+          "vibration_mm_s": 0.742
+        },
+        {
+          "timestamp": "2026-04-30 22:00",
+          "temperature_c": 70.7,
+          "vibration_mm_s": 0.828
+        },
+        {
+          "timestamp": "2026-04-30 23:00",
+          "temperature_c": 71.6,
+          "vibration_mm_s": 0.711
+        }
+      ]
+    },
+    {
+      "machine_id": "MCH-210",
+      "line": "Line A",
+      "is_new_machine": false,
+      "confidence": "high",
+      "method": "24h-lookahead LogisticRegression classifier",
+      "flag": "ok",
+      "risk_score": 0.0,
+      "as_of": "2026-04-30 23:00",
+      "current_temperature_c": 58.4,
+      "current_vibration_mm_s": 0.747,
+      "run_hours_since_maintenance": 433,
+      "temp_baseline_mean_c": 62.7,
+      "vib_baseline_mean": 0.931,
+      "temp_zscore": -0.78,
+      "vib_zscore": -0.46,
+      "temp_change_6h_c": -3.34,
+      "vib_change_6h": -0.082,
+      "total_historical_failures": 1,
+      "risk_trend_14d": [
+        {
+          "date": "2026-04-16",
+          "risk_score": 0.0
+        },
+        {
+          "date": "2026-04-17",
+          "risk_score": 0.0
+        },
+        {
+          "date": "2026-04-18",
+          "risk_score": 0.0
+        },
+        {
+          "date": "2026-04-19",
+          "risk_score": 0.0
+        },
+        {
+          "date": "2026-04-20",
+          "risk_score": 0.0
+        },
+        {
+          "date": "2026-04-21",
+          "risk_score": 0.0
+        },
+        {
+          "date": "2026-04-22",
+          "risk_score": 0.0
+        },
+        {
+          "date": "2026-04-23",
+          "risk_score": 0.0
+        },
+        {
+          "date": "2026-04-24",
+          "risk_score": 0.0
+        },
+        {
+          "date": "2026-04-25",
+          "risk_score": 0.0
+        },
+        {
+          "date": "2026-04-26",
+          "risk_score": 0.0
+        },
+        {
+          "date": "2026-04-27",
+          "risk_score": 0.0
+        },
+        {
+          "date": "2026-04-28",
+          "risk_score": 0.0
+        },
+        {
+          "date": "2026-04-29",
+          "risk_score": 0.0
+        },
+        {
+          "date": "2026-04-30",
+          "risk_score": 0.0
+        }
+      ],
+      "sensor_history_72h": [
+        {
+          "timestamp": "2026-04-28 00:00",
+          "temperature_c": 63.5,
+          "vibration_mm_s": 0.751
+        },
+        {
+          "timestamp": "2026-04-28 01:00",
+          "temperature_c": 62.1,
+          "vibration_mm_s": 0.809
+        },
+        {
+          "timestamp": "2026-04-28 02:00",
+          "temperature_c": 61.3,
+          "vibration_mm_s": 0.821
+        },
+        {
+          "timestamp": "2026-04-28 03:00",
+          "temperature_c": 63.3,
+          "vibration_mm_s": 0.809
+        },
+        {
+          "timestamp": "2026-04-28 04:00",
+          "temperature_c": 62.7,
+          "vibration_mm_s": 0.829
+        },
+        {
+          "timestamp": "2026-04-28 05:00",
+          "temperature_c": 63.2,
+          "vibration_mm_s": 0.877
+        },
+        {
+          "timestamp": "2026-04-28 06:00",
+          "temperature_c": 61.4,
+          "vibration_mm_s": 0.808
+        },
+        {
+          "timestamp": "2026-04-28 07:00",
+          "temperature_c": 59.7,
+          "vibration_mm_s": 0.74
+        },
+        {
+          "timestamp": "2026-04-28 08:00",
+          "temperature_c": 60.8,
+          "vibration_mm_s": 0.773
+        },
+        {
+          "timestamp": "2026-04-28 09:00",
+          "temperature_c": 64.7,
+          "vibration_mm_s": 0.828
+        },
+        {
+          "timestamp": "2026-04-28 10:00",
+          "temperature_c": 64.3,
+          "vibration_mm_s": 0.883
+        },
+        {
+          "timestamp": "2026-04-28 11:00",
+          "temperature_c": 61.2,
+          "vibration_mm_s": 0.642
+        },
+        {
+          "timestamp": "2026-04-28 12:00",
+          "temperature_c": 59.7,
+          "vibration_mm_s": 0.789
+        },
+        {
+          "timestamp": "2026-04-28 13:00",
+          "temperature_c": 63.5,
+          "vibration_mm_s": 0.713
+        },
+        {
+          "timestamp": "2026-04-28 14:00",
+          "temperature_c": 65.0,
+          "vibration_mm_s": 0.738
+        },
+        {
+          "timestamp": "2026-04-28 15:00",
+          "temperature_c": 62.2,
+          "vibration_mm_s": 0.758
+        },
+        {
+          "timestamp": "2026-04-28 16:00",
+          "temperature_c": 62.2,
+          "vibration_mm_s": 0.693
+        },
+        {
+          "timestamp": "2026-04-28 17:00",
+          "temperature_c": 63.0,
+          "vibration_mm_s": 0.79
+        },
+        {
+          "timestamp": "2026-04-28 18:00",
+          "temperature_c": 61.6,
+          "vibration_mm_s": 0.821
+        },
+        {
+          "timestamp": "2026-04-28 19:00",
+          "temperature_c": 60.7,
+          "vibration_mm_s": 0.877
+        },
+        {
+          "timestamp": "2026-04-28 20:00",
+          "temperature_c": 61.9,
+          "vibration_mm_s": 0.817
+        },
+        {
+          "timestamp": "2026-04-28 21:00",
+          "temperature_c": 62.2,
+          "vibration_mm_s": 0.79
+        },
+        {
+          "timestamp": "2026-04-28 22:00",
+          "temperature_c": 64.5,
+          "vibration_mm_s": 0.762
+        },
+        {
+          "timestamp": "2026-04-28 23:00",
+          "temperature_c": 61.5,
+          "vibration_mm_s": 0.813
+        },
+        {
+          "timestamp": "2026-04-29 00:00",
+          "temperature_c": 59.7,
+          "vibration_mm_s": 0.762
+        },
+        {
+          "timestamp": "2026-04-29 01:00",
+          "temperature_c": 62.8,
+          "vibration_mm_s": 0.778
+        },
+        {
+          "timestamp": "2026-04-29 02:00",
+          "temperature_c": 62.3,
+          "vibration_mm_s": 0.854
+        },
+        {
+          "timestamp": "2026-04-29 03:00",
+          "temperature_c": 61.6,
+          "vibration_mm_s": 0.719
+        },
+        {
+          "timestamp": "2026-04-29 04:00",
+          "temperature_c": 61.6,
+          "vibration_mm_s": 0.777
+        },
+        {
+          "timestamp": "2026-04-29 05:00",
+          "temperature_c": 62.8,
+          "vibration_mm_s": 0.788
+        },
+        {
+          "timestamp": "2026-04-29 06:00",
+          "temperature_c": 60.8,
+          "vibration_mm_s": 0.781
+        },
+        {
+          "timestamp": "2026-04-29 07:00",
+          "temperature_c": 62.2,
+          "vibration_mm_s": 0.869
+        },
+        {
+          "timestamp": "2026-04-29 08:00",
+          "temperature_c": 62.0,
+          "vibration_mm_s": 0.775
+        },
+        {
+          "timestamp": "2026-04-29 09:00",
+          "temperature_c": 60.9,
+          "vibration_mm_s": 0.803
+        },
+        {
+          "timestamp": "2026-04-29 10:00",
+          "temperature_c": 63.6,
+          "vibration_mm_s": 0.758
+        },
+        {
+          "timestamp": "2026-04-29 11:00",
+          "temperature_c": 62.2,
+          "vibration_mm_s": 0.851
+        },
+        {
+          "timestamp": "2026-04-29 12:00",
+          "temperature_c": 64.1,
+          "vibration_mm_s": 0.78
+        },
+        {
+          "timestamp": "2026-04-29 13:00",
+          "temperature_c": 60.4,
+          "vibration_mm_s": 0.709
+        },
+        {
+          "timestamp": "2026-04-29 14:00",
+          "temperature_c": 60.2,
+          "vibration_mm_s": 0.839
+        },
+        {
+          "timestamp": "2026-04-29 15:00",
+          "temperature_c": 61.7,
+          "vibration_mm_s": 0.825
+        },
+        {
+          "timestamp": "2026-04-29 16:00",
+          "temperature_c": 62.2,
+          "vibration_mm_s": 0.825
+        },
+        {
+          "timestamp": "2026-04-29 17:00",
+          "temperature_c": 62.7,
+          "vibration_mm_s": 0.815
+        },
+        {
+          "timestamp": "2026-04-29 18:00",
+          "temperature_c": 61.4,
+          "vibration_mm_s": 0.765
+        },
+        {
+          "timestamp": "2026-04-29 19:00",
+          "temperature_c": 60.4,
+          "vibration_mm_s": 0.858
+        },
+        {
+          "timestamp": "2026-04-29 20:00",
+          "temperature_c": 64.0,
+          "vibration_mm_s": 0.756
+        },
+        {
+          "timestamp": "2026-04-29 21:00",
+          "temperature_c": 64.0,
+          "vibration_mm_s": 0.813
+        },
+        {
+          "timestamp": "2026-04-29 22:00",
+          "temperature_c": 59.4,
+          "vibration_mm_s": 0.858
+        },
+        {
+          "timestamp": "2026-04-29 23:00",
+          "temperature_c": 65.1,
+          "vibration_mm_s": 0.818
+        },
+        {
+          "timestamp": "2026-04-30 00:00",
+          "temperature_c": 63.4,
+          "vibration_mm_s": 0.757
+        },
+        {
+          "timestamp": "2026-04-30 01:00",
+          "temperature_c": 63.7,
+          "vibration_mm_s": 0.757
+        },
+        {
+          "timestamp": "2026-04-30 02:00",
+          "temperature_c": 61.7,
+          "vibration_mm_s": 0.821
+        },
+        {
+          "timestamp": "2026-04-30 03:00",
+          "temperature_c": 62.3,
+          "vibration_mm_s": 0.739
+        },
+        {
+          "timestamp": "2026-04-30 04:00",
+          "temperature_c": 63.4,
+          "vibration_mm_s": 0.738
+        },
+        {
+          "timestamp": "2026-04-30 05:00",
+          "temperature_c": 59.6,
+          "vibration_mm_s": 0.825
+        },
+        {
+          "timestamp": "2026-04-30 06:00",
+          "temperature_c": 62.9,
+          "vibration_mm_s": 0.75
+        },
+        {
+          "timestamp": "2026-04-30 07:00",
+          "temperature_c": 62.6,
+          "vibration_mm_s": 0.8
+        },
+        {
+          "timestamp": "2026-04-30 08:00",
+          "temperature_c": 62.4,
+          "vibration_mm_s": 0.783
+        },
+        {
+          "timestamp": "2026-04-30 09:00",
+          "temperature_c": 62.0,
+          "vibration_mm_s": 0.825
+        },
+        {
+          "timestamp": "2026-04-30 10:00",
+          "temperature_c": 60.2,
+          "vibration_mm_s": 0.739
+        },
+        {
+          "timestamp": "2026-04-30 11:00",
+          "temperature_c": 63.5,
+          "vibration_mm_s": 0.88
+        },
+        {
+          "timestamp": "2026-04-30 12:00",
+          "temperature_c": 63.0,
+          "vibration_mm_s": 0.814
+        },
+        {
+          "timestamp": "2026-04-30 13:00",
+          "temperature_c": 62.2,
+          "vibration_mm_s": 0.743
+        },
+        {
+          "timestamp": "2026-04-30 14:00",
+          "temperature_c": 60.7,
+          "vibration_mm_s": 0.857
+        },
+        {
+          "timestamp": "2026-04-30 15:00",
+          "temperature_c": 61.5,
+          "vibration_mm_s": 0.875
+        },
+        {
+          "timestamp": "2026-04-30 16:00",
+          "temperature_c": 61.2,
+          "vibration_mm_s": 0.942
+        },
+        {
+          "timestamp": "2026-04-30 17:00",
+          "temperature_c": 61.7,
+          "vibration_mm_s": 0.829
+        },
+        {
+          "timestamp": "2026-04-30 18:00",
+          "temperature_c": 61.7,
+          "vibration_mm_s": 0.862
+        },
+        {
+          "timestamp": "2026-04-30 19:00",
+          "temperature_c": 60.9,
+          "vibration_mm_s": 0.81
+        },
+        {
+          "timestamp": "2026-04-30 20:00",
+          "temperature_c": 61.7,
+          "vibration_mm_s": 0.82
+        },
+        {
+          "timestamp": "2026-04-30 21:00",
+          "temperature_c": 61.0,
+          "vibration_mm_s": 0.851
+        },
+        {
+          "timestamp": "2026-04-30 22:00",
+          "temperature_c": 61.9,
+          "vibration_mm_s": 0.738
+        },
+        {
+          "timestamp": "2026-04-30 23:00",
+          "temperature_c": 58.4,
+          "vibration_mm_s": 0.747
+        }
+      ]
+    },
+    {
+      "machine_id": "MCH-211",
+      "line": "Line B",
+      "is_new_machine": false,
+      "confidence": "high",
+      "method": "24h-lookahead LogisticRegression classifier",
+      "flag": "ok",
+      "risk_score": 0.0,
+      "as_of": "2026-04-30 23:00",
+      "current_temperature_c": 56.9,
+      "current_vibration_mm_s": 0.556,
+      "run_hours_since_maintenance": 140,
+      "temp_baseline_mean_c": 58.0,
+      "vib_baseline_mean": 1.262,
+      "temp_zscore": -0.75,
+      "vib_zscore": -1.36,
+      "temp_change_6h_c": 0.21,
+      "vib_change_6h": -0.017,
+      "total_historical_failures": 1,
+      "risk_trend_14d": [
+        {
+          "date": "2026-04-16",
+          "risk_score": 0.0
+        },
+        {
+          "date": "2026-04-17",
+          "risk_score": 0.0
+        },
+        {
+          "date": "2026-04-18",
+          "risk_score": 0.0
+        },
+        {
+          "date": "2026-04-19",
+          "risk_score": 0.002
+        },
+        {
+          "date": "2026-04-20",
+          "risk_score": 0.016
+        },
+        {
+          "date": "2026-04-21",
+          "risk_score": 0.127
+        },
+        {
+          "date": "2026-04-22",
+          "risk_score": 0.491
+        },
+        {
+          "date": "2026-04-23",
+          "risk_score": 0.912
+        },
+        {
+          "date": "2026-04-24",
+          "risk_score": 0.974
+        },
+        {
+          "date": "2026-04-25",
+          "risk_score": 0.998
+        },
+        {
+          "date": "2026-04-26",
+          "risk_score": 0.0
+        },
+        {
+          "date": "2026-04-27",
+          "risk_score": 0.0
+        },
+        {
+          "date": "2026-04-28",
+          "risk_score": 0.0
+        },
+        {
+          "date": "2026-04-29",
+          "risk_score": 0.0
+        },
+        {
+          "date": "2026-04-30",
+          "risk_score": 0.0
+        }
+      ],
+      "sensor_history_72h": [
+        {
+          "timestamp": "2026-04-28 00:00",
+          "temperature_c": 57.4,
+          "vibration_mm_s": 0.644
+        },
+        {
+          "timestamp": "2026-04-28 01:00",
+          "temperature_c": 56.6,
+          "vibration_mm_s": 0.542
+        },
+        {
+          "timestamp": "2026-04-28 02:00",
+          "temperature_c": 55.3,
+          "vibration_mm_s": 0.674
+        },
+        {
+          "timestamp": "2026-04-28 03:00",
+          "temperature_c": 55.4,
+          "vibration_mm_s": 0.728
+        },
+        {
+          "timestamp": "2026-04-28 04:00",
+          "temperature_c": 56.8,
+          "vibration_mm_s": 0.609
+        },
+        {
+          "timestamp": "2026-04-28 05:00",
+          "temperature_c": 56.2,
+          "vibration_mm_s": 0.583
+        },
+        {
+          "timestamp": "2026-04-28 06:00",
+          "temperature_c": 54.0,
+          "vibration_mm_s": 0.552
+        },
+        {
+          "timestamp": "2026-04-28 07:00",
+          "temperature_c": 57.5,
+          "vibration_mm_s": 0.68
+        },
+        {
+          "timestamp": "2026-04-28 08:00",
+          "temperature_c": 58.0,
+          "vibration_mm_s": 0.635
+        },
+        {
+          "timestamp": "2026-04-28 09:00",
+          "temperature_c": 55.9,
+          "vibration_mm_s": 0.618
+        },
+        {
+          "timestamp": "2026-04-28 10:00",
+          "temperature_c": 56.0,
+          "vibration_mm_s": 0.598
+        },
+        {
+          "timestamp": "2026-04-28 11:00",
+          "temperature_c": 57.5,
+          "vibration_mm_s": 0.628
+        },
+        {
+          "timestamp": "2026-04-28 12:00",
+          "temperature_c": 56.1,
+          "vibration_mm_s": 0.692
+        },
+        {
+          "timestamp": "2026-04-28 13:00",
+          "temperature_c": 59.5,
+          "vibration_mm_s": 0.564
+        },
+        {
+          "timestamp": "2026-04-28 14:00",
+          "temperature_c": 53.7,
+          "vibration_mm_s": 0.631
+        },
+        {
+          "timestamp": "2026-04-28 15:00",
+          "temperature_c": 54.1,
+          "vibration_mm_s": 0.605
+        },
+        {
+          "timestamp": "2026-04-28 16:00",
+          "temperature_c": 57.2,
+          "vibration_mm_s": 0.618
+        },
+        {
+          "timestamp": "2026-04-28 17:00",
+          "temperature_c": 55.2,
+          "vibration_mm_s": 0.651
+        },
+        {
+          "timestamp": "2026-04-28 18:00",
+          "temperature_c": 57.8,
+          "vibration_mm_s": 0.636
+        },
+        {
+          "timestamp": "2026-04-28 19:00",
+          "temperature_c": 55.6,
+          "vibration_mm_s": 0.611
+        },
+        {
+          "timestamp": "2026-04-28 20:00",
+          "temperature_c": 57.6,
+          "vibration_mm_s": 0.648
+        },
+        {
+          "timestamp": "2026-04-28 21:00",
+          "temperature_c": 57.4,
+          "vibration_mm_s": 0.613
+        },
+        {
+          "timestamp": "2026-04-28 22:00",
+          "temperature_c": 56.2,
+          "vibration_mm_s": 0.573
+        },
+        {
+          "timestamp": "2026-04-28 23:00",
+          "temperature_c": 57.8,
+          "vibration_mm_s": 0.56
+        },
+        {
+          "timestamp": "2026-04-29 00:00",
+          "temperature_c": 57.8,
+          "vibration_mm_s": 0.619
+        },
+        {
+          "timestamp": "2026-04-29 01:00",
+          "temperature_c": 59.0,
+          "vibration_mm_s": 0.627
+        },
+        {
+          "timestamp": "2026-04-29 02:00",
+          "temperature_c": 55.0,
+          "vibration_mm_s": 0.589
+        },
+        {
+          "timestamp": "2026-04-29 03:00",
+          "temperature_c": 56.1,
+          "vibration_mm_s": 0.628
+        },
+        {
+          "timestamp": "2026-04-29 04:00",
+          "temperature_c": 56.3,
+          "vibration_mm_s": 0.689
+        },
+        {
+          "timestamp": "2026-04-29 05:00",
+          "temperature_c": 55.2,
+          "vibration_mm_s": 0.64
+        },
+        {
+          "timestamp": "2026-04-29 06:00",
+          "temperature_c": 56.3,
+          "vibration_mm_s": 0.591
+        },
+        {
+          "timestamp": "2026-04-29 07:00",
+          "temperature_c": 59.9,
+          "vibration_mm_s": 0.593
+        },
+        {
+          "timestamp": "2026-04-29 08:00",
+          "temperature_c": 57.3,
+          "vibration_mm_s": 0.675
+        },
+        {
+          "timestamp": "2026-04-29 09:00",
+          "temperature_c": 57.0,
+          "vibration_mm_s": 0.58
+        },
+        {
+          "timestamp": "2026-04-29 10:00",
+          "temperature_c": 56.0,
+          "vibration_mm_s": 0.682
+        },
+        {
+          "timestamp": "2026-04-29 11:00",
+          "temperature_c": 56.4,
+          "vibration_mm_s": 0.585
+        },
+        {
+          "timestamp": "2026-04-29 12:00",
+          "temperature_c": 55.7,
+          "vibration_mm_s": 0.576
+        },
+        {
+          "timestamp": "2026-04-29 13:00",
+          "temperature_c": 55.8,
+          "vibration_mm_s": 0.642
+        },
+        {
+          "timestamp": "2026-04-29 14:00",
+          "temperature_c": 56.9,
+          "vibration_mm_s": 0.666
+        },
+        {
+          "timestamp": "2026-04-29 15:00",
+          "temperature_c": 57.8,
+          "vibration_mm_s": 0.601
+        },
+        {
+          "timestamp": "2026-04-29 16:00",
+          "temperature_c": 57.5,
+          "vibration_mm_s": 0.557
+        },
+        {
+          "timestamp": "2026-04-29 17:00",
+          "temperature_c": 57.3,
+          "vibration_mm_s": 0.596
+        },
+        {
+          "timestamp": "2026-04-29 18:00",
+          "temperature_c": 55.9,
+          "vibration_mm_s": 0.673
+        },
+        {
+          "timestamp": "2026-04-29 19:00",
+          "temperature_c": 54.2,
+          "vibration_mm_s": 0.657
+        },
+        {
+          "timestamp": "2026-04-29 20:00",
+          "temperature_c": 57.3,
+          "vibration_mm_s": 0.703
+        },
+        {
+          "timestamp": "2026-04-29 21:00",
+          "temperature_c": 58.0,
+          "vibration_mm_s": 0.694
+        },
+        {
+          "timestamp": "2026-04-29 22:00",
+          "temperature_c": 57.1,
+          "vibration_mm_s": 0.6
+        },
+        {
+          "timestamp": "2026-04-29 23:00",
+          "temperature_c": 55.1,
+          "vibration_mm_s": 0.56
+        },
+        {
+          "timestamp": "2026-04-30 00:00",
+          "temperature_c": 58.9,
+          "vibration_mm_s": 0.609
+        },
+        {
+          "timestamp": "2026-04-30 01:00",
+          "temperature_c": 55.2,
+          "vibration_mm_s": 0.594
+        },
+        {
+          "timestamp": "2026-04-30 02:00",
+          "temperature_c": 56.0,
+          "vibration_mm_s": 0.572
+        },
+        {
+          "timestamp": "2026-04-30 03:00",
+          "temperature_c": 58.9,
+          "vibration_mm_s": 0.574
+        },
+        {
+          "timestamp": "2026-04-30 04:00",
+          "temperature_c": 54.9,
+          "vibration_mm_s": 0.663
+        },
+        {
+          "timestamp": "2026-04-30 05:00",
+          "temperature_c": 57.2,
+          "vibration_mm_s": 0.628
+        },
+        {
+          "timestamp": "2026-04-30 06:00",
+          "temperature_c": 57.9,
+          "vibration_mm_s": 0.693
+        },
+        {
+          "timestamp": "2026-04-30 07:00",
+          "temperature_c": 57.2,
+          "vibration_mm_s": 0.707
+        },
+        {
+          "timestamp": "2026-04-30 08:00",
+          "temperature_c": 54.1,
+          "vibration_mm_s": 0.698
+        },
+        {
+          "timestamp": "2026-04-30 09:00",
+          "temperature_c": 56.5,
+          "vibration_mm_s": 0.635
+        },
+        {
+          "timestamp": "2026-04-30 10:00",
+          "temperature_c": 55.5,
+          "vibration_mm_s": 0.634
+        },
+        {
+          "timestamp": "2026-04-30 11:00",
+          "temperature_c": 54.9,
+          "vibration_mm_s": 0.601
+        },
+        {
+          "timestamp": "2026-04-30 12:00",
+          "temperature_c": 53.9,
+          "vibration_mm_s": 0.59
+        },
+        {
+          "timestamp": "2026-04-30 13:00",
+          "temperature_c": 56.7,
+          "vibration_mm_s": 0.621
+        },
+        {
+          "timestamp": "2026-04-30 14:00",
+          "temperature_c": 55.8,
+          "vibration_mm_s": 0.623
+        },
+        {
+          "timestamp": "2026-04-30 15:00",
+          "temperature_c": 55.6,
+          "vibration_mm_s": 0.689
+        },
+        {
+          "timestamp": "2026-04-30 16:00",
+          "temperature_c": 54.2,
+          "vibration_mm_s": 0.664
+        },
+        {
+          "timestamp": "2026-04-30 17:00",
+          "temperature_c": 56.7,
+          "vibration_mm_s": 0.573
+        },
+        {
+          "timestamp": "2026-04-30 18:00",
+          "temperature_c": 56.3,
+          "vibration_mm_s": 0.657
+        },
+        {
+          "timestamp": "2026-04-30 19:00",
+          "temperature_c": 55.1,
+          "vibration_mm_s": 0.685
+        },
+        {
+          "timestamp": "2026-04-30 20:00",
+          "temperature_c": 54.1,
+          "vibration_mm_s": 0.622
+        },
+        {
+          "timestamp": "2026-04-30 21:00",
+          "temperature_c": 58.9,
+          "vibration_mm_s": 0.622
+        },
+        {
+          "timestamp": "2026-04-30 22:00",
+          "temperature_c": 55.5,
+          "vibration_mm_s": 0.689
+        },
+        {
+          "timestamp": "2026-04-30 23:00",
+          "temperature_c": 56.9,
+          "vibration_mm_s": 0.556
+        }
+      ]
+    },
+    {
+      "machine_id": "MCH-212",
+      "line": "Line C",
+      "is_new_machine": false,
+      "confidence": "high",
+      "method": "24h-lookahead LogisticRegression classifier",
+      "flag": "ok",
+      "risk_score": 0.0,
+      "as_of": "2026-04-30 23:00",
+      "current_temperature_c": 59.8,
+      "current_vibration_mm_s": 0.808,
+      "run_hours_since_maintenance": 678,
+      "temp_baseline_mean_c": 62.1,
+      "vib_baseline_mean": 0.954,
+      "temp_zscore": -0.23,
+      "vib_zscore": -0.41,
+      "temp_change_6h_c": -0.87,
+      "vib_change_6h": 0.045,
+      "total_historical_failures": 1,
+      "risk_trend_14d": [
+        {
+          "date": "2026-04-16",
+          "risk_score": 0.0
+        },
+        {
+          "date": "2026-04-17",
+          "risk_score": 0.0
+        },
+        {
+          "date": "2026-04-18",
+          "risk_score": 0.0
+        },
+        {
+          "date": "2026-04-19",
+          "risk_score": 0.0
+        },
+        {
+          "date": "2026-04-20",
+          "risk_score": 0.0
+        },
+        {
+          "date": "2026-04-21",
+          "risk_score": 0.0
+        },
+        {
+          "date": "2026-04-22",
+          "risk_score": 0.0
+        },
+        {
+          "date": "2026-04-23",
+          "risk_score": 0.0
+        },
+        {
+          "date": "2026-04-24",
+          "risk_score": 0.0
+        },
+        {
+          "date": "2026-04-25",
+          "risk_score": 0.0
+        },
+        {
+          "date": "2026-04-26",
+          "risk_score": 0.0
+        },
+        {
+          "date": "2026-04-27",
+          "risk_score": 0.0
+        },
+        {
+          "date": "2026-04-28",
+          "risk_score": 0.0
+        },
+        {
+          "date": "2026-04-29",
+          "risk_score": 0.0
+        },
+        {
+          "date": "2026-04-30",
+          "risk_score": 0.0
+        }
+      ],
+      "sensor_history_72h": [
+        {
+          "timestamp": "2026-04-28 00:00",
+          "temperature_c": 58.7,
+          "vibration_mm_s": 0.774
+        },
+        {
+          "timestamp": "2026-04-28 01:00",
+          "temperature_c": 61.0,
+          "vibration_mm_s": 0.758
+        },
+        {
+          "timestamp": "2026-04-28 02:00",
+          "temperature_c": 63.8,
+          "vibration_mm_s": 0.802
+        },
+        {
+          "timestamp": "2026-04-28 03:00",
+          "temperature_c": 62.8,
+          "vibration_mm_s": 0.848
+        },
+        {
+          "timestamp": "2026-04-28 04:00",
+          "temperature_c": 59.8,
+          "vibration_mm_s": 0.675
+        },
+        {
+          "timestamp": "2026-04-28 05:00",
+          "temperature_c": 61.1,
+          "vibration_mm_s": 0.745
+        },
+        {
+          "timestamp": "2026-04-28 06:00",
+          "temperature_c": 61.2,
+          "vibration_mm_s": 0.798
+        },
+        {
+          "timestamp": "2026-04-28 07:00",
+          "temperature_c": 62.6,
+          "vibration_mm_s": 0.822
+        },
+        {
+          "timestamp": "2026-04-28 08:00",
+          "temperature_c": 61.0,
+          "vibration_mm_s": 0.804
+        },
+        {
+          "timestamp": "2026-04-28 09:00",
+          "temperature_c": 60.6,
+          "vibration_mm_s": 0.787
+        },
+        {
+          "timestamp": "2026-04-28 10:00",
+          "temperature_c": 62.2,
+          "vibration_mm_s": 0.868
+        },
+        {
+          "timestamp": "2026-04-28 11:00",
+          "temperature_c": 62.9,
+          "vibration_mm_s": 0.714
+        },
+        {
+          "timestamp": "2026-04-28 12:00",
+          "temperature_c": 60.5,
+          "vibration_mm_s": 0.682
+        },
+        {
+          "timestamp": "2026-04-28 13:00",
+          "temperature_c": 60.6,
+          "vibration_mm_s": 0.718
+        },
+        {
+          "timestamp": "2026-04-28 14:00",
+          "temperature_c": 62.4,
+          "vibration_mm_s": 0.887
+        },
+        {
+          "timestamp": "2026-04-28 15:00",
+          "temperature_c": 62.2,
+          "vibration_mm_s": 0.79
+        },
+        {
+          "timestamp": "2026-04-28 16:00",
+          "temperature_c": 60.8,
+          "vibration_mm_s": 0.843
+        },
+        {
+          "timestamp": "2026-04-28 17:00",
+          "temperature_c": 61.4,
+          "vibration_mm_s": 0.746
+        },
+        {
+          "timestamp": "2026-04-28 18:00",
+          "temperature_c": 61.1,
+          "vibration_mm_s": 0.85
+        },
+        {
+          "timestamp": "2026-04-28 19:00",
+          "temperature_c": 61.8,
+          "vibration_mm_s": 0.799
+        },
+        {
+          "timestamp": "2026-04-28 20:00",
+          "temperature_c": 62.5,
+          "vibration_mm_s": 0.672
+        },
+        {
+          "timestamp": "2026-04-28 21:00",
+          "temperature_c": 59.2,
+          "vibration_mm_s": 0.805
+        },
+        {
+          "timestamp": "2026-04-28 22:00",
+          "temperature_c": 62.5,
+          "vibration_mm_s": 0.733
+        },
+        {
+          "timestamp": "2026-04-28 23:00",
+          "temperature_c": 61.4,
+          "vibration_mm_s": 0.713
+        },
+        {
+          "timestamp": "2026-04-29 00:00",
+          "temperature_c": 61.5,
+          "vibration_mm_s": 0.749
+        },
+        {
+          "timestamp": "2026-04-29 01:00",
+          "temperature_c": 61.8,
+          "vibration_mm_s": 0.809
+        },
+        {
+          "timestamp": "2026-04-29 02:00",
+          "temperature_c": 59.9,
+          "vibration_mm_s": 0.732
+        },
+        {
+          "timestamp": "2026-04-29 03:00",
+          "temperature_c": 61.8,
+          "vibration_mm_s": 0.844
+        },
+        {
+          "timestamp": "2026-04-29 04:00",
+          "temperature_c": 58.8,
+          "vibration_mm_s": 0.786
+        },
+        {
+          "timestamp": "2026-04-29 05:00",
+          "temperature_c": 61.7,
+          "vibration_mm_s": 0.782
+        },
+        {
+          "timestamp": "2026-04-29 06:00",
+          "temperature_c": 61.6,
+          "vibration_mm_s": 0.798
+        },
+        {
+          "timestamp": "2026-04-29 07:00",
+          "temperature_c": 60.9,
+          "vibration_mm_s": 0.715
+        },
+        {
+          "timestamp": "2026-04-29 08:00",
+          "temperature_c": 61.5,
+          "vibration_mm_s": 0.783
+        },
+        {
+          "timestamp": "2026-04-29 09:00",
+          "temperature_c": 61.0,
+          "vibration_mm_s": 0.852
+        },
+        {
+          "timestamp": "2026-04-29 10:00",
+          "temperature_c": 60.0,
+          "vibration_mm_s": 0.8
+        },
+        {
+          "timestamp": "2026-04-29 11:00",
+          "temperature_c": 61.4,
+          "vibration_mm_s": 0.918
+        },
+        {
+          "timestamp": "2026-04-29 12:00",
+          "temperature_c": 62.4,
+          "vibration_mm_s": 0.817
+        },
+        {
+          "timestamp": "2026-04-29 13:00",
+          "temperature_c": 63.0,
+          "vibration_mm_s": 0.773
+        },
+        {
+          "timestamp": "2026-04-29 14:00",
+          "temperature_c": 62.5,
+          "vibration_mm_s": 0.89
+        },
+        {
+          "timestamp": "2026-04-29 15:00",
+          "temperature_c": 63.7,
+          "vibration_mm_s": 0.848
+        },
+        {
+          "timestamp": "2026-04-29 16:00",
+          "temperature_c": 61.1,
+          "vibration_mm_s": 0.806
+        },
+        {
+          "timestamp": "2026-04-29 17:00",
+          "temperature_c": 61.3,
+          "vibration_mm_s": 0.696
+        },
+        {
+          "timestamp": "2026-04-29 18:00",
+          "temperature_c": 63.0,
+          "vibration_mm_s": 0.829
+        },
+        {
+          "timestamp": "2026-04-29 19:00",
+          "temperature_c": 62.1,
+          "vibration_mm_s": 0.866
+        },
+        {
+          "timestamp": "2026-04-29 20:00",
+          "temperature_c": 60.7,
+          "vibration_mm_s": 0.778
+        },
+        {
+          "timestamp": "2026-04-29 21:00",
+          "temperature_c": 60.7,
+          "vibration_mm_s": 0.82
+        },
+        {
+          "timestamp": "2026-04-29 22:00",
+          "temperature_c": 60.2,
+          "vibration_mm_s": 0.782
+        },
+        {
+          "timestamp": "2026-04-29 23:00",
+          "temperature_c": 62.2,
+          "vibration_mm_s": 0.801
+        },
+        {
+          "timestamp": "2026-04-30 00:00",
+          "temperature_c": 61.2,
+          "vibration_mm_s": 0.768
+        },
+        {
+          "timestamp": "2026-04-30 01:00",
+          "temperature_c": 62.7,
+          "vibration_mm_s": 0.757
+        },
+        {
+          "timestamp": "2026-04-30 02:00",
+          "temperature_c": 59.2,
+          "vibration_mm_s": 0.812
+        },
+        {
+          "timestamp": "2026-04-30 03:00",
+          "temperature_c": 63.5,
+          "vibration_mm_s": 0.692
+        },
+        {
+          "timestamp": "2026-04-30 04:00",
+          "temperature_c": 61.8,
+          "vibration_mm_s": 0.808
+        },
+        {
+          "timestamp": "2026-04-30 05:00",
+          "temperature_c": 64.2,
+          "vibration_mm_s": 0.782
+        },
+        {
+          "timestamp": "2026-04-30 06:00",
+          "temperature_c": 61.3,
+          "vibration_mm_s": 0.848
+        },
+        {
+          "timestamp": "2026-04-30 07:00",
+          "temperature_c": 59.4,
+          "vibration_mm_s": 0.82
+        },
+        {
+          "timestamp": "2026-04-30 08:00",
+          "temperature_c": 62.5,
+          "vibration_mm_s": 0.895
+        },
+        {
+          "timestamp": "2026-04-30 09:00",
+          "temperature_c": 62.7,
+          "vibration_mm_s": 0.745
+        },
+        {
+          "timestamp": "2026-04-30 10:00",
+          "temperature_c": 61.0,
+          "vibration_mm_s": 0.663
+        },
+        {
+          "timestamp": "2026-04-30 11:00",
+          "temperature_c": 64.4,
+          "vibration_mm_s": 0.839
+        },
+        {
+          "timestamp": "2026-04-30 12:00",
+          "temperature_c": 61.4,
+          "vibration_mm_s": 0.757
+        },
+        {
+          "timestamp": "2026-04-30 13:00",
+          "temperature_c": 62.4,
+          "vibration_mm_s": 0.79
+        },
+        {
+          "timestamp": "2026-04-30 14:00",
+          "temperature_c": 63.0,
+          "vibration_mm_s": 0.789
+        },
+        {
+          "timestamp": "2026-04-30 15:00",
+          "temperature_c": 62.4,
+          "vibration_mm_s": 0.747
+        },
+        {
+          "timestamp": "2026-04-30 16:00",
+          "temperature_c": 60.2,
+          "vibration_mm_s": 0.817
+        },
+        {
+          "timestamp": "2026-04-30 17:00",
+          "temperature_c": 60.6,
+          "vibration_mm_s": 0.763
+        },
+        {
+          "timestamp": "2026-04-30 18:00",
+          "temperature_c": 61.0,
+          "vibration_mm_s": 0.817
+        },
+        {
+          "timestamp": "2026-04-30 19:00",
+          "temperature_c": 61.4,
+          "vibration_mm_s": 0.729
+        },
+        {
+          "timestamp": "2026-04-30 20:00",
+          "temperature_c": 63.0,
+          "vibration_mm_s": 0.828
+        },
+        {
+          "timestamp": "2026-04-30 21:00",
+          "temperature_c": 62.8,
+          "vibration_mm_s": 0.777
+        },
+        {
+          "timestamp": "2026-04-30 22:00",
+          "temperature_c": 61.3,
+          "vibration_mm_s": 0.838
+        },
+        {
+          "timestamp": "2026-04-30 23:00",
+          "temperature_c": 59.8,
+          "vibration_mm_s": 0.808
+        }
+      ]
+    },
+    {
+      "machine_id": "MCH-213",
+      "line": "Line B",
+      "is_new_machine": false,
+      "confidence": "high",
+      "method": "24h-lookahead LogisticRegression classifier",
+      "flag": "ok",
+      "risk_score": 0.0,
+      "as_of": "2026-04-30 23:00",
+      "current_temperature_c": 55.5,
+      "current_vibration_mm_s": 0.675,
+      "run_hours_since_maintenance": 533,
+      "temp_baseline_mean_c": 56.5,
+      "vib_baseline_mean": 0.71,
+      "temp_zscore": -0.07,
+      "vib_zscore": -0.23,
+      "temp_change_6h_c": 0.37,
+      "vib_change_6h": -0.023,
+      "total_historical_failures": 1,
+      "risk_trend_14d": [
+        {
+          "date": "2026-04-16",
+          "risk_score": 0.0
+        },
+        {
+          "date": "2026-04-17",
+          "risk_score": 0.0
+        },
+        {
+          "date": "2026-04-18",
+          "risk_score": 0.0
+        },
+        {
+          "date": "2026-04-19",
+          "risk_score": 0.0
+        },
+        {
+          "date": "2026-04-20",
+          "risk_score": 0.0
+        },
+        {
+          "date": "2026-04-21",
+          "risk_score": 0.0
+        },
+        {
+          "date": "2026-04-22",
+          "risk_score": 0.0
+        },
+        {
+          "date": "2026-04-23",
+          "risk_score": 0.0
+        },
+        {
+          "date": "2026-04-24",
+          "risk_score": 0.0
+        },
+        {
+          "date": "2026-04-25",
+          "risk_score": 0.0
+        },
+        {
+          "date": "2026-04-26",
+          "risk_score": 0.0
+        },
+        {
+          "date": "2026-04-27",
+          "risk_score": 0.0
+        },
+        {
+          "date": "2026-04-28",
+          "risk_score": 0.0
+        },
+        {
+          "date": "2026-04-29",
+          "risk_score": 0.0
+        },
+        {
+          "date": "2026-04-30",
+          "risk_score": 0.0
+        }
+      ],
+      "sensor_history_72h": [
+        {
+          "timestamp": "2026-04-28 00:00",
+          "temperature_c": 58.0,
+          "vibration_mm_s": 0.615
+        },
+        {
+          "timestamp": "2026-04-28 01:00",
+          "temperature_c": 54.0,
+          "vibration_mm_s": 0.681
+        },
+        {
+          "timestamp": "2026-04-28 02:00",
+          "temperature_c": 56.2,
+          "vibration_mm_s": 0.638
+        },
+        {
+          "timestamp": "2026-04-28 03:00",
+          "temperature_c": 56.6,
+          "vibration_mm_s": 0.69
+        },
+        {
+          "timestamp": "2026-04-28 04:00",
+          "temperature_c": 56.1,
+          "vibration_mm_s": 0.597
+        },
+        {
+          "timestamp": "2026-04-28 05:00",
+          "temperature_c": 55.8,
+          "vibration_mm_s": 0.683
+        },
+        {
+          "timestamp": "2026-04-28 06:00",
+          "temperature_c": 56.1,
+          "vibration_mm_s": 0.677
+        },
+        {
+          "timestamp": "2026-04-28 07:00",
+          "temperature_c": 54.0,
+          "vibration_mm_s": 0.657
+        },
+        {
+          "timestamp": "2026-04-28 08:00",
+          "temperature_c": 55.7,
+          "vibration_mm_s": 0.572
+        },
+        {
+          "timestamp": "2026-04-28 09:00",
+          "temperature_c": 55.4,
+          "vibration_mm_s": 0.65
+        },
+        {
+          "timestamp": "2026-04-28 10:00",
+          "temperature_c": 54.6,
+          "vibration_mm_s": 0.615
+        },
+        {
+          "timestamp": "2026-04-28 11:00",
+          "temperature_c": 55.7,
+          "vibration_mm_s": 0.65
+        },
+        {
+          "timestamp": "2026-04-28 12:00",
+          "temperature_c": 55.8,
+          "vibration_mm_s": 0.645
+        },
+        {
+          "timestamp": "2026-04-28 13:00",
+          "temperature_c": 57.8,
+          "vibration_mm_s": 0.674
+        },
+        {
+          "timestamp": "2026-04-28 14:00",
+          "temperature_c": 54.6,
+          "vibration_mm_s": 0.647
+        },
+        {
+          "timestamp": "2026-04-28 15:00",
+          "temperature_c": 56.9,
+          "vibration_mm_s": 0.613
+        },
+        {
+          "timestamp": "2026-04-28 16:00",
+          "temperature_c": 53.4,
+          "vibration_mm_s": 0.531
+        },
+        {
+          "timestamp": "2026-04-28 17:00",
+          "temperature_c": 54.9,
+          "vibration_mm_s": 0.626
+        },
+        {
+          "timestamp": "2026-04-28 18:00",
+          "temperature_c": 58.5,
+          "vibration_mm_s": 0.743
+        },
+        {
+          "timestamp": "2026-04-28 19:00",
+          "temperature_c": 55.9,
+          "vibration_mm_s": 0.712
+        },
+        {
+          "timestamp": "2026-04-28 20:00",
+          "temperature_c": 55.8,
+          "vibration_mm_s": 0.678
+        },
+        {
+          "timestamp": "2026-04-28 21:00",
+          "temperature_c": 51.8,
+          "vibration_mm_s": 0.635
+        },
+        {
+          "timestamp": "2026-04-28 22:00",
+          "temperature_c": 54.2,
+          "vibration_mm_s": 0.565
+        },
+        {
+          "timestamp": "2026-04-28 23:00",
+          "temperature_c": 54.0,
+          "vibration_mm_s": 0.652
+        },
+        {
+          "timestamp": "2026-04-29 00:00",
+          "temperature_c": 56.3,
+          "vibration_mm_s": 0.561
+        },
+        {
+          "timestamp": "2026-04-29 01:00",
+          "temperature_c": 55.8,
+          "vibration_mm_s": 0.65
+        },
+        {
+          "timestamp": "2026-04-29 02:00",
+          "temperature_c": 56.0,
+          "vibration_mm_s": 0.659
+        },
+        {
+          "timestamp": "2026-04-29 03:00",
+          "temperature_c": 55.2,
+          "vibration_mm_s": 0.579
+        },
+        {
+          "timestamp": "2026-04-29 04:00",
+          "temperature_c": 56.1,
+          "vibration_mm_s": 0.672
+        },
+        {
+          "timestamp": "2026-04-29 05:00",
+          "temperature_c": 55.0,
+          "vibration_mm_s": 0.714
+        },
+        {
+          "timestamp": "2026-04-29 06:00",
+          "temperature_c": 58.0,
+          "vibration_mm_s": 0.681
+        },
+        {
+          "timestamp": "2026-04-29 07:00",
+          "temperature_c": 58.2,
+          "vibration_mm_s": 0.592
+        },
+        {
+          "timestamp": "2026-04-29 08:00",
+          "temperature_c": 55.2,
+          "vibration_mm_s": 0.582
+        },
+        {
+          "timestamp": "2026-04-29 09:00",
+          "temperature_c": 56.3,
+          "vibration_mm_s": 0.694
+        },
+        {
+          "timestamp": "2026-04-29 10:00",
+          "temperature_c": 58.9,
+          "vibration_mm_s": 0.525
+        },
+        {
+          "timestamp": "2026-04-29 11:00",
+          "temperature_c": 52.0,
+          "vibration_mm_s": 0.679
+        },
+        {
+          "timestamp": "2026-04-29 12:00",
+          "temperature_c": 57.8,
+          "vibration_mm_s": 0.627
+        },
+        {
+          "timestamp": "2026-04-29 13:00",
+          "temperature_c": 54.2,
+          "vibration_mm_s": 0.711
+        },
+        {
+          "timestamp": "2026-04-29 14:00",
+          "temperature_c": 58.6,
+          "vibration_mm_s": 0.664
+        },
+        {
+          "timestamp": "2026-04-29 15:00",
+          "temperature_c": 56.0,
+          "vibration_mm_s": 0.661
+        },
+        {
+          "timestamp": "2026-04-29 16:00",
+          "temperature_c": 58.8,
+          "vibration_mm_s": 0.634
+        },
+        {
+          "timestamp": "2026-04-29 17:00",
+          "temperature_c": 57.4,
+          "vibration_mm_s": 0.65
+        },
+        {
+          "timestamp": "2026-04-29 18:00",
+          "temperature_c": 55.2,
+          "vibration_mm_s": 0.662
+        },
+        {
+          "timestamp": "2026-04-29 19:00",
+          "temperature_c": 56.5,
+          "vibration_mm_s": 0.639
+        },
+        {
+          "timestamp": "2026-04-29 20:00",
+          "temperature_c": 58.3,
+          "vibration_mm_s": 0.655
+        },
+        {
+          "timestamp": "2026-04-29 21:00",
+          "temperature_c": 51.8,
+          "vibration_mm_s": 0.665
+        },
+        {
+          "timestamp": "2026-04-29 22:00",
+          "temperature_c": 57.9,
+          "vibration_mm_s": 0.591
+        },
+        {
+          "timestamp": "2026-04-29 23:00",
+          "temperature_c": 55.2,
+          "vibration_mm_s": 0.655
+        },
+        {
+          "timestamp": "2026-04-30 00:00",
+          "temperature_c": 57.4,
+          "vibration_mm_s": 0.585
+        },
+        {
+          "timestamp": "2026-04-30 01:00",
+          "temperature_c": 55.7,
+          "vibration_mm_s": 0.713
+        },
+        {
+          "timestamp": "2026-04-30 02:00",
+          "temperature_c": 54.2,
+          "vibration_mm_s": 0.595
+        },
+        {
+          "timestamp": "2026-04-30 03:00",
+          "temperature_c": 57.4,
+          "vibration_mm_s": 0.671
+        },
+        {
+          "timestamp": "2026-04-30 04:00",
+          "temperature_c": 56.3,
+          "vibration_mm_s": 0.727
+        },
+        {
+          "timestamp": "2026-04-30 05:00",
+          "temperature_c": 56.1,
+          "vibration_mm_s": 0.696
+        },
+        {
+          "timestamp": "2026-04-30 06:00",
+          "temperature_c": 54.3,
+          "vibration_mm_s": 0.6
+        },
+        {
+          "timestamp": "2026-04-30 07:00",
+          "temperature_c": 55.3,
+          "vibration_mm_s": 0.736
+        },
+        {
+          "timestamp": "2026-04-30 08:00",
+          "temperature_c": 57.3,
+          "vibration_mm_s": 0.696
+        },
+        {
+          "timestamp": "2026-04-30 09:00",
+          "temperature_c": 55.0,
+          "vibration_mm_s": 0.697
+        },
+        {
+          "timestamp": "2026-04-30 10:00",
+          "temperature_c": 56.6,
+          "vibration_mm_s": 0.653
+        },
+        {
+          "timestamp": "2026-04-30 11:00",
+          "temperature_c": 54.0,
+          "vibration_mm_s": 0.661
+        },
+        {
+          "timestamp": "2026-04-30 12:00",
+          "temperature_c": 55.8,
+          "vibration_mm_s": 0.716
+        },
+        {
+          "timestamp": "2026-04-30 13:00",
+          "temperature_c": 55.4,
+          "vibration_mm_s": 0.747
+        },
+        {
+          "timestamp": "2026-04-30 14:00",
+          "temperature_c": 57.8,
+          "vibration_mm_s": 0.611
+        },
+        {
+          "timestamp": "2026-04-30 15:00",
+          "temperature_c": 55.0,
+          "vibration_mm_s": 0.773
+        },
+        {
+          "timestamp": "2026-04-30 16:00",
+          "temperature_c": 56.5,
+          "vibration_mm_s": 0.659
+        },
+        {
+          "timestamp": "2026-04-30 17:00",
+          "temperature_c": 55.1,
+          "vibration_mm_s": 0.698
+        },
+        {
+          "timestamp": "2026-04-30 18:00",
+          "temperature_c": 55.9,
+          "vibration_mm_s": 0.679
+        },
+        {
+          "timestamp": "2026-04-30 19:00",
+          "temperature_c": 56.2,
+          "vibration_mm_s": 0.664
+        },
+        {
+          "timestamp": "2026-04-30 20:00",
+          "temperature_c": 56.4,
+          "vibration_mm_s": 0.63
+        },
+        {
+          "timestamp": "2026-04-30 21:00",
+          "temperature_c": 56.4,
+          "vibration_mm_s": 0.712
+        },
+        {
+          "timestamp": "2026-04-30 22:00",
+          "temperature_c": 57.8,
+          "vibration_mm_s": 0.62
+        },
+        {
+          "timestamp": "2026-04-30 23:00",
+          "temperature_c": 55.5,
+          "vibration_mm_s": 0.675
+        }
+      ]
+    },
+    {
+      "machine_id": "MCH-214",
+      "line": "Line A",
+      "is_new_machine": false,
+      "confidence": "high",
+      "method": "24h-lookahead LogisticRegression classifier",
+      "flag": "ok",
+      "risk_score": 0.0,
+      "as_of": "2026-04-30 23:00",
+      "current_temperature_c": 65.5,
+      "current_vibration_mm_s": 0.796,
+      "run_hours_since_maintenance": 1205,
+      "temp_baseline_mean_c": 65.1,
+      "vib_baseline_mean": 0.623,
+      "temp_zscore": -0.17,
+      "vib_zscore": 0.35,
+      "temp_change_6h_c": -1.0,
+      "vib_change_6h": 0.057,
+      "total_historical_failures": 1,
+      "risk_trend_14d": [
+        {
+          "date": "2026-04-16",
+          "risk_score": 0.0
+        },
+        {
+          "date": "2026-04-17",
+          "risk_score": 0.0
+        },
+        {
+          "date": "2026-04-18",
+          "risk_score": 0.0
+        },
+        {
+          "date": "2026-04-19",
+          "risk_score": 0.0
+        },
+        {
+          "date": "2026-04-20",
+          "risk_score": 0.0
+        },
+        {
+          "date": "2026-04-21",
+          "risk_score": 0.0
+        },
+        {
+          "date": "2026-04-22",
+          "risk_score": 0.0
+        },
+        {
+          "date": "2026-04-23",
+          "risk_score": 0.0
+        },
+        {
+          "date": "2026-04-24",
+          "risk_score": 0.0
+        },
+        {
+          "date": "2026-04-25",
+          "risk_score": 0.0
+        },
+        {
+          "date": "2026-04-26",
+          "risk_score": 0.0
+        },
+        {
+          "date": "2026-04-27",
+          "risk_score": 0.0
+        },
+        {
+          "date": "2026-04-28",
+          "risk_score": 0.0
+        },
+        {
+          "date": "2026-04-29",
+          "risk_score": 0.0
+        },
+        {
+          "date": "2026-04-30",
+          "risk_score": 0.0
+        }
+      ],
+      "sensor_history_72h": [
+        {
+          "timestamp": "2026-04-28 00:00",
+          "temperature_c": 66.5,
+          "vibration_mm_s": 0.636
+        },
+        {
+          "timestamp": "2026-04-28 01:00",
+          "temperature_c": 63.9,
+          "vibration_mm_s": 0.681
+        },
+        {
+          "timestamp": "2026-04-28 02:00",
+          "temperature_c": 67.6,
+          "vibration_mm_s": 0.581
+        },
+        {
+          "timestamp": "2026-04-28 03:00",
+          "temperature_c": 66.6,
+          "vibration_mm_s": 0.677
+        },
+        {
+          "timestamp": "2026-04-28 04:00",
+          "temperature_c": 64.3,
+          "vibration_mm_s": 0.702
+        },
+        {
+          "timestamp": "2026-04-28 05:00",
+          "temperature_c": 62.7,
+          "vibration_mm_s": 0.657
+        },
+        {
+          "timestamp": "2026-04-28 06:00",
+          "temperature_c": 63.2,
+          "vibration_mm_s": 0.629
+        },
+        {
+          "timestamp": "2026-04-28 07:00",
+          "temperature_c": 65.5,
+          "vibration_mm_s": 0.663
+        },
+        {
+          "timestamp": "2026-04-28 08:00",
+          "temperature_c": 66.3,
+          "vibration_mm_s": 0.719
+        },
+        {
+          "timestamp": "2026-04-28 09:00",
+          "temperature_c": 65.3,
+          "vibration_mm_s": 0.592
+        },
+        {
+          "timestamp": "2026-04-28 10:00",
+          "temperature_c": 63.9,
+          "vibration_mm_s": 0.633
+        },
+        {
+          "timestamp": "2026-04-28 11:00",
+          "temperature_c": 64.7,
+          "vibration_mm_s": 0.622
+        },
+        {
+          "timestamp": "2026-04-28 12:00",
+          "temperature_c": 66.3,
+          "vibration_mm_s": 0.605
+        },
+        {
+          "timestamp": "2026-04-28 13:00",
+          "temperature_c": 66.6,
+          "vibration_mm_s": 0.722
+        },
+        {
+          "timestamp": "2026-04-28 14:00",
+          "temperature_c": 65.8,
+          "vibration_mm_s": 0.683
+        },
+        {
+          "timestamp": "2026-04-28 15:00",
+          "temperature_c": 63.7,
+          "vibration_mm_s": 0.7
+        },
+        {
+          "timestamp": "2026-04-28 16:00",
+          "temperature_c": 65.3,
+          "vibration_mm_s": 0.643
+        },
+        {
+          "timestamp": "2026-04-28 17:00",
+          "temperature_c": 64.2,
+          "vibration_mm_s": 0.671
+        },
+        {
+          "timestamp": "2026-04-28 18:00",
+          "temperature_c": 64.5,
+          "vibration_mm_s": 0.692
+        },
+        {
+          "timestamp": "2026-04-28 19:00",
+          "temperature_c": 62.2,
+          "vibration_mm_s": 0.77
+        },
+        {
+          "timestamp": "2026-04-28 20:00",
+          "temperature_c": 64.3,
+          "vibration_mm_s": 0.702
+        },
+        {
+          "timestamp": "2026-04-28 21:00",
+          "temperature_c": 64.4,
+          "vibration_mm_s": 0.632
+        },
+        {
+          "timestamp": "2026-04-28 22:00",
+          "temperature_c": 63.0,
+          "vibration_mm_s": 0.605
+        },
+        {
+          "timestamp": "2026-04-28 23:00",
+          "temperature_c": 65.4,
+          "vibration_mm_s": 0.663
+        },
+        {
+          "timestamp": "2026-04-29 00:00",
+          "temperature_c": 67.3,
+          "vibration_mm_s": 0.685
+        },
+        {
+          "timestamp": "2026-04-29 01:00",
+          "temperature_c": 66.0,
+          "vibration_mm_s": 0.63
+        },
+        {
+          "timestamp": "2026-04-29 02:00",
+          "temperature_c": 64.4,
+          "vibration_mm_s": 0.697
+        },
+        {
+          "timestamp": "2026-04-29 03:00",
+          "temperature_c": 63.2,
+          "vibration_mm_s": 0.763
+        },
+        {
+          "timestamp": "2026-04-29 04:00",
+          "temperature_c": 64.6,
+          "vibration_mm_s": 0.697
+        },
+        {
+          "timestamp": "2026-04-29 05:00",
+          "temperature_c": 66.3,
+          "vibration_mm_s": 0.701
+        },
+        {
+          "timestamp": "2026-04-29 06:00",
+          "temperature_c": 63.9,
+          "vibration_mm_s": 0.609
+        },
+        {
+          "timestamp": "2026-04-29 07:00",
+          "temperature_c": 64.5,
+          "vibration_mm_s": 0.676
+        },
+        {
+          "timestamp": "2026-04-29 08:00",
+          "temperature_c": 66.8,
+          "vibration_mm_s": 0.707
+        },
+        {
+          "timestamp": "2026-04-29 09:00",
+          "temperature_c": 67.1,
+          "vibration_mm_s": 0.683
+        },
+        {
+          "timestamp": "2026-04-29 10:00",
+          "temperature_c": 65.0,
+          "vibration_mm_s": 0.631
+        },
+        {
+          "timestamp": "2026-04-29 11:00",
+          "temperature_c": 66.0,
+          "vibration_mm_s": 0.631
+        },
+        {
+          "timestamp": "2026-04-29 12:00",
+          "temperature_c": 64.6,
+          "vibration_mm_s": 0.672
+        },
+        {
+          "timestamp": "2026-04-29 13:00",
+          "temperature_c": 64.3,
+          "vibration_mm_s": 0.647
+        },
+        {
+          "timestamp": "2026-04-29 14:00",
+          "temperature_c": 64.0,
+          "vibration_mm_s": 0.803
+        },
+        {
+          "timestamp": "2026-04-29 15:00",
+          "temperature_c": 64.8,
+          "vibration_mm_s": 0.67
+        },
+        {
+          "timestamp": "2026-04-29 16:00",
+          "temperature_c": 66.2,
+          "vibration_mm_s": 0.661
+        },
+        {
+          "timestamp": "2026-04-29 17:00",
+          "temperature_c": 64.9,
+          "vibration_mm_s": 0.628
+        },
+        {
+          "timestamp": "2026-04-29 18:00",
+          "temperature_c": 64.0,
+          "vibration_mm_s": 0.67
+        },
+        {
+          "timestamp": "2026-04-29 19:00",
+          "temperature_c": 64.2,
+          "vibration_mm_s": 0.703
+        },
+        {
+          "timestamp": "2026-04-29 20:00",
+          "temperature_c": 65.2,
+          "vibration_mm_s": 0.656
+        },
+        {
+          "timestamp": "2026-04-29 21:00",
+          "temperature_c": 65.6,
+          "vibration_mm_s": 0.729
+        },
+        {
+          "timestamp": "2026-04-29 22:00",
+          "temperature_c": 65.0,
+          "vibration_mm_s": 0.642
+        },
+        {
+          "timestamp": "2026-04-29 23:00",
+          "temperature_c": 61.4,
+          "vibration_mm_s": 0.715
+        },
+        {
+          "timestamp": "2026-04-30 00:00",
+          "temperature_c": 64.1,
+          "vibration_mm_s": 0.692
+        },
+        {
+          "timestamp": "2026-04-30 01:00",
+          "temperature_c": 66.5,
+          "vibration_mm_s": 0.733
+        },
+        {
+          "timestamp": "2026-04-30 02:00",
+          "temperature_c": 63.9,
+          "vibration_mm_s": 0.779
+        },
+        {
+          "timestamp": "2026-04-30 03:00",
+          "temperature_c": 63.3,
+          "vibration_mm_s": 0.614
+        },
+        {
+          "timestamp": "2026-04-30 04:00",
+          "temperature_c": 64.5,
+          "vibration_mm_s": 0.698
+        },
+        {
+          "timestamp": "2026-04-30 05:00",
+          "temperature_c": 64.2,
+          "vibration_mm_s": 0.65
+        },
+        {
+          "timestamp": "2026-04-30 06:00",
+          "temperature_c": 64.4,
+          "vibration_mm_s": 0.621
+        },
+        {
+          "timestamp": "2026-04-30 07:00",
+          "temperature_c": 63.5,
+          "vibration_mm_s": 0.662
+        },
+        {
+          "timestamp": "2026-04-30 08:00",
+          "temperature_c": 65.3,
+          "vibration_mm_s": 0.631
+        },
+        {
+          "timestamp": "2026-04-30 09:00",
+          "temperature_c": 65.3,
+          "vibration_mm_s": 0.732
+        },
+        {
+          "timestamp": "2026-04-30 10:00",
+          "temperature_c": 64.1,
+          "vibration_mm_s": 0.744
+        },
+        {
+          "timestamp": "2026-04-30 11:00",
+          "temperature_c": 65.3,
+          "vibration_mm_s": 0.691
+        },
+        {
+          "timestamp": "2026-04-30 12:00",
+          "temperature_c": 66.7,
+          "vibration_mm_s": 0.726
+        },
+        {
+          "timestamp": "2026-04-30 13:00",
+          "temperature_c": 63.8,
+          "vibration_mm_s": 0.706
+        },
+        {
+          "timestamp": "2026-04-30 14:00",
+          "temperature_c": 65.5,
+          "vibration_mm_s": 0.672
+        },
+        {
+          "timestamp": "2026-04-30 15:00",
+          "temperature_c": 64.6,
+          "vibration_mm_s": 0.684
+        },
+        {
+          "timestamp": "2026-04-30 16:00",
+          "temperature_c": 65.0,
+          "vibration_mm_s": 0.7
+        },
+        {
+          "timestamp": "2026-04-30 17:00",
+          "temperature_c": 66.5,
+          "vibration_mm_s": 0.739
+        },
+        {
+          "timestamp": "2026-04-30 18:00",
+          "temperature_c": 64.8,
+          "vibration_mm_s": 0.68
+        },
+        {
+          "timestamp": "2026-04-30 19:00",
+          "temperature_c": 64.3,
+          "vibration_mm_s": 0.59
+        },
+        {
+          "timestamp": "2026-04-30 20:00",
+          "temperature_c": 62.4,
+          "vibration_mm_s": 0.701
+        },
+        {
+          "timestamp": "2026-04-30 21:00",
+          "temperature_c": 66.1,
+          "vibration_mm_s": 0.631
+        },
+        {
+          "timestamp": "2026-04-30 22:00",
+          "temperature_c": 65.3,
+          "vibration_mm_s": 0.623
+        },
+        {
+          "timestamp": "2026-04-30 23:00",
+          "temperature_c": 65.5,
+          "vibration_mm_s": 0.796
+        }
+      ]
+    }
+  ]
+}

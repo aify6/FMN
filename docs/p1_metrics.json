@@ -1,0 +1,29 @@
+{
+  "n_rows_raw": 4551,
+  "n_duplicate_rows_dropped": 15,
+  "n_units_sold_imputed": 90,
+  "n_closing_stock_imputed": 45,
+  "holdout_days": 21,
+  "model_wape": 0.1797,
+  "naive_baseline_wape": 0.211,
+  "model_mae": 53.94,
+  "naive_mae": 63.33,
+  "feature_importances": {
+    "roll_mean_28": 0.31919202552950615,
+    "roll_mean_14": 0.28516263852988316,
+    "roll_mean_7": 0.1876111532721122,
+    "dow": 0.05420274336146364,
+    "lag_1": 0.052350182164121746,
+    "lag_7": 0.050083062599079284,
+    "roll_std_28": 0.007638848618081382,
+    "roll_std_14": 0.0071153429381179256,
+    "cat_roll_mean_14": 0.006334355860269967,
+    "category_Snacks": 0.005927932589559665,
+    "lead_time_days": 0.005790184109994784,
+    "category_Beverages": 0.005773860291032967,
+    "roll_std_7": 0.004702840224278469,
+    "category_Sugar": 0.0034937512855660745,
+    "category_Pasta": 0.0027497562854493906,
+    "category_Flour": 0.001871322341483075
+  }
+}

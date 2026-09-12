@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Supply Watch</title>
+  <link rel="stylesheet" href="/static/css/style.css" />
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.9/dist/chart.umd.min.js"></script>
+</head>
+<body>
+  <div class="page">
+    <header class="topbar">
+      <div class="brand-wrap">
+        <div class="brand-mark"></div>
+        <div>
+          <div class="eyebrow">Operations intelligence</div>
+          <div class="name">Supply Watch</div>
+        </div>
+      </div>
+      <div class="as-of mono">as of {{ as_of_date }}</div>
+    </header>
+
+    <main class="workspace-shell">
+      <section class="hero-panel">
+        <div class="hero-copy">
+          <p class="eyebrow accent">Inventory health</p>
+          <h1>See where stock risk is building before it hits the customer.</h1>
+          <p class="hero-text">
+            This dashboard scores every SKU against likely stock-out and overstock risk using the
+            product forecast, lead-time assumptions, and recent sales trend. Click any row to inspect
+            the specific pattern behind the alert.
+          </p>
+        </div>
+        <div class="hero-metrics">
+          <div class="mini-metric light">
+            <span class="mini-label">Need attention</span>
+            <strong>{{ counts.stockout_risk }}</strong>
+          </div>
+          <div class="mini-metric amber">
+            <span class="mini-label">Capital tied up</span>
+            <strong>{{ counts.overstock_risk }}</strong>
+          </div>
+          <div class="mini-metric green">
+            <span class="mini-label">Healthy</span>
+            <strong>{{ counts.ok }}</strong>
+          </div>
+        </div>
+      </section>
+
+      <section class="stat-strip">
+        <button class="stat-tile" data-filter="stockout_risk" style="--tile-color: var(--danger)">
+          <div class="value">{{ counts.stockout_risk }}</div>
+          <div class="label"><span class="dot"></span>Need attention</div>
+        </button>
+        <button class="stat-tile" data-filter="overstock_risk" style="--tile-color: var(--watch)">
+          <div class="value">{{ counts.overstock_risk }}</div>
+          <div class="label"><span class="dot"></span>Tying up capital</div>
+        </button>
+        <button class="stat-tile" data-filter="ok" style="--tile-color: var(--ok)">
+          <div class="value">{{ counts.ok }}</div>
+          <div class="label"><span class="dot"></span>Steady</div>
+        </button>
+      </section>
+
+      <section class="body-row">
+        <div class="main-col">
+          <div class="table-wrap">
+            <div class="table-header-row">
+              <div>
+                <h2>SKU watchlist</h2>
+              </div>
+              <span class="table-note">Open a row to inspect the forecast signal</span>
+            </div>
+            <table class="ledger" id="sku-table">
+              <thead>
+                <tr>
+                  <th>SKU</th>
+                  <th>Category</th>
+                  <th class="num">Stock</th>
+                  <th class="num">Cover</th>
+                  <th>Status</th>
+                </tr>
+              </thead>
+              <tbody>
+                {% for sku in skus %}
+                <tr class="row" data-sku-id="{{ sku.sku_id }}" data-flag="{{ sku.flag }}">
+                  <td>
+                    <span class="id-cell">{{ sku.sku_id }}</span>
+                    {% if sku.confidence == "low" %}<span class="new-tag">new · low confidence</span>{% endif %}
+                  </td>
+                  <td>{{ sku.category }}</td>
+                  <td class="num mono">{{ "{:,.0f}".format(sku.closing_stock) }}</td>
+                  <td class="num mono">{% if sku.days_of_cover is not none %}{{ sku.days_of_cover }}d{% else %}—{% endif %}</td>
+                  <td>
+                    <span class="flag-cell">
+                      {% if sku.flag == "stockout_risk" %}
+                        <span class="dot dot-danger"></span>Need attention
+                      {% elif sku.flag == "overstock_risk" %}
+                        <span class="dot dot-watch"></span>Tying up capital
+                      {% else %}
+                        <span class="dot dot-ok"></span>Steady
+                      {% endif %}
+                    </span>
+                  </td>
+                </tr>
+                {% endfor %}
+              </tbody>
+            </table>
+            <div class="empty-state" id="empty-state" style="display:none">No SKUs match this filter.</div>
+          </div>
+
+          <div class="qa-box">
+            <div class="qa-title">Ask about the data</div>
+            <form class="qa-form" id="qa-form">
+              <input class="qa-input" id="qa-input" placeholder='Try: &quot;which SKUs need attention this week?&quot;' />
+              <button class="qa-ask-btn" type="submit" id="qa-submit">Ask</button>
+            </form>
+            <div id="qa-error" class="error-text" style="display:none"></div>
+            <div id="qa-answer" class="qa-answer" style="display:none"></div>
+          </div>
+        </div>
+      </section>
+    </main>
+  </div>
+
+  <div class="detail-backdrop" id="detail-backdrop"></div>
+  <div class="detail-panel" id="detail-panel"></div>
+
+  <script id="sku-data" type="application/json">{{ skus | tojson }}</script>
+  <script src="/static/js/app.js"></script>
+</body>
+</html>
