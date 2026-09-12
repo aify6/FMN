@@ -220,7 +220,12 @@ async def generate_text(prompt: str) -> str:
                     params={"key": api_key},
                     json={
                         "contents": [{"role": "user", "parts": [{"text": prompt}]}],
-                        "generationConfig": {"temperature": 0.3, "maxOutputTokens": 500},
+                        "generationConfig": {
+                            "temperature": 0.9,
+                            "topP": 0.95,
+                            "topK": 40,
+                            "maxOutputTokens": 1024,
+                        },
                     },
                 )
             except httpx.HTTPError as exc:
