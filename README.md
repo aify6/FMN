@@ -23,6 +23,15 @@ The project follows a train-once, serve-artifacts pattern:
 
 This keeps the app fast, transparent, and easy to reason about.
 
+### Headline performance
+
+The current prototype is already outperforming its baselines on the supplied operational data:
+
+- Supply-chain demand model: WAPE improved from 0.2110 to 0.1797, a 15% reduction versus the naive 7-day baseline.
+- Manufacturing risk model: PR-AUC reached 0.7687 versus a 0.0200 random baseline, showing strong ability to separate near-term failure risk from normal operation.
+
+Those metrics are the basis for the dashboard watchlists and the explain/Q&A layer that turns the model output into decision-ready operational context.
+
 ### The two apps
 
 - Supply chain app: inventory watchlist + demand-risk explanations
