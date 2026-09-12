@@ -157,7 +157,7 @@ live Gemini API endpoint reports for new users. Override GEMINI_MODEL in
 import os
 import httpx
 
-DEFAULT_MODEL = "gemini-3.6-flash"
+DEFAULT_MODEL = "gemini-3.5-flash"
 
 
 def _sentence_count(text: str) -> int:
@@ -169,9 +169,11 @@ def _normalize_complete_sentence_block(text: str, target_sentences: int = 3) -> 
     if not text:
         return text
     cleaned = re.sub(r"\s+", " ", text).strip()
+    cleaned = re.sub(r"(?<=\d)\.\s+(?=\d)", ".", cleaned)
     if not cleaned:
         return text
-    sentences = [s.strip() for s in re.findall(r"[^.!?]+(?:[.!?]+|$)", cleaned) if s.strip()]
+
+    sentences = [s.strip() for s in re.split(r"(?<=[.!?])\s+(?=[A-Z])", cleaned) if s.strip()]
     if not sentences:
         return cleaned
     if len(sentences) >= target_sentences:

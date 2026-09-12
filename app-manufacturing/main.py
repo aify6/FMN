@@ -94,21 +94,31 @@ doesn't set the flag or risk score itself.
 """
 
 
+def _clean_number(value):
+    if value is None:
+        return "n/a"
+    if isinstance(value, float) and value.is_integer():
+        return str(int(value))
+    if isinstance(value, (int, float)) and not isinstance(value, bool):
+        return format(value, "g")
+    return str(value)
+
+
 def build_explanation_prompt(m: dict, related_incident: dict | None = None) -> str:
     if m["is_new_machine"] or m["confidence"] == "low":
         return f"""You are a plant maintenance assistant. Explain to a floor supervisor,
 in exactly 3 complete sentences, why machine {m['machine_id']} ({m['line']}) is only under
 basic monitoring instead of a full risk score. Use the actual facts: it has limited
-operating history for the trained model baseline, current temperature is {m['current_temperature_c']}C,
-and current vibration is {m['current_vibration_mm_s']}mm/s. Explain clearly what the operational
+operating history for the trained model baseline, current temperature is {_clean_number(m['current_temperature_c'])}C,
+and current vibration is {_clean_number(m['current_vibration_mm_s'])}mm/s. Explain clearly what the operational
 impact is without inventing any unreported risk percentage or trend."""
 
     incident_line = ""
     if related_incident:
         incident_line = (
             f" For context, the last time a comparable pre-failure pattern was seen on "
-            f"this line, the model's risk score rose from {related_incident['risk_score_48h_before']} "
-            f"to {related_incident['risk_score_at_failure']} in the 48 hours before an actual failure."
+            f"this line, the model's risk score rose from {_clean_number(related_incident['risk_score_48h_before'])} "
+            f"to {_clean_number(related_incident['risk_score_at_failure'])} in the 48 hours before an actual failure."
         )
 
     return f"""You are a plant maintenance assistant. Explain to a floor supervisor,
@@ -119,13 +129,13 @@ listed below.
 
 Machine: {m['machine_id']} ({m['line']})
 Flag: {m['flag']}
-Risk score (probability of failure in next 24h): {m['risk_score']}
-Current temperature: {m['current_temperature_c']}C (this machine's normal baseline: {m['temp_baseline_mean_c']}C, z-score: {m['temp_zscore']})
-Current vibration: {m['current_vibration_mm_s']}mm/s (this machine's normal baseline: {m['vib_baseline_mean']}mm/s, z-score: {m['vib_zscore']})
-Temperature change over last 6 hours: {m['temp_change_6h_c']}C
-Vibration change over last 6 hours: {m['vib_change_6h']}mm/s
-Hours run since last maintenance: {m['run_hours_since_maintenance']}
-Total historical failures on this machine: {m['total_historical_failures']}
+Risk score (probability of failure in next 24h): {_clean_number(m['risk_score'])}
+Current temperature: {_clean_number(m['current_temperature_c'])}C (this machine's normal baseline: {_clean_number(m['temp_baseline_mean_c'])}C, z-score: {_clean_number(m['temp_zscore'])})
+Current vibration: {_clean_number(m['current_vibration_mm_s'])}mm/s (this machine's normal baseline: {_clean_number(m['vib_baseline_mean'])}mm/s, z-score: {_clean_number(m['vib_zscore'])})
+Temperature change over last 6 hours: {_clean_number(m['temp_change_6h_c'])}C
+Vibration change over last 6 hours: {_clean_number(m['vib_change_6h'])}mm/s
+Hours run since last maintenance: {_clean_number(m['run_hours_since_maintenance'])}
+Total historical failures on this machine: {_clean_number(m['total_historical_failures'])}
 {incident_line}
 
 Write exactly 3 complete sentences. Do not give fragments, do not stop half-way,
@@ -173,7 +183,8 @@ live Gemini API endpoint reports for new users. Override GEMINI_MODEL in
 import os
 import httpx
 
-DEFAULT_MODEL = "gemini-3.6-flash"
+DEFAULT_MODEL = "gemini-2.0-flash"
+FALLBACK_MODELS = ["gemini-2.0-flash", "gemini-2.0-flash-lite", "gemini-1.5-flash"]
 
 
 def _sentence_count(text: str) -> int:
@@ -185,9 +196,11 @@ def _normalize_complete_sentence_block(text: str, target_sentences: int = 3) -> 
     if not text:
         return text
     cleaned = re.sub(r"\s+", " ", text).strip()
+    cleaned = re.sub(r"(?<=\d)\.\s+(?=\d)", ".", cleaned)
     if not cleaned:
         return text
-    sentences = [s.strip() for s in re.findall(r"[^.!?]+(?:[.!?]+|$)", cleaned) if s.strip()]
+
+    sentences = [s.strip() for s in re.split(r"(?<=[.!?])\s+(?=[A-Z])", cleaned) if s.strip()]
     if not sentences:
         return cleaned
     if len(sentences) >= target_sentences:
@@ -213,33 +226,54 @@ async def generate_text(prompt: str) -> str:
         raise GeminiError(
             "GEMINI_API_KEY is not set. Copy .env.example to .env and add your key."
         )
-    model = os.environ.get("GEMINI_MODEL", DEFAULT_MODEL)
-    url = f"https://generativelanguage.googleapis.com/v1beta/models/{model}:generateContent"
 
+    requested_model = os.environ.get("GEMINI_MODEL", DEFAULT_MODEL)
+    candidate_models = []
+    normalized = requested_model.strip().lower().replace(" ", "-").replace(",", ".")
+    if normalized:
+        candidate_models.append(normalized)
+    for fallback in FALLBACK_MODELS:
+        if fallback not in candidate_models:
+            candidate_models.append(fallback)
+
+    last_error = None
     async with httpx.AsyncClient(timeout=30.0) as client:
-        res = await client.post(
-            url,
-            params={"key": api_key},
-            json={
-                "contents": [{"role": "user", "parts": [{"text": prompt}]}],
-                "generationConfig": {"temperature": 0.3, "maxOutputTokens": 500},
-            },
-        )
+        for model in candidate_models:
+            url = f"https://generativelanguage.googleapis.com/v1beta/models/{model}:generateContent"
+            try:
+                res = await client.post(
+                    url,
+                    params={"key": api_key},
+                    json={
+                        "contents": [{"role": "user", "parts": [{"text": prompt}]}],
+                        "generationConfig": {"temperature": 0.3, "maxOutputTokens": 500},
+                    },
+                )
+            except httpx.HTTPError as exc:
+                last_error = exc
+                continue
 
-    if res.status_code != 200:
-        raise GeminiError(f"Gemini API error ({res.status_code}): {res.text}")
+            if res.status_code == 200:
+                data = res.json()
+                try:
+                    parts = data["candidates"][0]["content"]["parts"]
+                    text = "".join(p.get("text", "") for p in parts).strip()
+                except (KeyError, IndexError):
+                    text = ""
 
-    data = res.json()
-    try:
-        parts = data["candidates"][0]["content"]["parts"]
-        text = "".join(p.get("text", "") for p in parts).strip()
-    except (KeyError, IndexError):
-        text = ""
+                if not text:
+                    last_error = GeminiError(f"Gemini returned no text. Full response: {data}")
+                    continue
 
-    if not text:
-        raise GeminiError(f"Gemini returned no text. Full response: {data}")
-    text = _normalize_complete_sentence_block(text, 3)
-    return text
+                return _normalize_complete_sentence_block(text, 3)
+
+            last_error = GeminiError(f"Gemini API error ({res.status_code}): {res.text}")
+            if res.status_code != 429:
+                break
+
+    if last_error is None:
+        raise GeminiError("Gemini request failed without a response.")
+    raise last_error
 
 # ---- routes ----
 app = FastAPI(title="Machine Watch")
