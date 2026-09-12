@@ -158,6 +158,7 @@ import os
 import httpx
 
 DEFAULT_MODEL = "gemini-3.5-flash"
+FALLBACK_MODELS = ["gemini-3.5-flash-lite"]
 
 
 def _sentence_count(text: str) -> int:
@@ -199,33 +200,54 @@ async def generate_text(prompt: str) -> str:
         raise GeminiError(
             "GEMINI_API_KEY is not set. Copy .env.example to .env and add your key."
         )
-    model = os.environ.get("GEMINI_MODEL", DEFAULT_MODEL)
-    url = f"https://generativelanguage.googleapis.com/v1beta/models/{model}:generateContent"
 
+    requested_model = os.environ.get("GEMINI_MODEL", DEFAULT_MODEL)
+    candidate_models = []
+    normalized = requested_model.strip().lower().replace(" ", "-").replace(",", ".")
+    if normalized:
+        candidate_models.append(normalized)
+    for fallback in FALLBACK_MODELS:
+        if fallback not in candidate_models:
+            candidate_models.append(fallback)
+
+    last_error = None
     async with httpx.AsyncClient(timeout=30.0) as client:
-        res = await client.post(
-            url,
-            params={"key": api_key},
-            json={
-                "contents": [{"role": "user", "parts": [{"text": prompt}]}],
-                "generationConfig": {"temperature": 0.3, "maxOutputTokens": 500},
-            },
-        )
+        for model in candidate_models:
+            url = f"https://generativelanguage.googleapis.com/v1beta/models/{model}:generateContent"
+            try:
+                res = await client.post(
+                    url,
+                    params={"key": api_key},
+                    json={
+                        "contents": [{"role": "user", "parts": [{"text": prompt}]}],
+                        "generationConfig": {"temperature": 0.3, "maxOutputTokens": 500},
+                    },
+                )
+            except httpx.HTTPError as exc:
+                last_error = exc
+                continue
 
-    if res.status_code != 200:
-        raise GeminiError(f"Gemini API error ({res.status_code}): {res.text}")
+            if res.status_code == 200:
+                data = res.json()
+                try:
+                    parts = data["candidates"][0]["content"]["parts"]
+                    text = "".join(p.get("text", "") for p in parts).strip()
+                except (KeyError, IndexError):
+                    text = ""
 
-    data = res.json()
-    try:
-        parts = data["candidates"][0]["content"]["parts"]
-        text = "".join(p.get("text", "") for p in parts).strip()
-    except (KeyError, IndexError):
-        text = ""
+                if not text:
+                    last_error = GeminiError(f"Gemini returned no text. Full response: {data}")
+                    continue
 
-    if not text:
-        raise GeminiError(f"Gemini returned no text. Full response: {data}")
-    text = _normalize_complete_sentence_block(text, 3)
-    return text
+                return _normalize_complete_sentence_block(text, 3)
+
+            last_error = GeminiError(f"Gemini API error ({res.status_code}): {res.text}")
+            if res.status_code != 429:
+                break
+
+    if last_error is None:
+        raise GeminiError("Gemini request failed without a response.")
+    raise last_error
 
 # ---- routes ----
 app = FastAPI(title="Supply Watch")

@@ -183,8 +183,8 @@ live Gemini API endpoint reports for new users. Override GEMINI_MODEL in
 import os
 import httpx
 
-DEFAULT_MODEL = "gemini-2.0-flash"
-FALLBACK_MODELS = ["gemini-2.0-flash", "gemini-2.0-flash-lite", "gemini-1.5-flash"]
+DEFAULT_MODEL = "gemini-3.5-flash"
+FALLBACK_MODELS = ["gemini-3.5-flash-lite"]
 
 
 def _sentence_count(text: str) -> int:
